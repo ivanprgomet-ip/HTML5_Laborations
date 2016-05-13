@@ -96,6 +96,7 @@
   <ItemGroup>
     <Content Include="audio\NeonHeart-EndlessGrace.mp3" />
     <Content Include="images\matrixcode.PNG" />
+    <Content Include="images\thinkingtogether.PNG" />
     <Content Include="maldives.html" />
     <Content Include="mrbean.html" />
     <Content Include="neonheart.html" />
