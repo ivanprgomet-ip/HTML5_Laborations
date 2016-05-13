@@ -116,6 +116,7 @@
     <Content Include="friendreview.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="structuralhtml.html" />
     <Content Include="Videos\Maldive3.mp4" />
     <Content Include="Videos\MrBean.mp4" />
     <Content Include="Web.config" />
