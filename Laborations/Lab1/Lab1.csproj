@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="audio\NeonHeart-EndlessGrace.mp3" />
+    <Content Include="images\matrixcode.PNG" />
     <Content Include="maldives.html" />
     <Content Include="mrbean.html" />
     <Content Include="neonheart.html" />
@@ -111,7 +112,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\thoughts.PNG" />
     <Content Include="index.html" />
     <Content Include="friendreview.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
