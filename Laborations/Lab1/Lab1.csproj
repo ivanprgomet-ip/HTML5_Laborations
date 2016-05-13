@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="maldives.html" />
+    <Content Include="mrbean.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -108,8 +110,11 @@
   <ItemGroup>
     <Content Include="images\thoughts.PNG" />
     <Content Include="index.html" />
+    <Content Include="friendreview.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="Videos\Maldive3.mp4" />
+    <Content Include="Videos\MrBean.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
