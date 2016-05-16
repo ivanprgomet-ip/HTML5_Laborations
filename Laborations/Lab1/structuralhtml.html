@@ -19,21 +19,37 @@
         </nav>
     </header>
     <article>
-        <h2>structural elements html5</h2>
+        <h2>HTML!</h2>
         <section>
             <h3>Quick References</h3>
-
             <ul>
-                <li><a href="#header">header</a></li>
-                <li><a href="#footer"><b>footer</b></a></li>
-                <li><a href="#nav"><b>nav</b></a></li>
-                <li><a href="#article"><b>article</b></a></li>
-                <li><a href="#section"><b>section</b></a></li>
-                <li><a href="#aside"><b>aside</b></a></li>
+                <!--unordered list within unordered list!-->
+                <li><a href="#definitions">HTML5 structural elements definitions</a>
+                <ul>
+                    <li><a href="#header">header</a></li>
+                    <li><a href="#footer">footer</a></li>
+                    <li><a href="#nav">nav</a></li>
+                    <li><a href="#article">article</a></li>
+                    <li><a href="#section">section</a></li>
+                    <li><a href="#aside">aside</a></li>
+                </ul>
+                </li>
+                <li><a href="#weblayot">Web Layout example with html5 structural elements</a></li>
+
+                <!--ordered list within unordered list!-->
+                <li><a href="#tagworld">Discover the tag world</a>
+                    <ol>
+                        <li><a href="#abbrblockquote">abbr and blockquote</a></li>
+                        <li><a href="#acronym">acronym</a></li>
+                        <li><a href="#figcaption">figcaption</a></li>
+                        <li><a href="#del_ins_s">del &amp; ins &amp; s</a></li>
+                        <li><a href="#table_col_colgroup_tr_th">table &amp; col &amp; colgroup &amp; tr &amp; th</a></li>
+                    </ol>
+                </li>
             </ul>
         </section>
         <section>
-            <h3>Explanations</h3>
+            <h3 id="definitions">Structural elements html5 defined</h3>
             <dl>
                 <dt id="header">&lt;Header&gt;</dt>
                 <dd>Used to contain the header content of a site. Normaly contains navigation for the website.</dd>
@@ -48,16 +64,34 @@
                 <dt id="aside">&lt;Aside&gt;</dt>
                 <dd>Defines a block of content that is related to the main content around it, but not central to the flow of it.</dd>
             </dl>
-            <h3>Example of a web layout with the structural html5 elements</h3>
+            <h3 id="weblayot">Example of a web layout with the structural html5 elements</h3>
                 <p>
+                    <b>&lt;!doctype html&gt;<br /></b>
+                    <b>&lt;html&gt;<br /></b>
+                    <b>&lt;head&gt; <br /></b>
+                    e.g. meta data and title<br />
+                    <b>&lt;/head&gt;<br /></b>
+                    <b>&lt;body&gt; <br /></b>
+                    <b>&lt;header&gt; <br /></b>
+                    e.g. header (h1) and navigations<br />
+                    <b>&lt;/header&gt;<br /></b>
 
+                    <b>&lt;aside&gt;<br /></b>
+                    e.g. something (e.g. article) thats somehow associated to the main content<br />
+                    <b>&lt;/aside&gt; <br /></b>
+
+                    <b>&lt;footer&gt; <br /></b>
+                    e.g. adress informations, contacts, copyrights<br />
+                    <b>&lt;/footer&gt;<br /></b>
+                    <b>&lt;/body&gt;<br /></b>
+                    <b>&lt;/html&gt;<br /></b>
                 </p>
         </section>
 
         <article>
-            <h2>Discover the tag world</h2>
+            <h2 id="tagworld">Discover the tag world</h2>
             <dl>
-                <dt><b>&lt;abbr&gt; and &lt;blockquote&gt;</b></dt>
+                <dt id="abbrblockquote"><b>&lt;abbr&gt; &amp; &lt;blockquote&gt;</b></dt>
                 <dd>
                     <ul>
                         <li>
@@ -67,19 +101,17 @@
                         <li>&lt;blockquote&gt;: The blockquote element is used for longer quotes that take up an entire paragraph. In short it indicates that a block of text is a quotation.</li>
                     </ul>
                 </dd>
-
-                <dt><b>&lt;acronym&gt;</b></dt>
+                <dt id="acronym"><b>&lt;acronym&gt;</b></dt>
                 <dd>
                     The acronym tag defines an acronym.
                     An acronym must spell out another word. For example: NASA, ASAP, GUI.
                     For example:<em> can i get this <acronym title="as soon as possible">asap</acronym>?</em>
                 </dd>
-                <dt><b>&lt;figcaption&gt;</b></dt>
+                <dt id="figcaption"><b>&lt;figcaption&gt;</b></dt>
                 <dd>
                     The HTML figcaption element represents a caption or a legend associated with a figure or an illustration described by the rest of the data of the figure element which is its immediate ancestor which means figcaption can be the first or last element inside a fiqure block.
                 </dd>
-
-                <dt><b>&lt;del&gt; & &lt;ins&gt; & &lt;s&gt;</b></dt>
+                <dt id="del_ins_s"><b>&lt;del&gt; & &lt;ins&gt; & &lt;s&gt;</b></dt>
                 <dd>
                     <ul>
                         <li>&lt;del&gt;: the del element can show text that has been deleted from it. looks like <del>this</del></li>
@@ -87,8 +119,7 @@
                         <li>&lt;s&gt;: The s element indicates something that is no longer accurate or relevant (but that should not be deleted). looks like <s>this</s></li>
                     </ul>
                 </dd>
-
-                <dt><b>&lt;table&gt; & &lt;col&gt; & &lt;colgroup&gt; & &lt;tr&gt; & &lt;th&gt;</b></dt>
+                <dt id="table_col_colgroup_tr_th"><b>&lt;table&gt; & &lt;col&gt; & &lt;colgroup&gt; & &lt;tr&gt; & &lt;th&gt;</b></dt>
                 <dd>
                     <ul>
                         <li>&lt;table&gt;: the table element is used to create a table. The contents of the table are written out row by row.</li>
@@ -99,8 +130,6 @@
                     </ul>
                 </dd>
             </dl>
-
-
         </article>
     </article>
 </body>
