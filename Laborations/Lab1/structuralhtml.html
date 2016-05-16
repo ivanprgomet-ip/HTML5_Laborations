@@ -39,9 +39,9 @@
                 <!--ordered list within unordered list!-->
                 <li><a href="#tagworld">Discover the tag world</a>
                     <ol>
-                        <li><a href="#abbrblockquote">abbr and blockquote</a></li>
+                        <li><a href="#abbrblockquote">abbr &amp; blockquote</a></li>
                         <li><a href="#acronym">acronym</a></li>
-                        <li><a href="#figcaption">figcaption</a></li>
+                        <li><a href="#figurefigcaption">figure &amp; figcaption</a></li>
                         <li><a href="#del_ins_s">del &amp; ins &amp; s</a></li>
                         <li><a href="#table_col_colgroup_tr_th">table &amp; col &amp; colgroup &amp; tr &amp; th</a></li>
                     </ol>
@@ -64,7 +64,7 @@
                 <dt id="aside">&lt;Aside&gt;</dt>
                 <dd>Defines a block of content that is related to the main content around it, but not central to the flow of it.</dd>
             </dl>
-            <h3 id="weblayot">Example of a web layout with the structural html5 elements</h3>
+            <h3 id="weblayout">Example of a web layout with the structural html5 elements</h3>
                 <p>
                     <b>&lt;!doctype html&gt;<br /></b>
                     <b>&lt;html&gt;<br /></b>
@@ -75,11 +75,9 @@
                     <b>&lt;header&gt; <br /></b>
                     e.g. header (h1) and navigations<br />
                     <b>&lt;/header&gt;<br /></b>
-
                     <b>&lt;aside&gt;<br /></b>
                     e.g. something (e.g. article) thats somehow associated to the main content<br />
                     <b>&lt;/aside&gt; <br /></b>
-
                     <b>&lt;footer&gt; <br /></b>
                     e.g. adress informations, contacts, copyrights<br />
                     <b>&lt;/footer&gt;<br /></b>
@@ -95,21 +93,24 @@
                 <dd>
                     <ul>
                         <li>
-                            &lt;abbr&gt;: If you use an abbreviation or an acronym, then the abbr element can be used.
-                            A title attribute on the opening tag is used to specify the full term.
+                            &lt;abbr&gt;: If you use an abbreviation or an acronym, then the abbr element can be used. An abbreviation is a shortened form of a word. ex: lb., amt., mgmt. 
+                            A title attribute on the opening tag is used to specify the full term.  
                         </li>
                         <li>&lt;blockquote&gt;: The blockquote element is used for longer quotes that take up an entire paragraph. In short it indicates that a block of text is a quotation.</li>
                     </ul>
                 </dd>
                 <dt id="acronym"><b>&lt;acronym&gt;</b></dt>
                 <dd>
-                    The acronym tag defines an acronym.
-                    An acronym must spell out another word. For example: NASA, ASAP, GUI.
-                    For example:<em> can i get this <acronym title="as soon as possible">asap</acronym>?</em>
+                    The acronym tag defines an acronym. An acronym is an initialism (initialism: An abbreviation formed from the initial letters of a phrase ex: HTML, SVG) 
+                    that is pronounced as a word. ex: radar, scuba, JIT, WYSIWYG. An acronym must spell out another word. For example: NASA, ASAP, GUI.
+                    For example:<em> can i get this <acronym title="as soon as possible">asap</acronym>?</em> 
                 </dd>
-                <dt id="figcaption"><b>&lt;figcaption&gt;</b></dt>
+                <dt id="figurefigcaption"><b>&lt;figure&gt; &amp; &lt;figcaption&gt;</b></dt>
                 <dd>
-                    The HTML figcaption element represents a caption or a legend associated with a figure or an illustration described by the rest of the data of the figure element which is its immediate ancestor which means figcaption can be the first or last element inside a fiqure block.
+                    <ul>
+                        <li>Figure:The &lt;figure&gt; element is intended to be used in conjunction with the &lt;figcaption&gt; element to mark up diagrams, illustrations, photos, and code examples (among other things). The figure element represents a unit of content, optionally with a caption, that is self-contained, that is typically referenced as a single unit from the main flow of the document, and that can be moved away from the main flow of the document without affecting the document’s meaning. </li>
+                        <li>Figcaption: The &lt;figcaption&gt; element represents a caption or legend for a figure. The &lt;figcaption&gt; element is optional and can appear before or after the content within the &lt;figure&gt;. </li>
+                    </ul>
                 </dd>
                 <dt id="del_ins_s"><b>&lt;del&gt; & &lt;ins&gt; & &lt;s&gt;</b></dt>
                 <dd>
@@ -153,10 +154,6 @@
                             <td>dataC2</td>
                         </tr>
                     </table>
-
-
-
-
                 </dd>
             </dl>
         </article>
