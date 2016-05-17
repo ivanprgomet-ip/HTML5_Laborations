@@ -97,10 +97,10 @@
     <Content Include="audio\NeonHeart-EndlessGrace.mp3" />
     <Content Include="images\matrixcode.PNG" />
     <Content Include="images\thinkingtogether.PNG" />
-    <Content Include="maldives.html" />
-    <Content Include="mrbean.html" />
-    <Content Include="neonheart.html" />
-    <Content Include="neonheart2.html" />
+    <Content Include="pages\maldives.html" />
+    <Content Include="pages\mrbean.html" />
+    <Content Include="pages\neonheart.html" />
+    <Content Include="pages\neonheart2.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -114,10 +114,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
-    <Content Include="friendreview.html" />
+    <Content Include="pages\friendreview.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
-    <Content Include="structuralhtml.html" />
+    <Content Include="pages\structuralhtml.html" />
     <Content Include="Videos\Maldive3.mp4" />
     <Content Include="Videos\MrBean.mp4" />
     <Content Include="Web.config" />
