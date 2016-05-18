@@ -133,7 +133,7 @@
     <Content Include="pages\friendreview.html" />
     <Content Include="pages\orderpage.html" />
     <Content Include="pages\productpage.html" />
-    <Content Include="pages\RecieverTest.aspx" />
+    <Content Include="pages\reciever.aspx" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="pages\structuralhtml.html" />
