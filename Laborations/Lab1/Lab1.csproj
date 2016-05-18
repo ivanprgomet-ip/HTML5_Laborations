@@ -95,6 +95,22 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="audio\NeonHeart-EndlessGrace.mp3" />
+    <Content Include="images\codeproducts\ExpressionStudio4.PNG" />
+    <Content Include="images\codeproducts\KoduGameLab.PNG" />
+    <Content Include="images\codeproducts\MacroAssembler6.11.PNG" />
+    <Content Include="images\codeproducts\Microsoft.NetAcademicResourceKit.PNG" />
+    <Content Include="images\codeproducts\MicrosoftBuildTools2015.PNG" />
+    <Content Include="images\codeproducts\MicrosoftSurfaceSDK1.0sp1.PNG" />
+    <Content Include="images\codeproducts\MicrosoftVisualBasic6.0.PNG" />
+    <Content Include="images\codeproducts\OneNote 2013.PNG" />
+    <Content Include="images\codeproducts\RoboticsDeveloperStudio4%28MicrosoftRDS%29.PNG" />
+    <Content Include="images\codeproducts\sqlserver2014.PNG" />
+    <Content Include="images\codeproducts\VisualStudio 2015.PNG" />
+    <Content Include="images\codeproducts\VisualStudio2013SDK.PNG" />
+    <Content Include="images\codeproducts\VisualStudioLightSwitch2011.PNG" />
+    <Content Include="images\codeproducts\VisualStudioTeamFoundationServer2015.PNG" />
+    <Content Include="images\codeproducts\windovsServer2012.PNG" />
+    <Content Include="images\codeproducts\xnaGameStudio4.0.PNG" />
     <Content Include="images\matrixcode.PNG" />
     <Content Include="images\thinkingtogether.PNG" />
     <Content Include="pages\maldives.html" />
@@ -115,6 +131,7 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="pages\friendreview.html" />
+    <Content Include="pages\productpage.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="pages\structuralhtml.html" />
