@@ -8,94 +8,94 @@
     <header>
         <h1>orderitem and quantity of ordered webproduct goes here</h1>
     </header>
-    <!--test if a label is connected to text form by clicking on label when running. 
+    <!--test if a label is connected to text form by clicking on label when running.
         Do you get thrown into the text box? if yes, the label is connected to the textbox!-->
 
     <fieldset>
-        <fieldset>
-            <legend>User Info</legend>
-            <form>
+        <form action="receipt.html">
+            <fieldset>
+                <legend>User Info</legend>
                 <!--the label and textbox get connected by the textbox-id,
                     and NOT textbox-name (test by running and clicking on the label,
                     you will be redirected into text to write.)-->
                 <label for="username_id">
                     Username:
-                    <input type="text" id="username_id" name="username_nm" />
+                    <input type="text" id="username_id" name="username_nm" required />
                 </label>
                 <label for="email_id">
                     Email:
-                    <input type="email" id="email_id" name="email_nm" />
+                    <input type="email" id="email_id" name="email_nm" required />
                 </label>
                 <label for="password_id">
                     Password:
-                    <input type="password" id="password_id" name="password_name" />
+                    <input type="password" id="password_id" name="password_name" required />
                 </label>
-            </form>
-        </fieldset>
-        <fieldset>
-            <legend>Delivery Adress</legend>
+            </fieldset>
+            <fieldset>
+                <legend>Delivery Adress</legend>
 
-            <label for="name_id_delivery">
-                Name:
-                <input type="text" id="name_id_delivery" name="name_nm" />
-            </label>
+                <label for="name_id_delivery">
+                    Name:
+                    <input type="text" id="name_id_delivery" name="name_nm" required />
+                </label>
 
-            <label for="street_id_delivery">
-                Street:
-                <input type="text" id="street_id_delivery" name="street_nm" />
-            </label>
+                <label for="street_id_delivery">
+                    Street:
+                    <input type="text" id="street_id_delivery" name="street_nm" required />
+                </label>
 
-            <label for="zip_id_delivery">
-                Zip:
-                <input type="text" id="zip_id_delivery" name="zip_nm" />
-            </label>
+                <label for="zip_id_delivery">
+                    Zip:
+                    <input type="text" id="zip_id_delivery" name="zip_nm" required/>
+                </label>
 
-            <label for="town_id_delivery">
-                Town:
-                <input type="text" id="town_id_delivery" name="town_nm" />
-            </label>
+                <label for="town_id_delivery">
+                    Town:
+                    <input type="text" id="town_id_delivery" name="town_nm" required/>
+                </label>
 
-            <label for="phonenumber_id_delivery">
-                Phone Number:
-                <input type="text" id="phonenumber_id_delivery" name="phonenumber_name" />
-            </label>
+                <label for="phonenumber_id_delivery">
+                    Phone Number:
+                    <input type="text" id="phonenumber_id_delivery" name="phonenumber_name" required/>
+                </label>
 
-        </fieldset>
-        <fieldset>
-            <legend>Payment Adress:</legend>
-            <!--name, street, zip, town, phone number, project number-->
-            <label for="name_id_payment">
-                Name:
-                <input type="text" id="name_id_payment" name="name_nm" />
-            </label>
+            </fieldset>
+            <fieldset>
+                <legend>Payment Adress:</legend>
+                <!--name, street, zip, town, phone number, project number-->
+                <label for="name_id_payment">
+                    Name:
+                    <input type="text" id="name_id_payment" name="name_nm" required/>
+                </label>
 
-            <label for="street_id_payment">
-                Street:
-                <input type="text" id="street_id_payment" name="street_nm" />
-            </label>
+                <label for="street_id_payment">
+                    Street:
+                    <input type="text" id="street_id_payment" name="street_nm" required/>
+                </label>
 
-            <label for="zip_id_payment">
-                Zip:
-                <input type="text" id="zip_id_payment" name="zip_nm" />
-            </label>
+                <label for="zip_id_payment">
+                    Zip:
+                    <input type="text" id="zip_id_payment" name="zip_nm" required/>
+                </label>
 
-            <label for="town_id_payment">
-                Town:
-                <input type="text" id="town_id_payment" name="town_nm" />
-            </label>
+                <label for="town_id_payment">
+                    Town:
+                    <input type="text" id="town_id_payment" name="town_nm" required/>
+                </label>
 
-            <label for="phonenumber_id_payment">
-                Phone Number:
-                <input type="text" id="phonenumber_id_payment" name="phonenumber_nm" />
-            </label>
+                <label for="phonenumber_id_payment">
+                    Phone Number:
+                    <input type="text" id="phonenumber_id_payment" name="phonenumber_nm" required />
+                </label>
 
-            <label for="projectnumber_id_payment">
-                Projectnumber:
-                <input type="text" id="projectnumber_id_payment" name="projectnumber_nm" />
-            </label>
-        </fieldset>
-        <legend>Confirm Purchase</legend>
-        <input type="submit" id="submit_id" value="Confirm Order" />
+                <label for="projectnumber_id_payment">
+                    Projectnumber:
+                    <input type="text" id="projectnumber_id_payment" name="projectnumber_nm" required/>
+                </label>
+            </fieldset>
+
+                <input type="submit" id="submit_id" value="Confirm Order" />
+        </form>
     </fieldset>
 </body>
 </html>
