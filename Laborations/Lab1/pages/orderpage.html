@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Orderpage</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <header>
+        <h1>orderitem and quantity of ordered webproduct goes here</h1>
+    </header>
+
+
+    <fieldset id="userinfo">
+        <legend>User Info</legend>
+        <form>
+            <!--the label and textbox get connected by the textbox-id, and NOT textbox-name (test by running and clicking on the label, you will be redirected into text to write.)-->
+            <label for="username_id">
+                Username:
+                <input type="text" id="username_id" name="username_nm" />
+            </label>
+            <label for="email_id">
+                Email:
+                <input type="email" id="email_id" name="email_nm" />
+            </label>
+            <label for="password_id">
+                Password:
+                <input type="password" id="password_id" name="password_name" />
+            </label>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Delivery Adress</legend>
+    </fieldset>
+
+    <fieldset>
+        <legend>Payment Adress:</legend>
+    </fieldset>
+
+</body>
+</html>
