@@ -102,11 +102,11 @@
     <Content Include="images\codeproducts\MicrosoftBuildTools2015.PNG" />
     <Content Include="images\codeproducts\MicrosoftSurfaceSDK1.0sp1.PNG" />
     <Content Include="images\codeproducts\MicrosoftVisualBasic6.0.PNG" />
-    <Content Include="images\codeproducts\OneNote 2013.PNG" />
+    <Content Include="images\codeproducts\OneNote2013.PNG" />
     <Content Include="images\codeproducts\RoboticsDeveloperStudio4%28MicrosoftRDS%29.PNG" />
     <Content Include="images\codeproducts\sqlserver2014.PNG" />
-    <Content Include="images\codeproducts\VisualStudio 2015.PNG" />
-    <Content Include="images\codeproducts\VisualStudio2013SDK.PNG" />
+    <Content Include="images\codeproducts\VisualStudio2015.PNG" />
+    <Content Include="images\codeproducts\VisualStudio2015SDK.PNG" />
     <Content Include="images\codeproducts\VisualStudioLightSwitch2011.PNG" />
     <Content Include="images\codeproducts\VisualStudioTeamFoundationServer2015.PNG" />
     <Content Include="images\codeproducts\windovsServer2012.PNG" />
