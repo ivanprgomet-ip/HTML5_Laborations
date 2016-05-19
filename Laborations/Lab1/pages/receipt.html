@@ -2,12 +2,32 @@
 <html>
 <head>
     <title>reciept</title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
 </head>
 <body>
     <header>
         <h1>Purchase Confirmed!</h1>
     </header>
-    <p>Thank you for purchasing [amount]pieces of webproduct [webproduct]</p>
+    <p>Thank you for purchasing [amount] pieces of webproduct '[webproduct]'</p>
+
+    <article>
+        <h2>order information</h2>
+
+        <fieldset>
+            <legend><b>Receipt</b></legend>
+            <section id="userinfo">
+                <p>Username: [username]</p>
+                <p>Email: [Email]</p>
+                <p>PhoneNumber: [phonenumber]</p>
+            </section>
+            <section id="deliveryinfo">
+                <p>Adress Owner: [name]</p>
+                <p>Street: [street]</p>
+                <p>Zip: [Zip]</p>
+                <p>Town: [town]</p>
+            </section>
+        </fieldset>
+    </article>
+
 </body>
 </html>
