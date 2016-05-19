@@ -114,6 +114,8 @@
     <Content Include="images\matrixcode.PNG" />
     <Content Include="images\thinkingtogether.PNG" />
     <Content Include="pages\learnaboutinput.html" />
+    <Content Include="pages\learnAboutInputPages\pageI.html" />
+    <Content Include="pages\learnAboutInputPages\pageII.html" />
     <Content Include="pages\maldives.html" />
     <Content Include="pages\mrbean.html" />
     <Content Include="pages\neonheart.html" />

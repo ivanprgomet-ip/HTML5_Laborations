@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <fieldset>
+        <legend>Form I</legend>
+            <form>
+                <label>
+                    Firstname:
+                    <input type="text" id="firstname_id" name="firstname_nm " maxlength="16" required tabindex="1" /><br />
+                </label>
+                <label>
+                    Lastname:
+                    <input type="text" id="lastname_id" name="lastname_nm " maxlength="16" required tabindex="1" /><br />
+                </label>
+                <label>
+                    Email:
+                    <input type="email" id="email_id" name="email_nm " required tabindex="1" /><br />
+                </label>
+                <label>
+                    Password:
+                    <input type="password" id="password_id" name="password_nm" maxlength="16" required tabindex="1" /><br />
+                </label>
+                <label>
+                    Zip:
+                    <input type="text" id="zip_id" name="zip_nm" min="6" max="10" required tabindex="1" /><br />
+                </label>
+                <label>
+                    City:
+                    <input type="text" id="city_id" name="city_nm" max="25" required tabindex="1" /><br />
+                </label>
+                <!--submitting with javascript default function (besides, this function is used on the submit form automatically. this is just manually adding it)
+                    this is the same as: <input type="submit"> -->
+                <button type="button" onclick="submit()">Submit</button>
+            </form>
+    </fieldset>
+
+    <a href="../learnaboutinput.html">Back</a>
+</body>
+</html>
