@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="../../scripts/pageV.js" type="text/javascript"></script>
+</head>
+<body>
+    <fieldset>
+        <form>
+            <ol>
+                <li>
+                    <label>
+                        What is your favourite color?<br />
+                        <input type="color" id="color_id" name="color_name" onclick="range_id.value = 10; text_id.value = 10;" />
+                    </label>
+                    <br />
+                </li>
+                <li>
+                    <label for="text_id">How old are you?</label><br />
+                    <input type="range" id="range_id" name="range_nm" oninput="TextUpdate();" max="99" value="0" /><br />
+                    <input type="text" id="text_id" name="text_nm" oninput="RangeUpdate();" maxlength="2" value="0" /><br />
+                    <br />
+                </li>
+                <li>
+                    <label for="activity_id">What is your favourite activity from the selection below?</label><br />
+                    <select id="activity_id" name="activity_nm">
+                        <option>all</option>
+                        <option>sleeping</option>
+                        <option>relaxing</option>
+                        <option>netflixing</option>
+                        <option>driving</option>
+                        <option>coding</option>
+                        <option>vacationing</option>
+                        <option>tanning</option>
+                        <option>socializing</option>
+                        <option>creating</option>
+                        <option>reading</option>
+                        <option>sporting</option>
+                    </select>
+                </li>
+                <li>
+                    <label>How many kids do you have?
+                    <input type="number" id="number_id" name="number_nm" value="0" min="0" max="9"/>
+                    
+                    </label>
+                </li>
+                <li>
+                    <label>what type of person are you?</label>
+                        <input type="radio" id="catperson_id" name="catperson_nm" />Catperson
+                        <input type="radio" id="dogperson_id" name="dogperson_nm" />Dogperson
+                    <figure>
+                        <img src="catperson.gif" alt="cat" hidden/>
+                        <img src="dogperson.gif" alt="dog" hidden />
+                    </figure>
+                </li>
+            </ol>
+            <!--submit button-->
+            <br />
+            <button type="button" onclick="submit()" style="background-color:greenyellow;" >
+            <span style="color:black;background-color:cornflowerblue; border:5px dashed gray;">Submit</span>
+            </button>
+        </form>
+    </fieldset>
+</body>
+</html>

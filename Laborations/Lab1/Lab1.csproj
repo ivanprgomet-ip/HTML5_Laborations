@@ -118,6 +118,7 @@
     <Content Include="pages\learnAboutInputPages\pageII.html" />
     <Content Include="pages\learnAboutInputPages\pageIII.html" />
     <Content Include="pages\learnAboutInputPages\pageIV.html" />
+    <Content Include="pages\learnAboutInputPages\pageV.html" />
     <Content Include="pages\learnAboutInputPages\test.html" />
     <Content Include="pages\maldives.html" />
     <Content Include="pages\mrbean.html" />
