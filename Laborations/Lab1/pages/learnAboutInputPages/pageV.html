@@ -12,7 +12,7 @@
                 <li>
                     <label>
                         What is your favourite color?<br />
-                        <input type="color" id="color_id" name="color_name" onclick="range_id.value = 10; text_id.value = 10;" />
+                        <input type="color" id="color_id" name="color_name"/>
                     </label>
                     <br />
                 </li>
@@ -47,17 +47,12 @@
                 </li>
                 <li>
                     <label>what type of person are you?</label>
-                        <input type="radio" id="catperson_id" name="catperson_nm" />Catperson
-                        <input type="radio" id="dogperson_id" name="dogperson_nm" />Dogperson
-                    <figure>
-                        <img src="catperson.gif" alt="cat" hidden/>
-                        <img src="dogperson.gif" alt="dog" hidden />
-                    </figure>
+                        <input type="radio" id="catperson_id" name="persontype_nm"/>Catperson
+                        <input type="radio" id="dogperson_id" name="persontype_nm"/>Dogperson
                 </li>
             </ol>
-            <!--submit button-->
             <br />
-            <button type="button" onclick="submit()" style="background-color:greenyellow;" >
+            <button type="button" onclick="submit(), ShowThankYouMsg();" style="background-color:greenyellow;" >
             <span style="color:black;background-color:cornflowerblue; border:5px dashed gray;">Submit</span>
             </button>
         </form>

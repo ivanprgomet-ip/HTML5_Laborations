@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="audio\NeonHeart-EndlessGrace.mp3" />
+    <Content Include="images\catperson.GIF" />
     <Content Include="images\codeproducts\ExpressionStudio4.PNG" />
     <Content Include="images\codeproducts\KoduGameLab.PNG" />
     <Content Include="images\codeproducts\MacroAssembler6.11.PNG" />
@@ -111,6 +112,7 @@
     <Content Include="images\codeproducts\VisualStudioTeamFoundationServer2015.PNG" />
     <Content Include="images\codeproducts\windovsServer2012.PNG" />
     <Content Include="images\codeproducts\xnaGameStudio4.0.PNG" />
+    <Content Include="images\dogperson.GIF" />
     <Content Include="images\matrixcode.PNG" />
     <Content Include="images\thinkingtogether.PNG" />
     <Content Include="pages\learnaboutinput.html" />
@@ -144,6 +146,7 @@
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="pages\structuralhtml.html" />
+    <Content Include="scripts\pageV.js" />
     <Content Include="style\style.css" />
     <Content Include="Videos\Maldive3.mp4" />
     <Content Include="Videos\MrBean.mp4" />
