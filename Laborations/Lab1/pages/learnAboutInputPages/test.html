@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <form>
+        <label for="text_id">Age:</label><br />
+            <input type="range" id="range_id" name="range_nm" oninput="TextUpdate();" max="99" value="0" /><br />
+            <input type="text" id="text_id" name="text_nm" oninput="RangeUpdate();" maxlength="2" value="0"/><br />
+
+        <script>
+            function RangeUpdate() {
+                var value1 = text_id.value;
+                range_id.value = value1;
+            }
+            function TextUpdate(){
+                var value1 = range_id.value;
+                text_id.value = value1;
+            }
+        </script>
+
+
+
+    </form>
+</body>
+</html>
