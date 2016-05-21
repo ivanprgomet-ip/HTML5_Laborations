@@ -3,28 +3,23 @@
 <head>
     <title>home</title>
     <meta charset="utf-8" />
-    <link href="../css/stylesheet1.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/stylesheet1.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div id="container">
         <header>
-            <h1 >Web Development</h1>
+            <h1>Web Development</h1>
         </header>
         <aside id="moving">
-            <nav >
+            <nav>
                 <ul>
                     <li><a href="#aboutjavascript"> Javascript</a></li>
                     <li><a href="#javascriptuses"> Javascript uses</a></li>
                     <li><a href="#aboutdhtml">Dynamic HTML</a></li>
                     <li><a href="#dhtmluses">Dynamic HTML uses</a></li>
                 </ul>
-                
-                
-                
-                
             </nav>
         </aside>
-
         <article>
             <h2 id="aboutjavascript">JavaScript</h2>
             <p class="pretext">below is some information about javascript!</p>
@@ -106,7 +101,6 @@
             </section>
             <p><a href="https://en.wikipedia.org/wiki/JavaScript">source</a> </p>
         </article>
-
         <article>
             <h2 id="aboutdhtml">Dynamic HTML</h2>
             <p class="pretext">Below is some information about dynamic html (dhtml)!</p>
@@ -196,10 +190,43 @@
             <a href="https://en.wikipedia.org/wiki/Dynamic_HTML">source</a>
         </article>
 
+        <div id="thankyou">
+        <fieldset>
+        <legend>Resumé</legend>
+        <form>
+        <label>Enter firstname:
+        <input type="text" id="firstname_id" name="firstname_nm" required/>
+        </label><br />
+
+        <label>
+        Enter lastname:
+        <input type="text" id="lastname_id" name="lastname_nm" required/>
+        </label><br />
+
+        <label>what did you think of this text?
+        <textarea inputmode="full-width-latin" on></textarea>
+        </label><br />
+
+        <label>Gender:
+        <select name="gender_nm" id="gender_id" required>
+        <option >Male</option>
+        <option >Female</option>
+        </select>
+        </label><br />
+            <label>Rating:
+            <input type="range" name="ratingrnge_nm" id="ratingrnge_id" min="0" max="10" value="0" oninput="ratingtxt_id.value = ratingrnge_id.value;"/><br />
+            <input type="text" name="ratingtxt_nm" id="ratingtxt_id" min="0" max="10" value="0" oninput="ratingrnge_id.value=ratingtxt_id.value;"/>
+            </label><br />
+
+            <input type="submit"/>
+        </form>
+        </fieldset>
+        </div>
         <hr />
         <footer>
             <small>2016 &copy; Ivan Prgomet </small>
         </footer>
     </div>
+
 </body>
 </html>
