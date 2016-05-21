@@ -6,6 +6,3 @@ function TextUpdate() {
     var value1 = range_id.value;
     text_id.value = value1;
 }
-function ShowThankYouMsg() {
-    document.write("Thank you for filling out this nonsense form!");
-}
