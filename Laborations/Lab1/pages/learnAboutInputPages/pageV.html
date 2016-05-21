@@ -8,6 +8,14 @@
 <body>
     <fieldset>
         <form>
+            <label>
+                Firstname:
+                <input type="text" id="firstname_id" name="firstname_name" autofocus /><br />
+            </label>
+            <label>
+                Lastname:
+                <input type="text" id="lastname_id" name="lastname_name" /><br />
+            </label>
             <ol>
                 <li>
                     <label>
@@ -52,8 +60,7 @@
                 </li>
             </ol>
             <br />
-            <button type="button" onclick="submit(), ShowThankYouMsg();" style="background-color:greenyellow;" >
-            <span style="color:black;background-color:cornflowerblue; border:5px dashed gray;">Submit</span>
+            <button type="button" onclick="submit(), ShowThankYouMsg()" >Submit
             </button>
         </form>
     </fieldset>

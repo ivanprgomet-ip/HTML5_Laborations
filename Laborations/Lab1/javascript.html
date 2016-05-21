@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <script>
+        function test() {
+            document.write(arguments.length);
+        }
+
+        function test2() {
+            for (var i = 0; i < arguments.length;i++)
+            {
+                document.write("value:"+arguments[i]+"<br/>");
+            }
+        }
+        test2(1,4)
+    </script>
+</body>
+</html>
