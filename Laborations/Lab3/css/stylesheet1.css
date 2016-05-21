@@ -8,3 +8,38 @@ body{
     background-color:#dbdbdb;
     padding:12px;
 }
+aside#moving {
+    border-radius:25%;
+    border:5px solid black;
+    background-color:rgba(181, 64, 139, 0.80);
+    position:fixed;
+    margin-left:950px;
+    width:290px;
+    height:150px;
+}
+    aside#moving ul li{
+        width:190px;
+        list-style:none;
+        font-style:normal;
+        margin:5px;
+       
+    }
+    #moving ul li a{
+        text-decoration:none;
+         color:blanchedalmond;
+    }
+    
+    aside#moving ul li a:hover{
+        color:orange;
+        font-size:20px;
+    
+    }
+p{
+    letter-spacing:0.02em;/*aka 'kerning'*/
+    line-height:1.2em;/*aka 'leading'*/
+}
+.pretext{
+    text-transform:uppercase;
+}
+
+
