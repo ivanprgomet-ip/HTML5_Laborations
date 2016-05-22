@@ -4,6 +4,16 @@
     <title>home</title>
     <meta charset="utf-8" />
     <link href="../css/stylesheet1.css" rel="stylesheet" type="text/css" />
+    <script>
+        function storeresumeinfo() {
+            
+            localStorage.firstname = document.getElementById("firstname_id").value;
+            localStorage.lastname = document.getElementById("lastname_id").value;
+            localStorage.comment = document.getElementById("comment_id").value;
+            localStorage.gender= document.getElementById("gender_id").value;
+            localStorage.rating= document.getElementById("ratingrnge_id").value;
+        }
+    </script>
 </head>
 <body>
     <div id="container">
@@ -193,7 +203,7 @@
         <div id="thankyou">
         <fieldset>
         <legend>Resumé</legend>
-        <form>
+        <form action="resumeresponse.html" onsubmit="storeresumeinfo();">
         <label>Enter firstname:
         <input type="text" id="firstname_id" name="firstname_nm" required/>
         </label><br />
@@ -204,7 +214,7 @@
         </label><br />
 
         <label>what did you think of this text?
-        <textarea inputmode="full-width-latin" on></textarea>
+        <textarea inputmode="full-width-latin" name="comment_nm" id="comment_id"></textarea>
         </label><br />
 
         <label>Gender:

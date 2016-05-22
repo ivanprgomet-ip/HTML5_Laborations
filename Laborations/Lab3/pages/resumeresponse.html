@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <header>
+        <h1>Thank you!</h1>
+    </header>
+    <script>
+        document.write("<fieldset id=\"test\">");
+        document.write("<legend>summarize</legend>");
+        document.write('<b>Firstname:</b> ' + localStorage.firstname + '<br/><b>Lastname:</b> ' + localStorage.lastname + '<br/><b>Comment:</b> '
+            + localStorage.comment + '<br/><b>Gender:</b> ' + localStorage.gender + '<br/><b>Your rating:</b> ' + localStorage.rating)
+        document.write("<br/><br/><span style=\"color:cornflowerblue;\">Thank you for taking your time to fill out the resumé!<br/>Have a great day!</span>")
+        document.write("</fieldset>");
+    </script>
+</body>
+</html>
