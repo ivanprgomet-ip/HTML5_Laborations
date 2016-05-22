@@ -1,2 +1,8 @@
-﻿body {
-}
+﻿        img{
+            width:120px;
+            height:120px;
+        }
+        figure{
+            width:280px;
+            height:400px;
+        }
