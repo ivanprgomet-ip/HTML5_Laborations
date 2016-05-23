@@ -3,7 +3,6 @@
 <head>
     <title>Orderpage</title>
     <meta charset="utf-8" />
-    
 </head>
 <body>
     <header>
@@ -11,10 +10,8 @@
             the webproduct and quantity that user orders goes here
         </h1>
     </header>
-    <!--test if a label is connected to text form by clicking on label when running.
-        Do you get thrown into the text box? if yes, the label is connected to the textbox!-->
     <fieldset>
-        <form action="receipt.html">
+        <form action="receipt.html" id="form1">
             <fieldset>
                 <legend>User Info</legend>
                 <label for="username_id">
@@ -57,7 +54,6 @@
                     Phone Number:
                     <input type="text" id="phonenumber_id_delivery" name="phonenumber_name" required />
                 </label>
-
             </fieldset>
             <fieldset>
                 <legend>Payment Adress:</legend>
@@ -91,7 +87,7 @@
                     <input type="text" id="projectnumber_id_payment" name="projectnumber_nm" required />
                 </label>
             </fieldset>
-            <input type="submit" id="submit_id" value="Confirm Order" />
+            <input type="submit" id="submit_id" value="Confirm Order"/>
         </form>
     </fieldset>
 </body>
