@@ -106,12 +106,42 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="audio\maldives_beach_ambience.mp3" />
+    <Content Include="images\11269034823_3aa530b954_o.jpg" />
+    <Content Include="images\4794101_100_z.jpg" />
+    <Content Include="images\4794101_106_z.jpg" />
+    <Content Include="images\4794101_107_z.jpg" />
+    <Content Include="images\4794101_112_z.jpg" />
+    <Content Include="images\4794101_118_z.jpg" />
+    <Content Include="images\4794101_120_z.jpg" />
+    <Content Include="images\4794101_121_z.jpg" />
+    <Content Include="images\4794101_122_z.jpg" />
+    <Content Include="images\4794101_60_z.jpg" />
+    <Content Include="images\4794101_64_z.jpg" />
+    <Content Include="images\4794101_69_z.jpg" />
+    <Content Include="images\4794101_72_z.jpg" />
+    <Content Include="images\4794101_73_z.jpg" />
+    <Content Include="images\4794101_88_z.jpg" />
+    <Content Include="images\4794101_93_z.jpg" />
+    <Content Include="images\4794101_94_z.jpg" />
+    <Content Include="images\Maldives-glowing-beach-mudhdoo.jpg" />
+    <Content Include="images\MLEDT_pool.jpg" />
+    <Content Include="images\mudhddoo1.JPG" />
+    <Content Include="images\mudhddoo3.JPG" />
+    <Content Include="images\mudhddoo4.JPG" />
+    <Content Include="images\mudhddoo5.JPG" />
+    <Content Include="images\mudhddoo6.JPG" />
+    <Content Include="images\mudhddoo_diving1.JPG" />
+    <Content Include="index.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="pages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
