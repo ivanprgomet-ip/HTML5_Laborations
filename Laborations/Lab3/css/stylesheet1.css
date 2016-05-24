@@ -1,10 +1,5 @@
-﻿@import url(headers.css);
-@import url(forms.css);
-body{
-    width:960px;
-    margin-left:auto;
-    margin-right:auto;
-}
+﻿
+@import url(headers.css);
 #container{
     background-color:#dbdbdb;
     padding:12px;
@@ -42,9 +37,12 @@ p{
 .pretext{
     text-transform:uppercase;
 }
-
-
-
 fieldset{
     background-color:rgba(230, 170, 208, 0.6);
+}
+/*sizes*/
+body{
+    width:960px;
+    margin-left:auto;
+    margin-right:auto;
 }
