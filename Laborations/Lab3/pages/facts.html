@@ -4,8 +4,6 @@
     <title>home</title>
     <meta charset="utf-8" />
     <link href="../css/stylesheet1.css" rel="stylesheet" type="text/css" />
-
-    
     <script>
         function storeresumeinfo() {
             
@@ -35,82 +33,87 @@
         <article>
             <h2 id="aboutjavascript">JavaScript</h2>
             <p class="pretext">below is some information about javascript!</p>
-            <section>
-                <h3>about</h3>
-                <p>
-                    JavaScript (/ˈdʒɑːvəˌskrɪpt/[5]) is a high-level, dynamic, untyped, and interpreted programming language.[6]
-                    It has been standardized in the ECMAScript language specification.[7] Alongside HTML and CSS, it is one of the
-                    three core technologies of World Wide Web content production; the majority of websites employ it and it is
-                    supported by all modern Web browsers without plug-ins.[6] JavaScript is prototype-based with first-class functions,
-                    making it a multi-paradigm language, supporting object-oriented,[8] imperative, and functional programming styles.[6]
-                    It has an API for working with text, arrays, dates and regular expressions, but does not include any I/O, such as
-                    networking, storage, or graphics facilities, relying for these upon the host environment in which it is embedded.[7]
-                </p>
-                <p>
-                    Despite some naming, syntactic, and standard library similarities, JavaScript and Java are otherwise unrelated
-                    and have very different semantics. The syntax of JavaScript is actually derived from C, while the semantics and
-                    design are influenced by the Self and Scheme programming languages.[9]
-                </p>
-                <p>
-                    JavaScript is also used in environments that are not Web-based, such as PDF documents, site-specific browsers,
-                    and desktop widgets. Newer and faster JavaScript virtual machines (VMs) and platforms built upon them have also
-                    increased the popularity of JavaScript for server-side Web applications. On the client side, JavaScript has been
-                    traditionally implemented as an interpreted language, but more recent browsers perform just-in-time compilation.
-                    It is also used in game development, the creation of desktop and mobile applications, and server-side network
-                    programming with runtime environments such as Node.js.
-                </p>
-            </section>
-            <section id="javascriptuses">
-                <h3>Use in Web Pages</h3>
-                <p>
-                    The most common use of JavaScript is to add client-side behavior to HTML pages, a.k.a. Dynamic HTML (DHTML).
-                    Scripts are embedded in or included from HTML pages and interact with the Document Object Model (DOM) of the page.
-                    Some simple examples of this usage are:
-                </p>
+            <div id="part1">
+                <section>
+                    <h3>about</h3>
+                    <p>
+                        JavaScript (/ˈdʒɑːvəˌskrɪpt/[5]) is a high-level, dynamic, untyped, and interpreted programming language.[6]
+                        It has been standardized in the ECMAScript language specification.[7] Alongside HTML and CSS, it is one of the
+                        three core technologies of World Wide Web content production; the majority of websites employ it and it is
+                        supported by all modern Web browsers without plug-ins.[6] JavaScript is prototype-based with first-class functions,
+                        making it a multi-paradigm language, supporting object-oriented,[8] imperative, and functional programming styles.[6]
+                        It has an API for working with text, arrays, dates and regular expressions, but does not include any I/O, such as
+                        networking, storage, or graphics facilities, relying for these upon the host environment in which it is embedded.[7]
+                    </p>
+                    <figure>
+                        <img src="../images/learn-javascript.png" alt="javascript_logo" />
+                    </figure>
+                    <p>
+                        Despite some naming, syntactic, and standard library similarities, JavaScript and Java are otherwise unrelated
+                        and have very different semantics. The syntax of JavaScript is actually derived from C, while the semantics and
+                        design are influenced by the Self and Scheme programming languages.[9]
+                    </p>
+                    <p>
+                        JavaScript is also used in environments that are not Web-based, such as PDF documents, site-specific browsers,
+                        and desktop widgets. Newer and faster JavaScript virtual machines (VMs) and platforms built upon them have also
+                        increased the popularity of JavaScript for server-side Web applications. On the client side, JavaScript has been
+                        traditionally implemented as an interpreted language, but more recent browsers perform just-in-time compilation.
+                        It is also used in game development, the creation of desktop and mobile applications, and server-side network
+                        programming with runtime environments such as Node.js.
+                    </p>
+                </section>
+                <section id="javascriptuses">
+                    <h3>Use in Web Pages</h3>
+                    <p>
+                        The most common use of JavaScript is to add client-side behavior to HTML pages, a.k.a. Dynamic HTML (DHTML).
+                        Scripts are embedded in or included from HTML pages and interact with the Document Object Model (DOM) of the page.
+                        Some simple examples of this usage are:
+                    </p>
 
-                <ul id="web_use">
-                    <li>
-                        Loading new page content or submitting data to the server via AJAX without reloading the page
-                        (for example, a social network might allow the user to post status updates without leaving the page)
-                    </li>
-                    <li>Animation of page elements, fading them in and out, resizing them, moving them, etc.</li>
-                    <li>Interactive content, for example games, and playing audio and video</li>
-                    <li>Validating input values of a Web form to make sure that they are acceptable before being submitted to the server.</li>
-                    <li>
-                        Transmitting information about the user's reading habits and browsing activities to various websites.
-                        Web pages frequently do this for Web analytics, ad tracking, personalization or other purposes.[60]
-                    </li>
-                </ul>
+                    <ul id="web_use">
+                        <li>
+                            Loading new page content or submitting data to the server via AJAX without reloading the page
+                            (for example, a social network might allow the user to post status updates without leaving the page)
+                        </li>
+                        <li>Animation of page elements, fading them in and out, resizing them, moving them, etc.</li>
+                        <li>Interactive content, for example games, and playing audio and video</li>
+                        <li>Validating input values of a Web form to make sure that they are acceptable before being submitted to the server.</li>
+                        <li>
+                            Transmitting information about the user's reading habits and browsing activities to various websites.
+                            Web pages frequently do this for Web analytics, ad tracking, personalization or other purposes.[60]
+                        </li>
+                    </ul>
 
-                <p>
-                    Because JavaScript code can run locally in a user's browser (rather than on a remote server),
-                    the browser can respond to user actions quickly, making an application more responsive. Furthermore,
-                    JavaScript code can detect user actions that HTML alone cannot, such as individual keystrokes. Applications
-                    such as Gmail take advantage of this: much of the user-interface logic is written in JavaScript, and JavaScript
-                    dispatches requests for information (such as the content of an e-mail message) to the server. The wider trend of
-                    Ajax programming similarly exploits this strength.
-                </p>
-                <p>
-                    A JavaScript engine (also known as JavaScript interpreter or JavaScript implementation) is an interpreter
-                    that interprets JavaScript source code and executes the script accordingly. The first JavaScript engine was
-                    created by Brendan Eich at Netscape Communications Corporation, for the Netscape Navigator Web browser.
-                    The engine, code-named SpiderMonkey, is implemented in C. It has since been updated (in JavaScript 1.5) to conform to
-                    ECMA-262 Edition 3. The Rhino engine, created primarily by Norris Boyd (formerly of Netscape; now at Google)
-                    is a JavaScript implementation in Java. Rhino, like SpiderMonkey, is ECMA-262 Edition 3 compliant.
-                </p>
-                <p>
-                    A Web browser is by far the most common host environment for JavaScript. Web browsers typically create "host objects"
-                    to represent the Document Object Model (DOM) in JavaScript. The Web server is another common host environment.
-                    A JavaScript Web server would typically expose host objects representing HTTP request and response objects,
-                    which a JavaScript program could then interrogate and manipulate to dynamically generate Web pages.
-                </p>
-                <p>
-                    Because JavaScript is the only language that the most popular browsers share support for, it has become a target language
-                    for many frameworks in other languages, even though JavaScript was never intended to be such a language.[61]
-                    Despite the performance limitations inherent to its dynamic nature, the increasing speed of JavaScript engines has
-                    made the language a surprisingly feasible compilation target.
-                </p>
-            </section>
+                    <p>
+                        Because JavaScript code can run locally in a user's browser (rather than on a remote server),
+                        the browser can respond to user actions quickly, making an application more responsive. Furthermore,
+                        JavaScript code can detect user actions that HTML alone cannot, such as individual keystrokes. Applications
+                        such as Gmail take advantage of this: much of the user-interface logic is written in JavaScript, and JavaScript
+                        dispatches requests for information (such as the content of an e-mail message) to the server. The wider trend of
+                        Ajax programming similarly exploits this strength.
+                    </p>
+                    <p>
+                        A JavaScript engine (also known as JavaScript interpreter or JavaScript implementation) is an interpreter
+                        that interprets JavaScript source code and executes the script accordingly. The first JavaScript engine was
+                        created by Brendan Eich at Netscape Communications Corporation, for the Netscape Navigator Web browser.
+                        The engine, code-named SpiderMonkey, is implemented in C. It has since been updated (in JavaScript 1.5) to conform to
+                        ECMA-262 Edition 3. The Rhino engine, created primarily by Norris Boyd (formerly of Netscape; now at Google)
+                        is a JavaScript implementation in Java. Rhino, like SpiderMonkey, is ECMA-262 Edition 3 compliant.
+                    </p>
+                    <p>
+                        A Web browser is by far the most common host environment for JavaScript. Web browsers typically create "host objects"
+                        to represent the Document Object Model (DOM) in JavaScript. The Web server is another common host environment.
+                        A JavaScript Web server would typically expose host objects representing HTTP request and response objects,
+                        which a JavaScript program could then interrogate and manipulate to dynamically generate Web pages.
+                    </p>
+                    <p>
+                        Because JavaScript is the only language that the most popular browsers share support for, it has become a target language
+                        for many frameworks in other languages, even though JavaScript was never intended to be such a language.[61]
+                        Despite the performance limitations inherent to its dynamic nature, the increasing speed of JavaScript engines has
+                        made the language a surprisingly feasible compilation target.
+                    </p>
+                </section>
+            </div>
             <p><a href="https://en.wikipedia.org/wiki/JavaScript">source</a> </p>
         </article>
         <article>
