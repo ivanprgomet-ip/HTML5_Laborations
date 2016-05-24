@@ -1,12 +1,53 @@
-﻿body {
+﻿/*color outside of the content*/
+body {
     background-color:white;
 }
+/*all content in body*/
 #wrapper{
     width:960px;
-    background-color:coral;
+    background-color:#f7a372;
     margin-left:auto;
     margin-right:auto;
+    padding:45px;
 }
+
+/*IMAGES*/
+img{
+    max-width:100%;
+    height:auto;
+}   
+    #img1{
+        float:left;
+        
+        width:25%;
+        margin-right:20px;
+    }
+    #img2{
+        width: 85%;
+        float: left;
+        margin: 10px 25px 25px 0px;
+    }
+    #img3{
+        width:45%;
+    }
+
+
+/*ARTICLES*/
+article{
+    padding:12px;
+    font-family:sans-serif;
+    font-size:14px;
+}
+    #article1{
+        float:left;
+        width:50%;
+    }
+    #article2{
+        float:right;
+        width:50%;
+    }
+
+
 
 /*this is a media query for the tablet. 
 if the screen gets scaled down to below 768, 
@@ -18,7 +59,7 @@ these css rules apply*/
     }  
 }
 @media only screen and (max-width:480px){
-
+    /*for cellphones*/
     #wrapper{
     background-color:forestgreen;
     }
