@@ -1,0 +1,36 @@
+﻿/*Insert 'content' (text) ::after every <p> element,*/
+
+/*default desktop size*/
+body {
+    background-color:lightgoldenrodyellow;
+}
+p::after{
+    content:"Hello desktop size!";
+    font-size:100%;
+}
+
+
+/*tablet*/
+@media only screen and (max-width: 768px){
+    body{
+        background-color:cadetblue;
+        
+    }
+    p::after{
+        content: "Hello tablet size!";
+        font-size:150%;
+    }
+}
+
+/*cellphone*/
+@media only screen and (max-width: 480px){
+    body{
+        background-color:forestgreen;
+    }
+    p::after{
+        content:"hello cellphone size!";
+        font-size:200%;
+    }
+}
+
+
