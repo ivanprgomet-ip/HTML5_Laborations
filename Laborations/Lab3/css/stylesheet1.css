@@ -48,12 +48,14 @@ body{
 }
 
 /*images*/
-img{
+#javascriptlogo1{
     float:left;
     height:120px;
     width:120px;
     margin-right:50px;
 }
-#part1{
-
+#javascriptgif{
+        height:140px;
+    width:300px;
+    float:right;
 }
