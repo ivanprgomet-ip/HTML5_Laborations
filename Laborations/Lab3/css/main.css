@@ -1,0 +1,25 @@
+﻿body {
+    background-color:white;
+}
+#wrapper{
+    width:960px;
+    background-color:coral;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*this is a media query for the tablet. 
+if the screen gets scaled down to below 768, 
+these css rules apply*/
+@media only screen and (max-width:768px){
+    /*for tablets: */
+    #wrapper{
+    background-color:blueviolet;
+    }  
+}
+@media only screen and (max-width:480px){
+
+    #wrapper{
+    background-color:forestgreen;
+    }
+}

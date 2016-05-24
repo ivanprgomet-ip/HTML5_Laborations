@@ -94,6 +94,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\cellphone.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\tablet.css" />
     <Content Include="images\DHTML-Basics-160x150.png" />
     <Content Include="images\DHTML-Logo.png" />
     <Content Include="images\dhtml.jpg" />
@@ -111,8 +114,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\headers.css" />
-    <Content Include="css\stylesheet1.css" />
     <Content Include="pages\facts.html" />
     <Content Include="pages\resumeresponse.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />

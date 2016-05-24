@@ -3,10 +3,18 @@
 <head>
     <title>home</title>
     <meta charset="utf-8" />
-    <link href="../css/stylesheet1.css" rel="stylesheet" type="text/css" />
+   
+
+    <!--CSS-->
+    <link href="../css/main.css" rel="stylesheet" />
+    
+    <!--responsive webdesign, tablet and phone-->
+    <!--<link href="../css/tablet.css" rel="stylesheet" media="screen and (max-width:768px)" /> 
+    <link href="../css/cellphone.css" rel="stylesheet" media="screen and (max-width:480px)" />-->
+
+
     <script>
         function storeresumeinfo() {
-            
             localStorage.firstname = document.getElementById("firstname_id").value;
             localStorage.lastname = document.getElementById("lastname_id").value;
             localStorage.comment = document.getElementById("comment_id").value;
@@ -16,7 +24,7 @@
     </script>
 </head>
 <body>
-    <div id="container">
+    <div id="wrapper">
         <header>
             <h1>Web Development</h1>
         </header>
@@ -31,7 +39,7 @@
             </nav>
         </aside>
         <article>
-            <h2 id="aboutjavascript">JavaScript</h2>
+            <h2 id="article1header1">JavaScript</h2>
             <p class="pretext">below is some information about javascript!</p>
             <div id="part1">
                 <section>
@@ -122,7 +130,7 @@
             <h2 id="aboutdhtml">Dynamic HTML</h2>
             <p class="pretext">Below is some information about dynamic html (dhtml)!</p>
             <section>
-                <h3>about</h3>
+                <h3 >about</h3>
                 <p>
                     Dynamic HTML, or DHTML, is an umbrella term for a collection of technologies used together to create
                     interactive and animated web sites[1] by using a combination of a static markup language (such as HTML),
@@ -142,6 +150,9 @@
                     created by server-side scripting (such as PHP, Perl, JSP or ASP.NET) where the web server generates content
                     before sending it to the client.
                 </p>
+                <figure>
+                    <img id="dhtml1" src="../images/dhtml.jpg" alt="dhtml1"/>
+                </figure>
                 <p>
                     DHTML is differentiated from Ajax by the fact that a DHTML page is still request/reload-based.
                     With DHTML, there may not be any interaction between the client and server after the page is loaded;
@@ -151,7 +162,7 @@
 
             </section>
             <section id="dhtmluses">
-                <h3>Uses</h3>
+                <h3 id="dhtmluses">Uses</h3>
                 <p>
                     DHTML allows authors to add effects to their pages that are otherwise difficult to achieve.
                     In short words: scripting language is changing the DOM and page style.
