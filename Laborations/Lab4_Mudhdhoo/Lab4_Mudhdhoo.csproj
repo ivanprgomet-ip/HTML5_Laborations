@@ -107,6 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="audio\maldives_beach_ambience.mp3" />
+    <Content Include="css\main.css" />
     <Content Include="images\11269034823_3aa530b954_o.jpg" />
     <Content Include="images\4794101_100_z.jpg" />
     <Content Include="images\4794101_106_z.jpg" />
