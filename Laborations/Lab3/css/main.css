@@ -11,22 +11,36 @@ article#maincontent{
 
 
 img{
-    width:100%; /*(2) now with this, the pictures also shrink with the window.*/
-    height: auto; /*"make height automatically adjust to the images size when scaling window screen"*/
-    margin: 5px auto;
+    width: 100%;
+    height: auto;
+    padding: 0px;
 }
-/*targeting all the separate divs of images/p and h*/
 div.res-collapse{
    
-    width:45%; /*(1) this one shrinks the green behind when minimizing window, but picture stays intact*/
-    padding:5px;
-    margin:10px;
+    width:45%; 
+    padding:2px;
+    margin:2px;
     /*puts them in 2 and 2 disposition*/
     display:inline-block;
 }
     div#one-fourth-first{
-        background-color:yellowgreen;
+        background-color:navajowhite;
+        border: 2px solid black;
     }
+    div#one-fourth-second{
+        background-color:navajowhite;
+        border: 2px solid black;
+    }
+    div#one-fourth-third{
+        background-color:navajowhite;
+        border: 2px solid black;
+    }
+    div#one-fourth-fourth{
+        background-color:navajowhite;
+        border: 2px solid black;
+    }
+
+
 
 /* --- Tablet ---*/
 @media only screen and (max-width: 768px) {
