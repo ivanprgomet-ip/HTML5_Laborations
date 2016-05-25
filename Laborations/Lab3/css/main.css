@@ -1,23 +1,28 @@
-﻿body{
-    background-color:#6699e9;
+﻿h1::after{
+    content:" (desktop view!)";
+    color:palevioletred;
+}
+body{
+    background-color:#b0ebf6;
 }
 header{
     background-color:blanchedalmond; 
+        width: 92%;
+}
+#wrapper{
     width:100%;
+    margin-left:auto;
+    margin-right:auto;
 }
-article#maincontent{
-    background-color:deepskyblue;
-}
-
 
 img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
     padding: 0px;
 }
 div.res-collapse{
    
-    width:45%; 
+    width:30%; 
     padding:2px;
     margin:2px;
     /*puts them in 2 and 2 disposition*/
@@ -37,25 +42,88 @@ div.res-collapse{
     }
     div#one-fourth-fourth{
         background-color:navajowhite;
+        width:92%;
         border: 2px solid black;
     }
-
+        div#one-fourth-fourth img{
+            width:100%;
+        }
 
 
 /* --- Tablet ---*/
 @media only screen and (max-width: 768px) {
+    /*START OF NAVIGATION EDITS*/
+    ul{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    width:100%;
+    }
+        #ul-navigation li{
+        list-style:none;
+        border:1px solid black;
+        margin:2px;
+        width:30%;
+        float:left;
+        background-color:black;
+        }
+        #ul-navigation li a{
+            text-decoration:none;
+            color:white;
+        }
+    /*END OF NAVIGATION EDITS*/
     div.res-collapse{
         /*will fill out screen 100% when screen size <768px*/
         width:100%;
+    }
+      div.res-collapse p{
+        font-size:110%;
+        letter-spacing:0.02em;
+    }
+     div#one-fourth-fourth{
+        background-color:navajowhite;
+        width:100%;
+        border: 2px solid black;
+    }
+         h1:after{
+        content:" (tablet view!)";
+        color:palevioletred;
     }
 }
 
 /* --- Mobile ---*/
 @media only screen and (max-width: 480px) {
+    /*START OF NAVIGATION EDITS*/
+    ul{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    width:100%;
+    }
+        #ul-navigation li{
+        list-style:none;
+        border:1px solid black;
+        margin:2px;
+        width:30%;
+        float:left;
+        background-color:black;
+        }
+        #ul-navigation li a{
+            text-decoration:none;
+            color:white;
+        }
+    /*END OF NAVIGATION EDITS*/
+
     div.res-collapse{
         width:100%;
     }
     div.res-collapse p{
-        color:white;
+        font-size:120%;
+        letter-spacing:0.02em;
     }
+    h1:after{
+        content:" (cellphone view!)";
+        color:palevioletred;
+    }
+    
 }
