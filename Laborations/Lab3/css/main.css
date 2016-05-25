@@ -1,1 +1,31 @@
-﻿
+﻿header{
+    background-color:blanchedalmond; 
+    width:45%;   
+}
+article#maincontent{
+    background-color:deepskyblue;
+}
+
+
+img{
+    width:100%; /*(2) now with this, the pictures also shrink with the window.*/
+    height: auto;
+    margin: 5px auto;
+}
+/*targeting all the separate divs of images/p and h*/
+div.res-collapse{
+    background-color:lightseagreen;
+    width:40%;/*(1) this one shrinks the green behind when minimizing window, but picture stays intact*/
+    padding:5px;
+    margin:10px;
+}
+
+    /*targeting individual divs*/
+    div#one-fourth-first{
+    }
+    div#one-fourth-second{
+    }
+     div#one-fourth-third{
+    }
+    div#one-fourth-fourth{
+    }

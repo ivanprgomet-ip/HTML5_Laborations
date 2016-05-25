@@ -101,6 +101,10 @@
     <Content Include="images\dhtml.jpg" />
     <Content Include="images\jstips-header-blog.gif" />
     <Content Include="images\learn-javascript.png" />
+    <Content Include="images\paradise\Carriacou-Grenada.jpg" />
+    <Content Include="images\paradise\maldives-1.jpg" />
+    <Content Include="images\paradise\maldives-2.jpg" />
+    <Content Include="images\paradise\maldives3.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -124,9 +128,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\paradise\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
