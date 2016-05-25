@@ -14,6 +14,26 @@ header{
     margin-left:auto;
     margin-right:auto;
 }
+/*START OF NAVIGATION EDITS*/
+#ul-navigation{
+    margin-bottom: 20px;
+    padding: 0px;
+}
+    #ul-navigation li{
+    list-style:none;
+    border:1px solid black;
+    margin:2px;
+    width:30%;
+    
+    background-color:black;
+    }
+    #ul-navigation li a{
+        text-decoration:none;
+        color:white;
+    }
+/*END OF NAVIGATION EDITS*/
+
+
 
 img{
     max-width: 100%;
