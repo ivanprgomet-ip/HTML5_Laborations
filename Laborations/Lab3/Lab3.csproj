@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\main.css" />
+    <Content Include="css\postit.css" />
     <Content Include="css\Responsive.css" />
     <Content Include="images\DHTML-Basics-160x150.png" />
     <Content Include="images\DHTML-Logo.png" />
@@ -118,6 +119,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="pages\facts.html" />
+    <Content Include="pages\postit.html" />
     <Content Include="pages\responsive03.html" />
     <Content Include="pages\responsive04.html" />
     <Content Include="pages\resumeresponse.html" />

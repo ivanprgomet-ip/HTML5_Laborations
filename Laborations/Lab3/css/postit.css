@@ -1,2 +1,23 @@
-﻿body {
+﻿body{
+    background-color:burlywood;
 }
+div.wrapper{
+    width:75%;/*lets keep it dynamic*/
+    height:500px;/*fixed height*/
+    margin-left:auto;/*for centering*/
+    margin-right:auto;/*for centering*/
+    padding: 12px;/*reader-friendly*/
+    background-color:#dd9e4c;/*if this is removed, background is transparent*/
+}
+div.postit{
+    width:250px;/*fixed width*/
+    height:auto;/*auto adapts*/
+    padding:inherit;/*inherits same padding as parent (.wrapper (12px))*/
+    border:2px solid black;
+    background-color:hsl(50, 99%, 78%);
+}
+    div.postit:hover{
+        background-color:hsl(49, 98%, 30%);
+        height:250px;
+    }
+    
