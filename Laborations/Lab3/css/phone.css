@@ -8,6 +8,7 @@ div#wrapper{
 
 
 div.outer-frame{
+    background-color: rgba(238, 226, 206, 0.5);/*a touch of gold*/
     border:3px solid black;
     height: 585px;
     width: 300px;
@@ -52,11 +53,18 @@ div.hole-small{
 }
 
 div.button-main {
-        border: 2px solid black;
+    border: 2px solid #B5B5B5;
     width: 40px;
     height: 40px;
     margin: 10px 0px 0px 130px;
-    border-radius:40px/40px;
+    border-radius: 40px/40px;
+}
+div.button-square{
+      border: 1px solid #D0D0D0;
+    width: 15px;
+    height: 15px;
+    border-radius: 29%;
+    margin: 11px 0px 0px 11px;
 }
 
 div.button-left-top{
