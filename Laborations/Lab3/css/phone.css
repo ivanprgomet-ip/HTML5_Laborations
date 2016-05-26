@@ -1,0 +1,28 @@
+﻿body{
+    background-color:#ffffff;
+}
+
+
+div.outer-frame{
+    border:3px solid black;
+    height: 585px;
+    width: 300px;
+    border-radius: 15%/10%;
+}
+div.inner-frame{
+        border: 0.02em solid #403C3C;
+    width: 270px;
+    height: 470px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+div.speaker{
+    background-color:black;
+    border: 0.02em solid #403C3C;
+     width: 45px;
+     height: 3px;
+     border-radius:25%;
+     margin: 25px 0px 0px 130px;/*place the speaker in place*/
+     float:left;/*detach so that id doesnt crash with inner frame*/
+}

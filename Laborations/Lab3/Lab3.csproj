@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\main.css" />
+    <Content Include="css\phone.css" />
     <Content Include="css\postit.css" />
     <Content Include="css\Responsive.css" />
     <Content Include="images\DHTML-Basics-160x150.png" />
@@ -121,6 +122,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="pages\facts.html" />
+    <Content Include="pages\phone.html" />
     <Content Include="pages\postit.html" />
     <Content Include="pages\responsive03.html" />
     <Content Include="pages\responsive04.html" />
