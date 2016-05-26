@@ -84,7 +84,17 @@ div.postit{
         color:#ffec8f;
         letter-spacing:0.2em;
     }
-/*POSTITS THAT TILT ON HOVER*/
+/*SMOOTH EFX FOR THE POSTITS*/
+div.tilt{
+    transition: all 0.5s ease;
+}
 div.tilt:hover{
-        transform: rotate(-10deg);/*tilts the postit when hovered*/
+    transform: rotate(-10deg);
+}
+div.morph{
+    transition: all 0.9s ease;
+}
+div.morph:hover{
+    border-radius:20%/10%;
+    transform: rotate(360deg);
 }
