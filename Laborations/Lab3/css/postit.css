@@ -75,13 +75,16 @@ div.postit{
         background-color:hsl(214, 64%, 66%);
         margin: 250px;
         position: absolute;
-    }
-    div.postit#note3:hover{
-
+        border-radius:12%/84%;
     }
     div.postit#note3:hover:after{
         content:"this just gets better and better right!";
         font-family: 'Shadows Into Light', cursive;
         font-size:24px;
-        color:rgba(225, 57, 57, 0.89);
+        color:#ffec8f;
+        letter-spacing:0.2em;
     }
+/*POSTITS THAT TILT ON HOVER*/
+div.tilt:hover{
+        transform: rotate(-10deg);/*tilts the postit when hovered*/
+}
