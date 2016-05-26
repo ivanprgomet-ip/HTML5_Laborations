@@ -9,47 +9,79 @@ body{
 }
 div.wrapper{
     width:75%;/*lets keep it dynamic*/
-    height:500px;/*fixed height*/
+    height:960px;/*fixed height*/
     margin-left:auto;/*for centering*/
     margin-right:auto;/*for centering*/
     padding: 12px;/*reader-friendly*/
     background-color: #E1C6A3;/*if this is removed, background is transparent*/
 }
 
-/*for all postits (targeting postit class)*/
+/*values for the ul containing the postits*/
+ul{
+    list-style:none;/*removes bullets*/
+    padding:inherit;/*inherits same padding as parent (.wrapper (12px))*/
+}
+    ul li{
+        display:inline;
+        padding:inherit;/*inherits same padding as parent (ul)*/
+
+    }
+/*common values for all postits (targeting postit class)*/
 div.postit{
     width:150px;/*fixed width*/
     height:auto;/*auto adapts*/
-    padding:inherit;/*inherits same padding as parent (.wrapper (12px))*/
+    padding:inherit;/*inherits same padding as parent (li)*/
     border:2px solid black;
-    background-color:hsl(50, 99%, 78%);
     box-shadow: 5px 5px 5px #777777; /*some shadow to simulate real postit*/
     font-family:'AmaticSC';/*this is the font that was downloaded from google-fonts, and now accessed (see @fontface)*/
     font-size:24px;
 }
 /*POSTIT NOTE 1*/
-        div.postit#note1:hover{
+    div.postit#note1{
+        background-color:hsl(50, 99%, 78%);
+        float:left;/*'detaches' the postits so unfolding them doesnt affect the other post position*/
+    }
+    div.postit#note1:hover{
             /*when postit gets hovered by mouse, these values apply to the postit*/
             background-color:hsl(77, 100%, 50%);
-            width:200px;
-            height:250px;
+            width:200px;/*makes the postit expand +50px in width*/
         }
-        div.postit#note1:hover:after{
+    div.postit#note1:hover:after{
             /*adds content after existing content when postit 
                 is hovered by mouse*/
+            /*these values only affect the new font text, 
+                not the text thats in the box from the beggining*/
             content:"This is the hidden content! Magical isn't it!";
             font-family: 'Shadows Into Light', cursive;/*this is the font thats taken directly from google-fonts (see head section)*/
             font-size:24px;
         }
 /*POSTIT NOTE 2*/
-        div.postit#note2{
+    div.postit#note2{
         background-color:#e18a41;
         margin: 10px 0px 0px 500px;
+        position:absolute;
         }
-        div.postit#note2:hover:after{
-            /*adds content after existing content when postit 
-                is hovered by mouse*/
+    div.postit#note2:hover{
+            /*when postit gets hovered by mouse, these values apply to the postit*/
+            background-color:hsl(271, 31%, 64%);
+        }
+    div.postit#note2:hover:after{
             content:"this is just nonsense!!";
-            font-family: 'Shadows Into Light', cursive;/*this is the font thats taken directly from google-fonts (see head section)*/
+            font-family: 'Shadows Into Light', cursive;
             font-size:24px;
         }
+/*POSTIT NOTE 3*/
+    div.postit#note3{
+        background-color:hsl(214, 64%, 66%);
+        margin: 250px;
+        position: absolute;
+    }
+    div.postit#note3:hover{
+
+    }
+    div.postit#note3:hover:after{
+        content:"this just gets better and better right!";
+        font-family: 'Shadows Into Light', cursive;
+        font-size:24px;
+        color:rgba(225, 57, 57, 0.89);
+    }
