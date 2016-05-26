@@ -40,7 +40,7 @@ img{
     height: auto;
     padding: 0px;
 }
-p.res-collapse{
+div.res-collapse{
    
     width:30%; 
     padding:2px;
@@ -48,24 +48,24 @@ p.res-collapse{
     /*puts them in 2 and 2 disposition*/
     display:inline-block;
 }
-    p#one-fourth-first{
+    div#one-fourth-first{
         background-color:navajowhite;
         border: 2px solid black;
     }
-    p#one-fourth-second{
+    div#one-fourth-second{
         background-color:navajowhite;
         border: 2px solid black;
     }
-    p#one-fourth-third{
+    div#one-fourth-third{
         background-color:navajowhite;
         border: 2px solid black;
     }
-    p#one-fourth-fourth{
+    div#one-fourth-fourth{
         background-color:navajowhite;
         width:92%;
         border: 2px solid black;
     }
-        p#one-fourth-fourth img{
+        div#one-fourth-fourth img{
             width:100%;
         }
 
@@ -92,15 +92,15 @@ p.res-collapse{
             color:white;
         }
     /*END OF NAVIGATION EDITS*/
-    p.res-collapse{
+    div.res-collapse{
         /*will fill out screen 100% when screen size <768px*/
         width:100%;
     }
-      p.res-collapse p{
+      div.res-collapse p{
         font-size:110%;
         letter-spacing:0.02em;
     }
-     p#one-fourth-fourth{
+     div#one-fourth-fourth{
         background-color:navajowhite;
         width:100%;
         border: 2px solid black;
@@ -134,10 +134,10 @@ p.res-collapse{
         }
     /*END OF NAVIGATION EDITS*/
 
-    p.res-collapse{
+    div.res-collapse{
         width:100%;
     }
-    p.res-collapse p{
+    div.res-collapse p{
         font-size:120%;
         letter-spacing:0.02em;
     }
