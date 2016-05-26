@@ -10,14 +10,22 @@ div.wrapper{
     background-color:#dd9e4c;/*if this is removed, background is transparent*/
 }
 div.postit{
-    width:250px;/*fixed width*/
+    width:150px;/*fixed width*/
     height:auto;/*auto adapts*/
     padding:inherit;/*inherits same padding as parent (.wrapper (12px))*/
     border:2px solid black;
     background-color:hsl(50, 99%, 78%);
 }
     div.postit:hover{
-        background-color:hsl(49, 98%, 30%);
+        /*when postit gets hovered by mouse, 
+            these values apply to the postit
+        */
+        background-color:hsl(77, 100%, 50%);
+        width:200px;
         height:250px;
     }
-    
+    div.postit:hover:after{
+        /*adds content after existing content when postit 
+            is hovered by mouse*/
+        content:"This is the hidden content! Magical isn't it!" 
+    }
