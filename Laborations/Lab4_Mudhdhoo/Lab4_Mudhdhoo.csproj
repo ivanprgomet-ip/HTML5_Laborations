@@ -94,10 +94,29 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\jquery-1.9.1.js" />
+    <Content Include="scripts\jquery-1.9.1.min.js" />
+    <Content Include="scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -107,8 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="audio\maldives_beach_ambience.mp3" />
-    <Content Include="css\main.css" />
-    <Content Include="images\11269034823_3aa530b954_o.jpg" />
+    <Content Include="css\default.css" />
     <Content Include="images\4794101_100_z.jpg" />
     <Content Include="images\4794101_106_z.jpg" />
     <Content Include="images\4794101_107_z.jpg" />
@@ -126,11 +144,7 @@
     <Content Include="images\4794101_93_z.jpg" />
     <Content Include="images\4794101_94_z.jpg" />
     <Content Include="images\Maldives-glowing-beach-mudhdoo.jpg" />
-    <Content Include="images\MLEDT_pool.jpg" />
-    <Content Include="images\mudhddoo1.JPG" />
-    <Content Include="images\mudhddoo3.JPG" />
     <Content Include="images\mudhddoo4.JPG" />
-    <Content Include="images\mudhddoo5.JPG" />
     <Content Include="images\mudhddoo6.JPG" />
     <Content Include="images\mudhddoo_diving1.JPG" />
     <Content Include="index.html" />

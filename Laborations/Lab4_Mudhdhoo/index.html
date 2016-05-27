@@ -3,26 +3,28 @@
 <head>
     <title>Bootstrap Island </title>
     <meta charset="utf-8" />
-    <link href="css/main.css" rel="stylesheet" />
     <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/default.css" rel="stylesheet" type="text/css" /> <!--the order of css references makes a difference-->
 </head>
 <body>
-    <header class="container-fluid">
-        <h1 class="jumbotron">Welcome to Mudhdhoo</h1>
-        <img src="images/4794101_118_z.jpg" />
-    </header>
 
-    <div class="row">
-        <div class="col-md-4">
-            <img src="images/4794101_100_z.jpg" />
-        </div>
-        <div class="col-md-4">
-            <img src="images/4794101_106_z.jpg" />
-        </div>
-        <div class="col-md-4">
-            <img src="images/4794101_107_z.jpg" />
-        </div>
-    </div>
+    <div class="container-fluid wrapper">
+        <h1 class="page-header main-header">Mudhdoo island</h1><!--/main-header-->
+
+        <nav class="navbar navbar-inverse main-navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">www.MudhdooIsland.com</a>
+            </div><!--/navbar-header-->
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Page 1</a></li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+            </ul>
+        </div><!--/container-fluid for navbar-->
+    </nav><!--/main-navigation-->
+    </div><!--/wrapper-->
 
 
 

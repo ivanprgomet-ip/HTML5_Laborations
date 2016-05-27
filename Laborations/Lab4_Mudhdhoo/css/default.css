@@ -1,0 +1,27 @@
+﻿body{
+    background-color:#82acca;
+}
+/*main/top header*/
+h1.main-header{
+    background:url(../images/4794101_93_z.jpg);
+    background-repeat:repeat-x;
+    border:2px solid black;
+    padding:15px 0px 15px 5px;
+    color:#847043;
+}
+/*main/top navigation*/
+nav.main-navigation{
+    background-color:rgba(132, 112, 67, 0.70);
+}
+
+/*div.main-navigation{
+    text-align:center;
+
+}
+    div.main-navigation nav ul{
+        list-style:none;
+
+    }
+    div.main-navigation nav ul a{
+        color:#847043;
+    }*/
