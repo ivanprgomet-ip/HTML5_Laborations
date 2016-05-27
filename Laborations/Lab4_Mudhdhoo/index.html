@@ -1,41 +1,28 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-	<meta charset="utf-8" />
-    <link href="css/main.css" type="text/css" rel="stylesheet" />
+    <title>Bootstrap Island </title>
+    <meta charset="utf-8" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <header>
-        <h1>Welcome to Mudhdhoo</h1>
+    <header class="container-fluid">
+        <h1 class="jumbotron">Welcome to Mudhdhoo</h1>
+        <img src="images/4794101_118_z.jpg" />
     </header>
 
-    <article>
-        <h2>Water, sea and beach</h2>
-    </article>
-    
-
-    <!--dreamy images of mudhdhoo island malpes-->
-    <p class="paradise_img">
-        <a target="_blank" href="images/11269034823_3aa530b954_o.jpg">
-            <img src="images/11269034823_3aa530b954_o.jpg" alt="beach" width="450" height="250">
-        </a>
-        <p class="paradise_img_desc">Add a description of the image here</p>
-    </p>
-
-    <p class="paradise_img">
-        <a target="_blank" href="images/4794101_100_z.jpg">
-            <img src="images/4794101_100_z.jpg" alt="beach" width="450" height="250">
-        </a>
-        <p class="paradise_img_desc">Add a description of the image here</p>
-    </p>
-
-    <p class="paradise_img">
-        <a target="_blank" href="images/4794101_106_z.jpg">
-            <img src="images/4794101_106_z.jpg" alt="beach" width="450" height="250">
-        </a>
-        <p class="paradise_img_desc">Add a description of the image here</p>
-    </p>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="images/4794101_100_z.jpg" />
+        </div>
+        <div class="col-md-4">
+            <img src="images/4794101_106_z.jpg" />
+        </div>
+        <div class="col-md-4">
+            <img src="images/4794101_107_z.jpg" />
+        </div>
+    </div>
 
 
 
@@ -44,14 +31,6 @@
 
 
 
-
-
-
-
-
-    <audio autoplay>
-        <source src="audio/malpes_beach_ambience.mp3" type="audio/mpeg"/>
-    </audio>
 
 </body>
 </html>
