@@ -1,4 +1,4 @@
-﻿/*top-header*/
+﻿/*TOP-HEADER*/
 div.top-header {
     color: white;
     /*background image for top header*/
@@ -7,7 +7,7 @@ div.top-header {
     background-position: left top;
     letter-spacing: 0.2em;
 }
-/*top-navigation*/
+/*TOP-NAVIGATION*/
 div.top-nav {
     background-color: #d7ba7d;
 }
@@ -27,17 +27,29 @@ div.top-nav {
         letter-spacing: 0.1em; /*space between letters*/
         margin-right: 45px; /*space between nav links*/
     }
-/*middle-content-img*/
+/*MIDDLE-content-img*/
 div.middle-content-img img {
     height: 100%;
     width: 100%;
 }
-/*middle-wrapper*/
+    /*ON middle-content-img img*/
+    div.form-absolute{
+        position:absolute;
+        bottom:1px;
+        opacity:0.8;
+    }
+
+/*MIDDLE-wrapper*/
 div.middle-wrapper {
     background: url(../images/textures/palm_tree_bark_texture.JPG);
 }
 /*middle-text*/
 div.container {
     background-color: #d7ba7d;
+}
+/*FOOTER*/
+footer.bottom-footer{
+    background-color:black;
+    color:white;
 }
 
