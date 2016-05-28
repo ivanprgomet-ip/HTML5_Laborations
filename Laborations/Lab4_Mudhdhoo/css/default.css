@@ -27,17 +27,11 @@ div.top-nav {
         letter-spacing: 0.1em; /*space between letters*/
         margin-right: 45px; /*space between nav links*/
     }
-/*MIDDLE-content-img*/
-div.middle-content-img img {
+/*MAIN-img*/
+div.main-img img {
     height: 100%;
     width: 100%;
 }
-    /*ON middle-content-img img*/
-    div.form-absolute{
-        position:absolute;
-        bottom:1px;
-        opacity:0.8;
-    }
 
 /*MIDDLE-wrapper*/
 div.middle-wrapper {
@@ -52,4 +46,6 @@ footer.bottom-footer{
     background-color:black;
     color:white;
 }
+
+
 
