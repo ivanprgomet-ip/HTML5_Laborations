@@ -1,44 +1,43 @@
-﻿body{
-    background-color:#82acca;
+﻿/*top-header*/
+div.top-header {
+    color: white;
+    /*background image for top header*/
+    background: url(../images/4794101_93_z.jpg);
+    background-repeat: repeat-x;
+    background-position: left top;
+    letter-spacing: 0.2em;
+}
+/*top-navigation*/
+div.top-nav {
+    background-color: #d7ba7d;
+}
+    div.top-nav nav ul {
+        margin: 0px;
+    }
+        div.top-nav nav ul li {
+            list-style: none;
+            float: right;
+            padding: 5px; /*pushes the links out a llitle from the borders, but keeps them vertically aligned within box*/
+        }
+    div.top-nav nav {
+        margin-right: 15%; /*moves complete nav link section 15% to the right*/
+    }
+    div.top-nav ul li a {
+        color: black;
+        letter-spacing: 0.1em; /*space between letters*/
+        margin-right: 45px; /*space between nav links*/
+    }
+/*middle-content-img*/
+div.middle-content-img img {
+    height: 100%;
+    width: 100%;
+}
+/*middle-wrapper*/
+div.middle-wrapper {
+    background: url(../images/textures/palm_tree_bark_texture.JPG);
+}
+/*middle-text*/
+div.container {
+    background-color: #d7ba7d;
 }
 
-/*temporary*/
-div.main-header{
-    background:url(../images/4794101_93_z.jpg);
-    background-repeat:repeat-x;
-    background-position:right bottom;
-
-    border:2px solid black;
-    padding:25px 0px 25px 5px;
-    color:#847043;
-
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-div.container-fluid{
-    display:inline;
-}
-/*  ///temporary///  */
-
-h1.main-header{
-    background:url(../images/4794101_93_z.jpg);
-    background-repeat:repeat-x;
-    background-position:right bottom;
-
-    border:2px solid black;
-    padding:25px 0px 25px 5px;
-    color:#847043;
-
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-nav.main-navigation{
-    background-color: rgba(70, 65, 7, 0.7);
-}
-
-footer.bottom-footer{
-    color:black;
-}
-
-div.main-content{
-    background-color:dimgray;
-}
