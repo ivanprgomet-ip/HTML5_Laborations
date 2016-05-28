@@ -39,19 +39,19 @@ footer.bottom-footer{
     color:white;
 }
 
-article.part-one{
-    background-image:url(../images/large/dtmd_home_hero_infinity-pool-evening.jpg);
-    background-size:contain;
-}
 
 
-    article .paradise-banner-one{
-        background:url(../images/large/dtmd_home_hero_aerial.jpg);
+    article .img-large-one{
+        background:url(../images/large/dtmd_home_hero_treetop-spa.jpg);
         background-size:cover;
-        height:100vh;
+    }
+    article .paradise-banner-one{
+        /*background:url(../images/large/dtmd_home_hero_treetop-spa.jpg);
+        background-size:cover;*/
+        height:100vh;/*these are neccessary to create space for background-image*/
     }
     article .paradise-banner-two{
-        background:url(../images/large/dtmd_home_hero_infinity-pool-evening.jpg);
-        background-size:cover;
-        height:100vh;
+        /*background:url(../images/large/dtmd_home_hero_infinity-pool-evening.jpg);
+        background-size:cover;*/
+        height:100vh;/*these are neccessary to create space for background-image*/
     }
