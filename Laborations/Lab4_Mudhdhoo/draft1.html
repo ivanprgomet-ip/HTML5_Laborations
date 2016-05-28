@@ -6,33 +6,44 @@
     <link href="Content/bootstrap.css" rel="stylesheet" />
 
     <style>
-        div.top-section{
+        /*top-header*/
+            div.top-header{
+                color:white;
+                /*background image for top header*/
+                background:url(../images/4794101_93_z.jpg);
+                background-repeat:repeat-x;
+                background-position:left top;
+            }
+        /*top-navigation*/
+        div.top-nav{
             background-color:#d7ba7d;
         }
-            div.top-section nav ul{
-                    vertical-align: middle;/*vartically aligns links*/
+            div.top-nav nav ul{
                     margin: 0px;
             }
-            div.top-section nav ul li{
+            div.top-nav nav ul li{
 
                 list-style:none;
                 float:right;
-                padding:5px;/*pushes the links out allitle from the borders, but keeps them vertically aligned within box*/
+                padding:5px;/*pushes the links out a llitle from the borders, but keeps them vertically aligned within box*/
             }
-            div.top-section nav{
+            div.top-nav nav{
                 margin-right: 15%;/*moves complete nav link section 15% to the right*/
             }
-                div.top-section ul li a{
+                div.top-nav ul li a{
                     color:white;
                     letter-spacing:0.1em;/*space between letters*/
                     margin-right:45px; /*space between nav links*/
                 }
+        
     </style>
 </head>
 <body>
+    <div class="container-fluid top-header">
+        <h1>Mudhdoo Island</h1>
+    </div>
 
-
-        <div class="container-fluid top-section">
+        <div class="container-fluid top-nav">
             <nav>
                 <ul>
                     <li><a href="#">link</a></li>
@@ -42,6 +53,10 @@
                 </ul>
             </nav>
         </div>
+
+
+
+
 
 </body>
 </html>
