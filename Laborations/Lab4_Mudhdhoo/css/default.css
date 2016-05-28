@@ -1,15 +1,7 @@
-﻿p,a,h1,h2,h3{
+﻿body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/*TOP-HEADER*/
-div.top-header {
-    color: white;
-    /*background image for top header*/
-    background: url(../images/4794101_93_z.jpg);
-    background-repeat: repeat-x;
-    background-position: left top;
-    letter-spacing: 0.2em;
-}
+
 /*TOP-NAV*/
 div.top-nav {
     background-color: #d7ba7d;
@@ -31,12 +23,6 @@ div.top-nav {
         letter-spacing: 0.1em; /*space between letters*/
         margin-right: 45px; /*space between nav links*/
     }
-/*MAIN-img*/
-div.main-img img {
-    height: 100%;
-    width: 100%;
-    border-bottom:1px solid black;
-}
 /*MIDDLE-wrapper*/
 div.middle-wrapper {
     background: url(../images/textures/palm_tree_bark_texture.JPG);
@@ -52,3 +38,20 @@ footer.bottom-footer{
     background-color:black;
     color:white;
 }
+
+article.part-one{
+    background-image:url(../images/large/dtmd_home_hero_infinity-pool-evening.jpg);
+    background-size:contain;
+}
+
+
+    article .paradise-banner-one{
+        background:url(../images/large/dtmd_home_hero_aerial.jpg);
+        background-size:cover;
+        height:100vh;
+    }
+    article .paradise-banner-two{
+        background:url(../images/large/dtmd_home_hero_infinity-pool-evening.jpg);
+        background-size:cover;
+        height:100vh;
+    }
