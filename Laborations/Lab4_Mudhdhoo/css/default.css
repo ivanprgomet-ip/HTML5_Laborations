@@ -32,7 +32,6 @@ div.main-img img {
     height: 100%;
     width: 100%;
 }
-
 /*MIDDLE-wrapper*/
 div.middle-wrapper {
     background: url(../images/textures/palm_tree_bark_texture.JPG);
@@ -46,6 +45,7 @@ footer.bottom-footer{
     background-color:black;
     color:white;
 }
-
-
-
+/*all text*/
+p,a,h1,h2,h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
