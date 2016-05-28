@@ -1,0 +1,55 @@
+﻿p,a,h1,h2,h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*TOP-HEADER*/
+div.top-header {
+    color: #F8F1D5;
+    /*background image for top header*/
+    background-color:black;
+    opacity:0.64;
+    letter-spacing: 0.2em;
+}
+/*TOP-NAV*/
+div.top-nav {
+    background-color:black;
+    border:1px solid black;
+    opacity:0.64;
+}
+    div.top-nav nav ul {
+        margin: 0px;
+    }
+        div.top-nav nav ul li {
+            list-style: none;
+            float: right;
+            padding: 5px; /*pushes the links out a llitle from the borders, but keeps them vertically aligned within box*/
+        }
+    div.top-nav nav {
+        margin-right: 15%; /*moves complete nav link section 15% to the right*/
+    }
+    div.top-nav ul li a {
+        color: #F8F1D5;
+        letter-spacing: 0.1em; /*space between letters*/
+        margin-right: 45px; /*space between nav links*/
+    }
+/*MAIN-img*/
+div.main-img img {
+    height: 100%;
+    width: 100%;
+    border-bottom:1px solid black;
+}
+/*MIDDLE-wrapper*/
+div.middle-wrapper {
+    background: url(../images/textures/palm_tree_bark_texture.JPG);
+    background-attachment: scroll;
+}
+    /*middle-text*/
+    div.container{
+        color: #F8F1D5;
+        background-color: #554838;
+        opacity:0.8;
+    }
+/*FOOTER*/
+footer.bottom-footer{
+    background-color:black;
+    color:white;
+}
