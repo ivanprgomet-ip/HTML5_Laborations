@@ -61,13 +61,14 @@ header nav ul li a{
     }
 
     /*row finalizer*/
+    article .row-finalizer{
+        background-color:rgba(0, 0, 0, 0.90);
+    }
     article .row-finalizer div{
        padding:5px;
-       background-color:rgba(0, 0, 0, 0.90);
     }
     article .row-finalizer img {
         width:100%; /*img falls in place*/
-        
     }
 
 /*FOOTER*/
@@ -103,8 +104,9 @@ figure.scaled-efx img{
     transition:all 0.4s ease;
 }
 figure.scaled-efx img:hover{
-    transform:scale(0.95);
-    transform:rotate(-4deg);
+    transform:scale(0.98);
+    /*transform:rotate(-4deg);*/
+
 }
 
 
