@@ -11,7 +11,7 @@ header .navbar-header{
     font-size:18px;
 }
 header nav {
-       background-color:rgba(0, 0, 0, 0.90);
+    background-color:rgba(0, 0, 0, 0.80);
     border:1px solid black;
 }
 header nav ul {
@@ -26,7 +26,7 @@ header nav ul li a{
     color:white;
 }
 /*ARTICLES*/
-
+/*      row 1     */
 article .row-one{
     background:url(../images/large/dtmd_home_hero_treetop-spa.jpg);
     background-size:cover;
@@ -39,16 +39,29 @@ article .row-one{
         height:100vh;/*these are neccessary to create space for row-one background-image*/
     }
 
+/*      row 3     */
+article .row-three h2{
+    background-color:rgba(0, 0, 0, 0.90);
+    padding:5px;
+    color:white;
+}
     article .paradise-banner-three{
         background:url(../images/4794101_73_z.jpg);
         background-size:cover;
         height:527px;
+        padding:0px;/*neccessary to have nice black line from left-right*/
+
     }
     article .paradise-banner-four{
         background:url(../images/4794101_69_z.jpg);
         background-size:cover;
         height:527px;
+        padding:0px;/*neccessary to have nice black line from left-right*/
+
+       
     }
+
+/*      row 4     */
 article .row-four{
     color:white;
     background-color:rgba(0, 0, 0, 0.90);
