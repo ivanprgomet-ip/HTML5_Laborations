@@ -11,7 +11,7 @@ header .navbar-header{
     font-size:18px;
 }
 header nav {
-    background-color: rgba(85, 72, 56, 0.90);
+       background-color:rgba(0, 0, 0, 0.90);
     border:1px solid black;
 }
 header nav ul {
@@ -49,7 +49,10 @@ article .row-one{
         background-size:cover;
         height:527px;
     }
-
+article .row-four{
+    color:white;
+    background-color:rgba(0, 0, 0, 0.90);
+}
 
 
 
