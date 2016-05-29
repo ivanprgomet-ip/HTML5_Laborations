@@ -39,7 +39,12 @@ article .row-one{
         height:100vh;/*these are neccessary to create space for row-one background-image*/
     }
 
-/*      row 3     */
+/*      row 2       */
+article.textured{
+    background:url(../images/textures/palm_tree_bark_texture.JPG);
+    background-size:cover;
+}
+/*      row 3       */
 article .row-three h2{
     background-color:rgba(0, 0, 0, 0.90);
     padding:5px;
@@ -78,12 +83,23 @@ article .row-four{
 div.middle-wrapper {
     background: url(../images/textures/palm_tree_bark_texture.JPG);
 }
-    /*middle-text*/
-    div.container{
+/*middle-text*/
+div.container{
         color: #F8F1D5;
         background-color: #554838;
         opacity:0.8;
     }
+
+
+
+
+
+
+
+
+
+
+
 /*FOOTER*/
 footer.bottom-footer{
     background-color:black;
