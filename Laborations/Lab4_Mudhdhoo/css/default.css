@@ -30,7 +30,7 @@ header nav ul li a{
     article .row-one{
         background:url(../images/large/dtmd_home_hero_resorts-house-reef.jpg);
         background-size:cover;
-        height:100vh
+        height:100vh;
     }
 
     /*row 2*/
@@ -50,31 +50,22 @@ header nav ul li a{
        padding:0px;
     }
     article .row-three img{
-        width:100%;
-        border:1px solid black;
+        padding:5px;
+        background-color:rgba(0, 0, 0, 0.90);
+        width:100%;/*img falls in place*/
+        /*border:1px solid black;*/
         
     }
 
     /*row finalizer*/
     article .row-finalizer div{
-        height: 263px;
-        width:25%;
-        background-size:cover;
-        border:1px solid black;
+        padding:5px;
+       background-color:rgba(0, 0, 0, 0.90);
     }
-    article .r3c1-img{
-        background:url(../images/4794101_93_z.jpg);
+    article .row-finalizer img {
+        width:100%; /*img falls in place*/
     }
-    article .r3c2-img {
-        background: url(../images/4794101_94_z.jpg);
-    }
-    article .r3c3-img {
-        background: url(../images/4794101_88_z.jpg);
-    }
-    article .r3c4-img {
-        background: url(../images/4794101_73_z.jpg);
-    }
-
+    
 
 
 
