@@ -6,10 +6,12 @@
 /*HEADER*/
 header{
     color:white;
-    opacity:0.64;
+}
+header .navbar-header{
+    font-size:18px;
 }
 header nav {
-    background-color: #554838;
+    background-color: rgba(85, 72, 56, 0.90);
     border:1px solid black;
 }
 header nav ul {
@@ -20,11 +22,33 @@ header nav ul li {
     float: right;
     padding: 5px; 
 }
+header nav ul li a{
+    color:white;
+}
+/*ARTICLES*/
 
+article .row-one{
+    background:url(../images/large/dtmd_home_hero_treetop-spa.jpg);
+    background-size:cover;
+}
+    article .paradise-banner-one{
+        height:100vh;/*these are neccessary to create space for row-one background-image*/
+    }
+    article .paradise-banner-two{
 
+        height:100vh;/*these are neccessary to create space for row-one background-image*/
+    }
 
-
-
+    article .paradise-banner-three{
+        background:url(../images/4794101_73_z.jpg);
+        background-size:cover;
+        height:527px;
+    }
+    article .paradise-banner-four{
+        background:url(../images/4794101_69_z.jpg);
+        background-size:cover;
+        height:527px;
+    }
 
 
 
@@ -51,16 +75,4 @@ footer.bottom-footer{
 }
 
 
-/**/
-    article .img-large-one{
-        background:url(../images/large/dtmd_home_hero_treetop-spa.jpg);
-        background-size:cover;
-    }
-    article .paradise-banner-one{
-        height:100vh;/*these are neccessary to create space for background-image*/
-    }
-    article .paradise-banner-two{
-
-        height:100vh;/*these are neccessary to create space for background-image*/
-    }
         
