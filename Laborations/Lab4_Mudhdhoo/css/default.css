@@ -1,13 +1,11 @@
 ﻿body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing:0.1em;
-    color: #F8F1D5;
+    color: white;
 }
 
 /*HEADER*/
-header{
-    color:white;
-}
+
 header .navbar-header{
     font-size:18px;
 }
@@ -37,6 +35,7 @@ header nav ul li a{
 
     /*row 2*/
     article .row-two{
+        color:#F8F1D5;
         background-color: #554838;
         opacity:0.8;
         border-radius:1%/1%;
@@ -52,6 +51,8 @@ header nav ul li a{
     }
     article .row-three img{
         width:100%;
+        border:1px solid black;
+        
     }
 
     /*row finalizer*/
@@ -89,7 +90,6 @@ header nav ul li a{
 }
 /*SEPARATORS*/
 div .separator{
-        color:white;
         background-color:rgba(0, 0, 0, 0.90);
 }
 div .separator h2{
@@ -108,7 +108,7 @@ div .separator h2{
 /*FOOTER*/
 footer.bottom-footer{
     background-color:black;
-    color:white;
+
 }
 
 
