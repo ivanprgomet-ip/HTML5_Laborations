@@ -56,14 +56,15 @@ article .row-three h2:hover{
     color:rgba(0, 0, 0, 0.90);
     background-color:#F8F1D5;
 }
+
     article .paradise-banner-three{
-        background:url(../images/4794101_73_z.jpg);
+        background:url(../images/4794101_93_z.jpg);
         background-size:cover;
         height:527px;
         padding:0px;/*neccessary to have nice black line from left-right*/
     }
     article .paradise-banner-four{
-        background:url(../images/4794101_88_z.jpg);
+        background:url(../images/4794101_94_z.jpg);
         background-size:cover;
         height:527px;
         padding:0px;/*neccessary to have nice black line from left-right*/
