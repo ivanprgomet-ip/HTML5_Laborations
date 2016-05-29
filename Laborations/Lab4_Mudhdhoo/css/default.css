@@ -32,13 +32,8 @@ header nav ul li a{
     article .row-one{
         background:url(../images/large/dtmd_home_hero_resorts-house-reef.jpg);
         background-size:cover;
+        height:100vh
     }
-    article .paradise-banner-one{
-            height:100vh;/*these are neccessary to create space for row-one background-image*/
-        }
-    article .paradise-banner-two{
-            height:100vh;/*these are neccessary to create space for row-one background-image*/
-        }
 
     /*row 2*/
     article .row-two{
@@ -62,18 +57,24 @@ header nav ul li a{
         background-color:#F8F1D5;
     }
 
-        article .paradise-banner-three{
-            background:url(../images/4794101_93_z.jpg);
-            background-size:cover;
-            height:527px;
-            padding:0px;/*neccessary to have nice black line from left-right*/
-        }
-        article .paradise-banner-four{
-            background:url(../images/4794101_94_z.jpg);
-            background-size:cover;
-            height:527px;
-            padding:0px;/*neccessary to have nice black line from left-right*/
-        }
+    article .row-three div{
+        height: 263px;
+        width:25%;
+        background-size:cover;
+        border:1px solid black;
+    }
+    article .r3c1-img{
+        background:url(../images/4794101_93_z.jpg);
+    }
+    article .r3c2-img {
+        background: url(../images/4794101_94_z.jpg);
+    }
+    article .r3c3-img {
+        background: url(../images/4794101_88_z.jpg);
+    }
+    article .r3c4-img {
+        background: url(../images/4794101_73_z.jpg);
+    }
 
 
     /*row 4*/
