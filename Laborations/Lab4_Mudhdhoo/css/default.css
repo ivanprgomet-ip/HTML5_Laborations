@@ -59,16 +59,19 @@ header nav ul li a{
 
     /*row finalizer*/
     article .row-finalizer div{
-        padding:5px;
+       padding:5px;
        background-color:rgba(0, 0, 0, 0.90);
     }
     article .row-finalizer img {
         width:100%; /*img falls in place*/
     }
+
+/*FOOTER*/
+footer.bottom-footer{
+    background-color:black;
+
+}
     
-
-
-
 
 
 
@@ -88,19 +91,21 @@ div .separator h2{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-/*FOOTER*/
-footer.bottom-footer{
-    background-color:black;
-
+/*image animations*/
+figure.scaled-efx img{
+    transition:all 0.4s ease;
 }
+figure.scaled-efx img:hover{
+    transform:scale(0.95);
+    transform:rotate(2deg);
+}
+
+
+
+
+
+
+
 
 
         
