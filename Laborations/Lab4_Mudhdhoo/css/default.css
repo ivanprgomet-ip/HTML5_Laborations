@@ -1,6 +1,7 @@
 ﻿body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing:0.1em;
+    color: #F8F1D5;
 }
 
 /*HEADER*/
@@ -27,63 +28,59 @@ header nav ul li a{
 }
 
 /*ARTICLES*/
-/*      row 1     */
-article .row-one{
-    background:url(../images/large/dtmd_home_hero_treetop-spa.jpg);
-    background-size:cover;
-}
+    /*row 1*/
+    article .row-one{
+        background:url(../images/large/dtmd_home_hero_treetop-spa.jpg);
+        background-size:cover;
+    }
     article .paradise-banner-one{
-        height:100vh;/*these are neccessary to create space for row-one background-image*/
-    }
+            height:100vh;/*these are neccessary to create space for row-one background-image*/
+        }
     article .paradise-banner-two{
+            height:100vh;/*these are neccessary to create space for row-one background-image*/
+        }
 
-        height:100vh;/*these are neccessary to create space for row-one background-image*/
+    /*row 2*/
+    article .row-two{
+        background-color: #554838;
+        opacity:0.8;
+        border-radius:1%/1%;
+    }
+    article .row-two div:hover{
+         background-color:black;
+    }
+    /*row 3*/
+    article .row-three h2{
+        background-color:rgba(0, 0, 0, 0.90);
+        padding:10px;
+        color:white;
+        width:auto;/*black background adapts to amount of text in h2*/
+        float:left;
+    }
+    article .row-three h2:hover{
+        color:rgba(0, 0, 0, 0.90);
+        background-color:#F8F1D5;
     }
 
-/*      row 2       */
-article .row-two{
-    color: #F8F1D5;
-    background-color: #554838;
-    opacity:0.8;
-    border-radius:1%/1%;
-}
-article .row-two div:hover{
-     background-color:black;
-}
-/*      row 3       */
-article .row-three h2{
-    background-color:rgba(0, 0, 0, 0.90);
-    padding:10px;
-    color:white;
-    width:auto;/*black background adapts to amount of text in h2*/
-    float:left;
-}
-article .row-three h2:hover{
-    color:rgba(0, 0, 0, 0.90);
-    background-color:#F8F1D5;
-}
+        article .paradise-banner-three{
+            background:url(../images/4794101_93_z.jpg);
+            background-size:cover;
+            height:527px;
+            padding:0px;/*neccessary to have nice black line from left-right*/
+        }
+        article .paradise-banner-four{
+            background:url(../images/4794101_94_z.jpg);
+            background-size:cover;
+            height:527px;
+            padding:0px;/*neccessary to have nice black line from left-right*/
+        }
 
-    article .paradise-banner-three{
-        background:url(../images/4794101_93_z.jpg);
-        background-size:cover;
-        height:527px;
-        padding:0px;/*neccessary to have nice black line from left-right*/
+
+    /*row 4*/
+    article .row-four{
+        color:white;
+        background-color:rgba(0, 0, 0, 0.90);
     }
-    article .paradise-banner-four{
-        background:url(../images/4794101_94_z.jpg);
-        background-size:cover;
-        height:527px;
-        padding:0px;/*neccessary to have nice black line from left-right*/
-    }
-
-
-/*      row 4     */
-article .row-four{
-    color:white;
-    background-color:rgba(0, 0, 0, 0.90);
-}
-
-
 
 
 
@@ -97,6 +94,11 @@ article .row-four{
 .textured{
     background:url(../images/textures/palm_tree_bark_texture.JPG);
     background-size:cover;
+}
+/*SEPARATORS*/
+div .separator{
+        color:white;
+        background-color:rgba(0, 0, 0, 0.90);
 }
 
 
