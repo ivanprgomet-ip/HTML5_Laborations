@@ -3,8 +3,6 @@
     letter-spacing:0.1em;
 }
 
-
-
 /*HEADER*/
 header{
     color:white;
@@ -27,6 +25,7 @@ header nav ul li {
 header nav ul li a{
     color:white;
 }
+
 /*ARTICLES*/
 /*      row 1     */
 article .row-one{
@@ -46,6 +45,7 @@ article.textured{
     background:url(../images/textures/palm_tree_bark_texture.JPG);
     background-size:cover;
 }
+
 /*      row 3       */
 article .row-three h2{
     background-color:rgba(0, 0, 0, 0.90);
@@ -86,10 +86,6 @@ article .row-four{
 
 
 
-/*MIDDLE-wrapper*/
-div.middle-wrapper {
-    background: url(../images/textures/palm_tree_bark_texture.JPG);
-}
 /*middle-text*/
 div.container{
         color: #F8F1D5;
