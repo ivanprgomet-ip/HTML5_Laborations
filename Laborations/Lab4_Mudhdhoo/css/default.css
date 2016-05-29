@@ -41,11 +41,15 @@ article .row-one{
     }
 
 /*      row 2       */
-article.textured{
-    background:url(../images/textures/palm_tree_bark_texture.JPG);
-    background-size:cover;
+article .row-two{
+    color: #F8F1D5;
+    background-color: #554838;
+    opacity:0.8;
+    border-radius:1%/1%;
 }
-
+article .row-two div:hover{
+     background-color:black;
+}
 /*      row 3       */
 article .row-three h2{
     background-color:rgba(0, 0, 0, 0.90);
@@ -86,16 +90,14 @@ article .row-four{
 
 
 
-/*middle-text*/
-div.container{
-        color: #F8F1D5;
-        background-color: #554838;
-        opacity:0.8;
-    }
 
 
 
-
+/*BACKGROUND TEXTURE*/
+.textured{
+    background:url(../images/textures/palm_tree_bark_texture.JPG);
+    background-size:cover;
+}
 
 
 
