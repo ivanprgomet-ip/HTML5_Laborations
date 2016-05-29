@@ -47,24 +47,28 @@ article.textured{
 /*      row 3       */
 article .row-three h2{
     background-color:rgba(0, 0, 0, 0.90);
-    padding:5px;
+    padding:10px;
     color:white;
+    width:auto;/*black background adapts to amount of text in h2*/
+    float:left;
+}
+article .row-three h2:hover{
+    color:rgba(0, 0, 0, 0.90);
+    background-color:#F8F1D5;
 }
     article .paradise-banner-three{
         background:url(../images/4794101_73_z.jpg);
         background-size:cover;
         height:527px;
         padding:0px;/*neccessary to have nice black line from left-right*/
-
     }
     article .paradise-banner-four{
-        background:url(../images/4794101_69_z.jpg);
+        background:url(../images/4794101_88_z.jpg);
         background-size:cover;
         height:527px;
         padding:0px;/*neccessary to have nice black line from left-right*/
-
-       
     }
+
 
 /*      row 4     */
 article .row-four{
