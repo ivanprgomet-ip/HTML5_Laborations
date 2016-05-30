@@ -60,14 +60,7 @@
         padding: 20px;/*so that i can see header..*/
         transition: all 0.4s ease;
         }
-            article .row-one .textbox1:hover{
-                background-color:black;
-                opacity:0.75;
-            }
-            article .row-one .textbox2:hover{
-                background-color:black;
-                opacity:0.75;
-            }
+
     /*ROW 2*/
     article .row-two{
         height:50vh;
@@ -86,14 +79,6 @@
             border:1px solid black;
             transition: all 0.4s ease;
             border-radius: 4px;
-        }
-            article .row-two .row2-box1:hover{
-            background-color:black;
-            opacity:0.75;
-        }
-            article .row-two .row2-box3:hover{
-            background-color:black;
-            opacity:0.75;
         }
     /*ROW 3*/
     article .row-three{
@@ -138,8 +123,11 @@
 
 
 
-
-
+/*ROW EFX HOVER*/
+article .row-one div:hover, .row-two div:hover{
+    background-color:black;
+    opacity:0.75;
+}
 
 
 
