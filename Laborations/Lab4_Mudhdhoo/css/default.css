@@ -31,20 +31,22 @@ header nav ul li a{
         background-size:cover;
         height:100vh;
     }
-    article .row-one .textbox1{
-        /*border:2px solid black;*/
-        position:absolute;
-        top:5%;
-        bottom:0;
-        width:20%;
-        height:95%;
-        color:black;
-    }
-    article .row-one .textbox1:hover{
-        transition:all 0.9s ease;
-        background-color:#c7b6aa;
-        opacity:0.8;
-    }
+        article .row-one .textbox1{
+        position: absolute;
+        bottom: 0;
+        width: 20%;
+        height: 740px;
+        color: white;
+        border:1px solid black;
+        opacity: 0;
+        border-radius: 4px;
+        padding: 20px;
+        transition: all 0.9s ease;
+        }
+        article .row-one .textbox1:hover{
+            background-color:black;
+            opacity:0.8;
+        }
 
     /*row 2*/
     article .row-two{
