@@ -32,6 +32,10 @@
         background-position:bottom;
         height:100vh;
     }
+    article .row-one dl dt{
+        color:#c36798;
+    }
+
     /*row 1 animated textbox1*/
         article .row-one .textbox1{
         height: 100%;
@@ -133,8 +137,10 @@ img{
 }
 
 
-
-
+/*textblock headings*/
+article h2{
+    color:#c36798;
+}
 /*BACKGROUND IMG*/
 .fixed-bg-img{
     background:url(../images/large/dtmd_home_hero_treetop-spa.jpg);
