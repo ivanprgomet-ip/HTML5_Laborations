@@ -33,20 +33,31 @@ header nav ul li a{
     }
         /*row 1 animated textbox1*/
         article .row-one .textbox1{
-        position: absolute;
         height: 100%;
         color: white;
         border:1px solid black;
         opacity: 0;
         border-radius: 4px;
-        padding: 20px;
+        padding: 20px;/*so that i can see header..*/
         transition: all 0.4s ease;
         }
-        article .row-one .textbox1:hover{
+            article .row-one .textbox1:hover{
             background-color:black;
             opacity:0.75;
         }
-
+        article .row-one .textbox2{
+        height: 100%;
+        color: white;
+        border:1px solid black;
+        opacity: 0;
+        border-radius: 4px;
+        padding: 20px;/*so that i can see header..*/
+        transition: all 0.4s ease;
+        }
+        article .row-one .textbox2:hover{
+            background-color:black;
+            opacity:0.75;
+        }
     /*row 2*/
     article .row-two{
         height:100vh;
@@ -57,19 +68,14 @@ header nav ul li a{
             opacity: 0;
             border:1px solid black;
             transition: all 0.4s ease;
+            border-radius: 4px;
         }
-        /*article .row-two .row2-box2{
-            height:100%;
-            opacity: 0;
-            border:1px solid black;
-            transition: all 0.4s ease;
-            vertical-align:baseline;
-        }*/
         article .row-two .row2-box3{
             height:100%;
             opacity: 0;
             border:1px solid black;
             transition: all 0.4s ease;
+            border-radius: 4px;
         }
         article .row-two .row2-box1:hover{
             background-color:black;
@@ -83,8 +89,6 @@ header nav ul li a{
             background-color:black;
             opacity:0.75;
         }
-
-
     /*row 3*/
     article .row-three{
         background-color:black;
