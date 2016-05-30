@@ -97,6 +97,7 @@ img{
 .textured{
     background:url(../images/textures/palm_tree_bark_texture.JPG);
     background-size:cover;
+    background-attachment:fixed;
 }
 /*SEPARATORS*/
 div .separator{
