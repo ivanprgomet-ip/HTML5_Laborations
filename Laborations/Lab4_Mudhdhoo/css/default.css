@@ -5,7 +5,6 @@
 }
 
 /*HEADER*/
-
 header .navbar-header{
     font-size:18px;
 }
@@ -71,6 +70,15 @@ header nav ul li a{
         width:100%; /*img falls in place*/
     }
 
+    article .row-finalizer figure{
+        position:relative;
+        margin-bottom:25px;/*push footer away alittle*/
+    }
+    article .row-finalizer figcaption{
+        position:absolute;
+        top:0;
+        margin-left:25px;
+    }
 /*FOOTER*/
 footer.bottom-footer{
     background-color:black;
@@ -99,14 +107,14 @@ div .separator h2{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 /*image animations*/
 figure.scaled-efx img{
     transition:all 0.4s ease;
 }
 figure.scaled-efx img:hover{
     transform:scale(0.98);
-    /*transform:rotate(-4deg);*/
-
+    opacity:0.6;
 }
 
 
