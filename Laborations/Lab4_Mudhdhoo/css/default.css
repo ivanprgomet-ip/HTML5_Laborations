@@ -5,24 +5,24 @@
 }
 
 /*HEADER*/
-header .navbar-header{
-    font-size:18px;
-}
-header nav {
-    background-color:rgba(0, 0, 0, 0.80);
-    border:1px solid black;
-}
-header nav ul {
-    margin: 0px;
-}
-header nav ul li {
-    list-style: none;
-    float: right;
-    padding: 5px; 
-}
-header nav ul li a{
-    color:white;
-}
+    header .navbar-header{
+        font-size:18px;
+    }
+    header nav {
+        background-color:rgba(0, 0, 0, 0.80);
+        border:1px solid black;
+    }
+    header nav ul {
+        margin: 0px;
+    }
+    header nav ul li {
+        list-style: none;
+        float: right;
+        padding: 5px; 
+    }
+    header nav ul li a{
+        color:white;
+    }
 
 /*ARTICLES*/
     /*row 1*/
@@ -31,7 +31,7 @@ header nav ul li a{
         background-size:cover;
         height:100vh;
     }
-        /*row 1 animated textbox1*/
+    /*row 1 animated textbox1*/
         article .row-one .textbox1{
         height: 100%;
         color: white;
@@ -77,15 +77,11 @@ header nav ul li a{
             transition: all 0.4s ease;
             border-radius: 4px;
         }
-        article .row-two .row2-box1:hover{
+            article .row-two .row2-box1:hover{
             background-color:black;
             opacity:0.75;
         }
-        article .row-two .row2-box2:hover{
-            background-color:black;
-            opacity:0.75;
-        }
-        article .row-two .row2-box3:hover{
+            article .row-two .row2-box3:hover{
             background-color:black;
             opacity:0.75;
         }
@@ -144,6 +140,7 @@ img{
     background-size:cover;
     background-attachment:fixed;
 }
+
 /*SEPARATORS*/
 div .separator{
         background-color:rgba(0, 0, 0, 0.90);
