@@ -27,8 +27,9 @@
 /*ARTICLES*/
     /*row 1*/
     article .row-one{
-        background:url(../images/large/dtmd_home_hero_resorts-house-reef.jpg);
+        background:url(../images/MLEDT_oceanview_bedroom.jpg);
         background-size:cover;
+        background-position:bottom;
         height:100vh;
     }
     /*row 1 animated textbox1*/
@@ -60,7 +61,7 @@
             }
     /*row 2*/
     article .row-two{
-        height:100vh;
+        height:50vh;
     }
     /*row 2 animated textboxes*/
         article .row-two .row2-box1{
@@ -136,7 +137,7 @@ img{
 
 /*BACKGROUND IMG*/
 .fixed-bg-img{
-    background:url(../images/large/dtmd_home_hero_aerial.jpg);
+    background:url(../images/large/dtmd_home_hero_treetop-spa.jpg);
     background-size:cover;
     background-attachment:fixed;
 }
@@ -144,6 +145,7 @@ img{
 /*SEPARATORS*/
 div .separator{
         background-color:rgba(0, 0, 0, 0.90);
+        padding:20px;
 }
 div .separator h2{
     /*align the h2s in the separators vertically*/
