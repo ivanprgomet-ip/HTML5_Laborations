@@ -41,10 +41,6 @@ header nav ul li a{
         padding: 20px;/*so that i can see header..*/
         transition: all 0.4s ease;
         }
-            article .row-one .textbox1:hover{
-            background-color:black;
-            opacity:0.75;
-        }
         article .row-one .textbox2{
         height: 100%;
         color: white;
@@ -54,10 +50,14 @@ header nav ul li a{
         padding: 20px;/*so that i can see header..*/
         transition: all 0.4s ease;
         }
-        article .row-one .textbox2:hover{
-            background-color:black;
-            opacity:0.75;
-        }
+            article .row-one .textbox1:hover{
+                background-color:black;
+                opacity:0.75;
+            }
+            article .row-one .textbox2:hover{
+                background-color:black;
+                opacity:0.75;
+            }
     /*row 2*/
     article .row-two{
         height:100vh;
