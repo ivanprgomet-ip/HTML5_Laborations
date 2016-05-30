@@ -42,23 +42,53 @@ header nav ul li a{
         opacity: 0;
         border-radius: 4px;
         padding: 20px;
-        transition: all 0.9s ease;
+        transition: all 0.4s ease;
         }
         article .row-one .textbox1:hover{
             background-color:black;
-            opacity:0.8;
+            opacity:0.75;
         }
 
     /*row 2*/
     article .row-two{
-        height:500px;
-        color:#F8F1D5;
-        border-radius:1%/1%;
+        height:100vh;
     }
-    article .row-two div:hover{
-         background-color:black;
-         transition: all 0.5s ease-in-out;
+    article .row-two .col-sm-4{
+            padding:50px;
+            
     }
+    /*row 2 animated textboxes*/
+        article .row-two .row2-box1{
+            height:100%;
+            opacity: 0;
+            border:1px solid black;
+            transition: all 0.4s ease;
+        }
+        article .row-two .row2-box2{
+            opacity: 0;
+            border:1px solid black;
+            transition: all 0.4s ease;
+            vertical-align:baseline;
+        }
+        article .row-two .row2-box3{
+            height:100%;
+            opacity: 0;
+            border:1px solid black;
+            transition: all 0.4s ease;
+        }
+        article .row-two .row2-box1:hover{
+            background-color:black;
+            opacity:0.75;
+        }
+        article .row-two .row2-box2:hover{
+            background-color:black;
+            opacity:0.75;
+        }
+        article .row-two .row2-box3:hover{
+            background-color:black;
+            opacity:0.75;
+        }
+
 
     /*row 3*/
     article .row-three{
@@ -109,8 +139,8 @@ img{
 
 
 
-/*BACKGROUND TEXTURE*/
-.textured{
+/*BACKGROUND IMG*/
+.fixed-bg-img{
     background:url(../images/large/dtmd_home_hero_aerial.jpg);
     background-size:cover;
     background-attachment:fixed;
@@ -126,7 +156,7 @@ div .separator h2{
     font-size:16px;
 }
 
-/*image animations*/
+/*row finalizer animations*/
 figure.scaled-efx img{
     transition:all 0.4s ease;
 }
