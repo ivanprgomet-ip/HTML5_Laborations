@@ -64,12 +64,13 @@ header nav ul li a{
             border:1px solid black;
             transition: all 0.4s ease;
         }
-        article .row-two .row2-box2{
+        /*article .row-two .row2-box2{
+            height:100%;
             opacity: 0;
             border:1px solid black;
             transition: all 0.4s ease;
             vertical-align:baseline;
-        }
+        }*/
         article .row-two .row2-box3{
             height:100%;
             opacity: 0;
