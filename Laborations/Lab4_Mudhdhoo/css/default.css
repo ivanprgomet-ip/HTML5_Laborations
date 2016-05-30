@@ -12,9 +12,6 @@
         background-color:rgba(0, 0, 0, 0.80);
         border:1px solid black;
     }
-    header nav ul {
-        margin: 0px;
-    }
     header nav ul li {
         list-style: none;
         float: right;
@@ -24,13 +21,10 @@
         color:white;
         padding:10px;/*space between menu links*/
     }
-        a:hover{
-        color: #c36798;
-        text-decoration: none;/*remove underlines when hover*/
-        }
+
 
 /*ARTICLES*/
-    /*row 1*/
+    /*ROW 1*/
     article .row-one{
         background:url(../images/MLEDT_oceanview_bedroom.jpg);
         background-size:cover;
@@ -40,40 +34,19 @@
     article .row-one dl dt{
         color:#c36798;
     }
-
-    /*Animated txt*/
-        article .row-one .textbox1{
+        article .row-one .textbox1, .textbox2{
         height: 100%;
-        color: white;
         border:1px solid black;
         opacity: 0;
         border-radius: 4px;
         padding: 20px;/*so that i can see header..*/
         transition: all 0.4s ease;
         }
-        article .row-one .textbox2{
-        height: 100%;
-        color: white;
-        border:1px solid black;
-        opacity: 0;
-        border-radius: 4px;
-        padding: 20px;/*so that i can see header..*/
-        transition: all 0.4s ease;
-        }
-
     /*ROW 2*/
     article .row-two{
         height:50vh;
     }
-    /*Animated txt*/
-        article .row-two .row2-box1{
-            height:100%;
-            opacity: 0;
-            border:1px solid black;
-            transition: all 0.4s ease;
-            border-radius: 4px;
-        }
-        article .row-two .row2-box3{
+        article .row-two .row2-box1,.row2-box3{
             height:100%;
             opacity: 0;
             border:1px solid black;
@@ -94,7 +67,6 @@
         /*border:1px solid black;*/
         
     }
-
     /*ROW finalizer*/
     article .row-finalizer{
         background-color:rgba(0, 0, 0, 0.90);
@@ -123,17 +95,15 @@
 
 
 
-/*ROW EFX HOVER*/
-article .row-one div:hover, .row-two div:hover{
+/*PSEUDO HOVER*/
+    article .row-one div:hover, .row-two div:hover{
     background-color:black;
     opacity:0.75;
 }
-
-
-
-
-
-
+    a:hover{
+color: #c36798;
+text-decoration: none;/*remove underlines from navbarlinks when hover*/
+}
 /*IMAGES*/  
     img{
         border-radius:2px;
