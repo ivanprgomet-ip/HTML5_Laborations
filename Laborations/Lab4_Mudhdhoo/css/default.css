@@ -34,9 +34,7 @@ header nav ul li a{
         /*row 1 animated textbox1*/
         article .row-one .textbox1{
         position: absolute;
-        bottom: 0;
-        width: 20%;
-        height: 740px;
+        height: 100%;
         color: white;
         border:1px solid black;
         opacity: 0;
@@ -52,10 +50,6 @@ header nav ul li a{
     /*row 2*/
     article .row-two{
         height:100vh;
-    }
-    article .row-two .col-sm-4{
-            padding:50px;
-            
     }
     /*row 2 animated textboxes*/
         article .row-two .row2-box1{
