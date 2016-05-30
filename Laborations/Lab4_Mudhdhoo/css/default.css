@@ -31,6 +31,7 @@ header nav ul li a{
         background-size:cover;
         height:100vh;
     }
+        /*row 1 animated textbox1*/
         article .row-one .textbox1{
         position: absolute;
         bottom: 0;
@@ -50,9 +51,8 @@ header nav ul li a{
 
     /*row 2*/
     article .row-two{
+        height:500px;
         color:#F8F1D5;
-        background-color: #554838;
-        opacity:0.8;
         border-radius:1%/1%;
     }
     article .row-two div:hover{
@@ -111,7 +111,7 @@ img{
 
 /*BACKGROUND TEXTURE*/
 .textured{
-    background:url(../images/textures/palm_tree_bark_texture.JPG);
+    background:url(../images/large/dtmd_home_hero_aerial.jpg);
     background-size:cover;
     background-attachment:fixed;
 }
@@ -123,6 +123,7 @@ div .separator h2{
     /*align the h2s in the separators vertically*/
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size:16px;
 }
 
 /*image animations*/
