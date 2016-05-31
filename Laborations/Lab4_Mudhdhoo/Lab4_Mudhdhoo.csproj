@@ -99,7 +99,6 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="css\cardflipper.css" />
-    <Content Include="css\cardflipping.css" />
     <Content Include="css\commons.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\010359-31-Ocean_Villa_Plunge_Pool %281%29.jpg" />
@@ -154,6 +153,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="webpages\galleries.html" />
+    <Content Include="webpages\photos.html" />
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
