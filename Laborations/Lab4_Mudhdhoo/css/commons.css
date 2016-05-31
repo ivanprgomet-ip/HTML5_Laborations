@@ -1,0 +1,45 @@
+﻿/*PSEUDO HOVER*/
+article .row-one div:hover, .row-two div:hover{
+background-color:black;
+opacity:0.88;
+}
+a:hover{
+color: #c36798;
+text-decoration: none;/*remove underlines from navbarlinks when hover*/
+}
+/*IMAGES*/  
+img{
+border-radius:2px;
+border:2px solid white;
+}
+.fixed-bg-img{
+background:url(../images/large/dtmd_home_hero_treetop-spa.jpg);
+background-size:cover;
+background-attachment:fixed;
+}
+
+/*ARTICLES H2*/
+article h2{
+color:#c36798;
+}
+
+/*SEPARATORS*/
+div .separator{
+background-color:rgba(0, 0, 0, 0.9);
+padding:20px;
+}
+div .separator h2{
+/*align the h2s in the separators vertically*/
+margin-top: 10px;
+margin-bottom: 10px;
+font-size:16px;
+}
+
+/*row finalizer animations*/
+figure.scaled-efx img{
+transition:all 0.4s ease;
+}
+figure.scaled-efx img:hover{
+transform:scale(0.98);
+opacity:0.4;
+}

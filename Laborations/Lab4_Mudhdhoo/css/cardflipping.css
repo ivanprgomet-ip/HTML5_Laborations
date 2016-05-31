@@ -1,0 +1,47 @@
+﻿/*3d animations are run in a container that we style*/
+.container-one{
+    width:200px;
+    height:200px;
+    position:relative;/*relative throughout the whole animation, nice!*/
+    font-size:7rem;/*7 times as big as html?*/
+    text-align:center; /*puts text in center*/
+    background-color:rebeccapurple;/*temporary*/
+    perspective:700px;/*adds depth to the animation*/
+}
+
+/*the card itself*/
+.card{
+    /*if we later change widht height of the container, then we 
+        dont want to change card size all the time, so we use 
+        widht and height as percentages on card. 
+    */
+    width:100%;
+    height:100%;
+    position:absolute;
+    transform-style:preserve-3d;/*makes sure the surface doesnt decrease in 2d and then get bigger in 3d., a faked 3d efx*/
+    transition: transform 1s; /*where the animation takes place*/
+}
+
+/*describe how the cards will be shown*/
+.card figure{
+    margin:0;/*when putting something as 0, then we dont need the unit*/
+    display:block;/*instead of inline, we make it all a block?*/
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;/*we dont want to see the backside*/
+}
+
+/*put some color on front side of card*/
+.card .front{
+    background-color:honeydew;
+}
+.card .back{
+    background-color:coral;
+    transform:rotateY(180deg) /*before the rotation actually takes place*/
+}
+
+.card:hover{
+    /*the rotation itself*/
+    transform:rotateY(180deg);
+}
