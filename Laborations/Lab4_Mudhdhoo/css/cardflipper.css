@@ -1,6 +1,45 @@
-﻿body{
+﻿/*DEFAULTS*/
+body{
+    width:80vw;
     margin:auto;
-   height:100vh;/*height same size as any viewport*/
-    border:1px solid black;
-   background-color:coral;
+    height:100vh;/*height same size as any viewport*/
+    border:2px solid black;
+    
+    background-image:url(../images/MLEDT_oceanview_bedroom.jpg);
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:bottom;
 }
+article{
+    background-color:rgba(0, 0, 0, 0.6);
+}
+section#Beauty-row{
+    background-color:black;
+    color:white;
+}
+
+article img{
+    width:30%;/*25% of 100vh*/
+    border:1px solid white;
+}
+
+h2{
+    background-color:black;
+    color:white;
+    padding:20px;
+}
+
+/*FLIP*/
+.threedee-space {
+    /*this IS the album container*/
+    position: relative;
+    margin: 10px auto;
+
+    perspective: 1000px;
+}
+.card{
+    /*margin: 0;*/
+    transform-style: preserve-3d;
+    transition: all 1.3s ease-in-out;
+}
+
