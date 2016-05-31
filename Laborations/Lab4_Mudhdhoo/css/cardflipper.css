@@ -35,7 +35,7 @@ h2{
     height:150px;
     width:200px;
     position:relative;
-    text-align:center;
+    text-align:center;/*puts text on back in center*/
     margin:20px auto;
     perspective:1000px;
 }
@@ -44,16 +44,14 @@ h2{
     width:100%;
     position:absolute;/*ontop of parent*/
     transform-style:preserve-3d;
-    transition:1s ease-in-out;
-    border:2px solid black;
-
+    transition:0.4s ease-in-out;
 }
 .back{
-
+    padding:5px;/*for readability*/
     color:white;
     transform:rotateY(180deg);
     background-color:rgba(0, 0, 0, 0.7);
-    border:2px solid white;
+    border:2px dashed white;
 }
     
 figure{
