@@ -14,6 +14,9 @@ body{
     overflow:auto;/*brings background color back due to float*/
     background-color:rgba(0, 0, 0, 0.6);
 }
+.row{
+    margin-top:100px;
+}
 
 h2{
     background-color:black;
@@ -27,7 +30,6 @@ h2{
     width:20em;/*adapts when scaling window*/
     float:left;
     margin-bottom:50px;/*add some space below*/
-
 }
 
 .threedee-space{
@@ -58,7 +60,6 @@ figure{
     width:100%;
     position:absolute;
     backface-visibility:hidden;
-    /*display:block;*/
     margin:0;
 }
 figure img{
