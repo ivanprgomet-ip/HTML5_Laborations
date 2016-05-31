@@ -1,0 +1,6 @@
+﻿body{
+    margin:auto;
+   height:100vh;/*height same size as any viewport*/
+    border:1px solid black;
+   background-color:coral;
+}

@@ -1,11 +1,8 @@
-﻿body{
+﻿body {
     font-family: sans-serif,'Trebuchet MS';
-    letter-spacing:0.1em;
+    letter-spacing: 0.1em;
     color: white;
-}
-.wrapper{
-    width:100%;
-    background-color:black;
+    overflow-x: hidden; /*removes the annoying white space and vertical scrollbar*/
 }
 
 /*HEADER*/
