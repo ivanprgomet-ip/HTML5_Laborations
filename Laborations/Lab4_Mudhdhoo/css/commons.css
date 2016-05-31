@@ -40,6 +40,7 @@ figure.scaled-efx img{
 transition:all 0.4s ease;
 }
 figure.scaled-efx img:hover{
-transform:scale(0.98);
+border:2px solid #c36798;
 opacity:0.4;
 }
+
