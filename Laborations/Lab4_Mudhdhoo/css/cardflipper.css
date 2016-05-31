@@ -1,8 +1,8 @@
 ﻿/*DEFAULTS*/
 body{
     width:80vw;
-    margin:auto;
     height:100vh;/*height same size as any viewport*/
+    margin:auto;
     border:2px solid black;
     
     background-image:url(../images/MLEDT_oceanview_bedroom.jpg);
@@ -19,27 +19,56 @@ section#Beauty-row{
 }
 
 article img{
-    width:30%;/*25% of 100vh*/
-    border:1px solid white;
+    width:30%;
+    border:2px solid black;
 }
 
 h2{
     background-color:black;
     color:white;
     padding:20px;
+    margin-top:0; /*fill out top space on page*/
 }
 
 /*FLIP*/
-.threedee-space {
-    /*this IS the album container*/
-    position: relative;
-    margin: 10px auto;
-
-    perspective: 1000px;
+.threedee-space{
+    height:150px;
+    width:200px;
+    position:relative;/*adding boundaries*/
+    text-align:center;
+    margin:20px auto;
+    perspective:1000px;
 }
 .card{
-    /*margin: 0;*/
-    transform-style: preserve-3d;
-    transition: all 1.3s ease-in-out;
+    height:100%;
+    width:100%;
+    position:absolute;/*ontop of parent*/
+    transform-style:preserve-3d;
+    transition:1s ease-in-out;
+    border:2px solid black;
 }
-
+.front{
+    background-color:cornflowerblue;
+       box-shadow:2px 2px 2px 2px;
+}
+.back{
+     background-color:darkseagreen;
+     transform:rotateY(180deg);
+      box-shadow:2px 2px 2px 2px;
+     
+}
+figure{
+    height:100%;
+    width:100%;
+    position:absolute;
+    backface-visibility:hidden;
+    display:block;
+    margin:0;
+}
+figure img{
+    width: 100%;
+    height: 100%;
+}
+.card:hover{
+    transform:rotateY(180deg) /*rotateX(360deg)*/;
+}
