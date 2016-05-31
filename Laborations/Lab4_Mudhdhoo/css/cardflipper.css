@@ -2,25 +2,19 @@
 body{
     width:80vw;
     height:100vh;/*height same size as any viewport*/
-    margin:auto;
-    border:2px solid black;
-    
+    margin:auto;/*center content*/
+    /*border:2px solid red;*/
+        
     background-image:url(../images/MLEDT_oceanview_bedroom.jpg);
     background-attachment:fixed;
     background-size:cover;
     background-position:bottom;
 }
-article{
-    background-color:rgba(0, 0, 0, 0.6);
-}
-section#Beauty-row{
-    background-color:black;
-    color:white;
-}
+.container{
+    overflow:auto;/*brings background color back due to float*/
 
-article img{
-    width:30%;
-    border:2px solid black;
+    background-color:rgba(0, 0, 0, 0.6);
+    /*height:100%;*/
 }
 
 h2{
@@ -31,10 +25,16 @@ h2{
 }
 
 /*FLIP*/
+.col-sm-6{
+    width:20em;/*adapts when scaling window*/
+    float:left;
+
+}
+
 .threedee-space{
     height:150px;
     width:200px;
-    position:relative;/*adding boundaries*/
+    position:relative;
     text-align:center;
     margin:20px auto;
     perspective:1000px;
@@ -46,23 +46,22 @@ h2{
     transform-style:preserve-3d;
     transition:1s ease-in-out;
     border:2px solid black;
-}
-.front{
-    background-color:cornflowerblue;
-       box-shadow:2px 2px 2px 2px;
+
 }
 .back{
-     background-color:darkseagreen;
-     transform:rotateY(180deg);
-      box-shadow:2px 2px 2px 2px;
-     
+
+    color:white;
+    transform:rotateY(180deg);
+    background-color:rgba(0, 0, 0, 0.7);
+    border:2px solid white;
 }
+    
 figure{
     height:100%;
     width:100%;
     position:absolute;
     backface-visibility:hidden;
-    display:block;
+    /*display:block;*/
     margin:0;
 }
 figure img{
