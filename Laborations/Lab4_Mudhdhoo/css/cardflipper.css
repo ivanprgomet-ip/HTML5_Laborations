@@ -1,6 +1,6 @@
 ﻿/*DEFAULTS*/
 body{
-    width:80vw;
+    width:100vw;
     height:100vh;/*height same size as any viewport*/
     margin:auto;/*center content*/
     /*border:2px solid red;*/
@@ -12,9 +12,7 @@ body{
 }
 .container{
     overflow:auto;/*brings background color back due to float*/
-
     background-color:rgba(0, 0, 0, 0.6);
-    /*height:100%;*/
 }
 
 h2{
@@ -28,6 +26,7 @@ h2{
 .col-sm-6{
     width:20em;/*adapts when scaling window*/
     float:left;
+    margin-bottom:50px;/*add some space below*/
 
 }
 
@@ -67,5 +66,5 @@ figure img{
     height: 100%;
 }
 .card:hover{
-    transform:rotateY(180deg) /*rotateX(360deg)*/;
+    transform:rotateY(180deg);
 }
