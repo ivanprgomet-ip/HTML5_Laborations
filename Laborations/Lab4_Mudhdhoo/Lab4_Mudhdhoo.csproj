@@ -167,6 +167,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="webpages\about.html" />
     <Content Include="webpages\contact.html" />
     <Content Include="webpages\photos.html" />
     <Content Include="webpages\themaldivegame.html" />
