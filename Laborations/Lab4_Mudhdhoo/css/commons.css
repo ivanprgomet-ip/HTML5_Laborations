@@ -25,7 +25,8 @@ color:#c36798;
 
 /*SEPARATORS*/
 div .separator{
-background-color:rgba(0, 0, 0, 0.9);
+/*background-color:rgba(0, 0, 0, 0.9);*/
+background-color:rgba(0, 0, 0, 0.6);
 padding:20px;
 }
 div .separator h2{
