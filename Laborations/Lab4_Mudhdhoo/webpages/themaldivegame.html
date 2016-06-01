@@ -8,52 +8,63 @@
           hotel, islands, island, mudhdhoo, laboration, assignment, " />
     <meta charset="utf-8" />
     <link href="../Content/bootstrap.css" rel="stylesheet" />
-    <link href="../css/themaldivegame.css" rel="stylesheet" /> 
+    <link href="../css/themaldivegame.css" rel="stylesheet" />
 
 </head>
 <body>
-    <!--header-->
-    <header>
-        <div class="container-fluid">
-            <nav class="navbar-fixed-top">
-                <ul>
-                    <li><a href="#">The maldive Game</a></li>
-                    <li><a href="photos.html">Photos</a></li>
-                    <li><a href="#">About </a></li>
-                    <li><a href="contact.html">Contact </a></li>
-                    <li><a href="#">Bookings </a></li>
-                    <li><a href="../index.html">Home </a></li>
-                    <li class="navbar-header navbar-left">Mudhdhoo Island</li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
     <div class="container-fluid text-center">
         <h3 class="page-header">The Maldive Game</h3>
-        <div class="row">
-            <div class="col-sm-12" id="thereef">
-                <img src="../images/gameofmaldives/diver.png" />
+        <div class="row ocean">
+            <div class="col-sm-12">
+                <figure>
+                    <img id="thereef" src="../images/gameofmaldives/reef_habitats.png" />
+                </figure>
+                <figure>
+                    <img class="reefinhabitants diver" src="../images/gameofmaldives/diver.png" />
+                </figure>
+                <figure>
+                    <img class="reefinhabitants moray" src="../images/gameofmaldives/eel-iso.png" />
+                </figure>
+                <figure>
+                    <img class="reefinhabitants stonefish" src="../images/gameofmaldives/stonefish.png" />
+                </figure>
+                <figure>
+                    <img class="reefinhabitants shark" src="../images/gameofmaldives/topshark.png" />
+                </figure>
             </div>
         </div>
     </div>
+        <div class="row forms">
 
-    <!--</article>-->
-    <div>
-        <div class="container-fluid">
-            <div class="row separator">
-                <div class="col-sm-12">
-                    <h3 class="text-center">What did you think of the photos?</h3>
-                    <p class="text-center brea page-header">Contact us <a href="#contact">here</a></p>
-                </div>
+
+            <div class="col-sm-12 lis">
+                <form>
+                    <fieldset>
+                        <label>
+                            Moray:<br />
+                            <input type="radio" name="moray_radio" />Clockwise<br />
+                            <input type="radio" name="moray_radio" />Counter-Clockwise<br />
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label>
+                            Stonefish<br />
+                            <input type="radio" name="stonefish_radio" />Right<br />
+                            <input type="radio" name="stonefish_radio" />Left<br />
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label>
+                            Shark<br />
+                            <input type="radio" name="shark_radio" />Sleep<br />
+                            <input type="radio" name="shark_radio" />Take a Swim<br />
+                        </label>
+                    </fieldset>
+                </form>
+
             </div>
         </div>
-    </div>
-    <!--footer-->
-    <footer class="bottom-footer text-right" style="padding:10px;">
-        <span>www.mudhdhooisland.com &copy; ivan prgomet </span>
-    </footer>
-
 
 
 
