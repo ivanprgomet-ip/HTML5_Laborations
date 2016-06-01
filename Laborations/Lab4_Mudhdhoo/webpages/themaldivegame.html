@@ -12,61 +12,28 @@
 
 </head>
 <body>
-    <div class="container-fluid text-center">
-        <h3 class="page-header">The Maldive Game</h3>
-        <div class="row ocean">
-            <div class="col-sm-12">
-                <figure>
-                    <img id="thereef" src="../images/gameofmaldives/reef_habitats.png" />
-                </figure>
-                <figure>
-                    <img class="reefinhabitants diver" src="../images/gameofmaldives/diver.png" />
-                </figure>
-                <figure>
-                    <img class="reefinhabitants moray" src="../images/gameofmaldives/eel-iso.png" />
-                </figure>
-                <figure>
-                    <img class="reefinhabitants stonefish" src="../images/gameofmaldives/stonefish.png" />
-                </figure>
-                <figure>
-                    <img class="reefinhabitants shark" src="../images/gameofmaldives/topshark.png" />
-                    <input type="radio" name="shark_rb" id="shark_swim" />Take a Swim
-                </figure>
-            </div>
-                <div class="row forms text-center">
-                    <div class="col-sm-12 lis ">
-                        <form>
-                            <fieldset>
-                                <legend>moray</legend>
-                                <label>
-                                    Moray:<br />
-                                    <input type="radio" name="moray_radio" />Clockwise 
-                                    <input type="radio" name="moray_radio" />Counter-Clockwise
-                                </label>
-                            </fieldset>
-                            <fieldset>
-                                <legend>stonefish</legend>
-                                <label>
-                                    Stonefish<br />
-                                    <input type="radio" name="stonefish_radio" />Right
-                                    <input type="radio" name="stonefish_radio" />Left
-                                </label>
-                            </fieldset>
-                            <fieldset>
-                                <legend>shark</legend>
-                                <label>
-                                    Shark<br />
-                                    <input type="radio" name="shark_rb" id="shark_sleep" />Sleep
-                                    <input type="radio" name="shark_rb" id="shark_swim" />Take a Swim
-                                </label>
-                            </fieldset>
-                        </form>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="gamecontainer">
+                    Shark: <input type="checkbox" name="sharky" id="sharkbox" />
+                    Moray: <input type="checkbox" id="moraybox" />
+                    Stonefish: <input type="checkbox" id="stonefishbox" />
+                    <div class="aquariumcontainer">
+                        <img class="reefer" id="diverid" src="../images/gameofmaldives/diver.png" alt="game picture" />
+                        <img class="reefer" id="morayid" src="../images/gameofmaldives/eel-iso.png" alt="game picture" />
+                        <img class="reefer" id="sharkid" src="../images/gameofmaldives/topshark.png" alt="game picture" />
+                        <img class="reefer" id="stonefishid" src="../images/gameofmaldives/stonefish.png" alt="game picture" />
+                        <img id="ocean" src="../images/gameofmaldives/reef_habitats.png" />
+
+                        <canvas id="aquarium" width="800" height="500">
+                            Update your browser to support html5.
+                        </canvas>
                     </div>
                 </div>
+            </div>
         </div>
-        
     </div>
-       
 
 
 

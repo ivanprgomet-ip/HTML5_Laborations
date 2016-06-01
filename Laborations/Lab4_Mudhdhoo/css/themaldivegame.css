@@ -1,48 +1,79 @@
-﻿/*@import url("default.css");
-@import url("commons.css");
-@import url("cardflipper.css");*/
+﻿
 
-.container-fluid{
-   background-color:white;
 
+
+
+
+
+.reefer{
+    position: absolute;
+    perspective: 1000px;
+}
+#diverid{
+    /*top: 130px;
+    width: 100px;*/
+    animation-name: diverswim;
+    animation-duration: 15s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
+#sharkid{
+    width: 320px;
+    top: 430px;
+    left: 690px;
+    transform: rotateY(180deg) rotateZ(-15deg);
 
-div.ocean{
-    background-color:rgba(0, 0, 0, 0.80);
 }
-    #thereef{
-        height:100%;
-        width:auto;
-        position:relative;
-    }
-
-img.reefinhabitants {
-    position:absolute;
-    bottom:0;
+#stonefishid{
+    width: 130px;
+    /*top: 150px;
+    left: 800px;*/
+    animation-name: stonefish-right;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
 }
-    img.shark{
-        top:350px;
-        height:15%;
-        transform: rotateY(360deg) rotateZ(-20deg);
-    }
-    
-    img.diver{
-        top:0;
-        /*animation-name: divearound;
-        animation-duration: 15s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: infinite;*/
-        animation: divearound 15s ease-in-out infinite;
-    }
+#morayid{
+    width: 100px;
+    left: 200px;
+    top: 150px;
+    transform: rotateY(180deg);
+    animation-name: moray-clockwise;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
 
-@keyframes divearound {
+@keyframes moray-clockwise{
+    0% { top: 150px;}
+    25% {left: 800px;}
+    50% {top: 350px; transform: rotateY(360deg);}
+    75% { left: 200px}
+    100% { top: 150px;}
+}
+@keyframes moray-anticlockwise{
+    0% { top: 150px;}
+    25% {top: 350px;}
+    45% {transform: rotateY(180deg);}
+    50% {left: 800px; transform: rotateY(360deg);}
+    75% { top: 180px}
+    80% { transform: rotateY(360deg);}
+    100% { left: 200px; transform: rotateY(180deg);}
+}
+@keyframes stonefish-right{
+    0% { transform: scale(0);
+         
+    }
+    50%{ transform: scale(1);
+    }
+    100% { transform: scale(0);}
+}
+@keyframes diverswim{
     0% { left:200px}
-    50%{ left: 900px; 
-         transform: rotateY(0deg);}
+    50%{ left: 800px; transform: rotateY(0deg);}
     60% {transform: rotateY(180deg);}
-    90%{transform: rotateY(180deg);
-        transform:translateY(95px);}
+    90%{transform: rotateY(180deg);}
     100%{ left: 200px;}
 }
 @keyframes sharkswim{
@@ -51,22 +82,21 @@ img.reefinhabitants {
     50%{ left: 200px; top: 300px; transform: rotateY(360deg)  rotateZ(25deg);}
     60% {transform: rotateY(540deg);}
     90%{transform: rotateY(540deg);}
-    100%{ left: 600px;}
-}
+    100%{ left: 600px; }
 
-#shark_shark_swim:checked ~ .shark{
+}
+#sharkbox:checked ~ .aquariumcontainer #sharkid{
     animation-name: sharkswim;
     animation-duration: 4s;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
 }
+#moraybox:checked ~.aquariumcontainer #morayid{
 
+    animation-name: moray-anticlockwise;
 
-.forms{
-    margin:0;/*removes whitespace to the left..*/
-    font-size:12px;
-    color:white;    
+}
+#stonefishbox:checked ~.aquariumcontainer #stonefishid{
+    left: 200px;
 }
 
-   
-    
