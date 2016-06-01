@@ -3,12 +3,13 @@
 @import url("cardflipper.css");*/
 
 .container-fluid{
-   background-color:cornflowerblue;
+   background-color:white;
+
 }
 
 
 div.ocean{
-    background-color:indianred;
+    background-color:rgba(0, 0, 0, 0.80);
 }
     #thereef{
         height:100%;
@@ -19,28 +20,53 @@ div.ocean{
 img.reefinhabitants {
     position:absolute;
     bottom:0;
-
 }
-    .shark{
+    img.shark{
+        top:350px;
+        height:15%;
+        transform: rotateY(360deg) rotateZ(-20deg);
     }
     
-    .diver{
-        /*border:3px solid black;*/
+    img.diver{
         top:0;
-        animation: mover 4s infinite ease-in-out;
+        /*animation-name: divearound;
+        animation-duration: 15s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;*/
+        animation: divearound 15s ease-in-out infinite;
     }
 
-    @keyframes mover {
-    0% { transform: translateY(0); }
-    50%{ transform:rotate(10deg);
-         transform: translateY(20);}
-    100% { 
-        transform: translateY(-10px); 
-        transform: translateY(0);}
+@keyframes divearound {
+    0% { left:200px}
+    50%{ left: 900px; 
+         transform: rotateY(0deg);}
+    60% {transform: rotateY(180deg);}
+    90%{transform: rotateY(180deg);
+        transform:translateY(95px);}
+    100%{ left: 200px;}
+}
+@keyframes sharkswim{
+    0% {}
+    10% {transform:rotateY(360deg) rotateZ(35deg); }
+    50%{ left: 200px; top: 300px; transform: rotateY(360deg)  rotateZ(25deg);}
+    60% {transform: rotateY(540deg);}
+    90%{transform: rotateY(540deg);}
+    100%{ left: 600px;}
+}
+
+#shark_shark_swim:checked ~ .shark{
+    animation-name: sharkswim;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
 }
 
 
 .forms{
-    /*background-color:cornsilk;
-    padding:25px;*/
+    margin:0;/*removes whitespace to the left..*/
+    font-size:12px;
+    color:white;    
 }
+
+   
+    
