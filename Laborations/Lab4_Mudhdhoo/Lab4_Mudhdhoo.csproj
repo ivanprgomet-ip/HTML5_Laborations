@@ -155,6 +155,7 @@
     <Content Include="images\textures\palm_tree_bark_texture.JPG" />
     <Content Include="images\the-hotel--v5256556-960.jpg" />
     <Content Include="images\Top-10-Resorts-Dusit-Thani2-740x475.jpg" />
+    <Content Include="images\tvframe\sonybraviaTV.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
