@@ -113,14 +113,14 @@ div.part-bottom{
 }
 
 div.acomodation-text{
-    /*border:1px solid white;*/
-
+    background-color:rgba(0, 0, 0, 0.4);
+    transition:0.2s ease-in-out;
 }
 div.acomodation-text dt{
     color:#c36798;
-    border:1px solid #c36798;
-    background-color:rgba(0, 0, 0, 0.4);
 }
+
+
 /*PSEUDO HOVER*/
 
 a:hover{
@@ -148,7 +148,7 @@ background-color:rgba(0, 0, 0, 1);
 div .separator h2{
 margin-top: 25px;
 margin-bottom: 25px;
-font-size:22px;
+font-size:16px;
 }
 
 /*row finalizer animations*/
