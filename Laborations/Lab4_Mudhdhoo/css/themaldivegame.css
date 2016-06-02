@@ -12,7 +12,7 @@
 #diverid{
     /*top: 130px;
     width: 100px;*/
-    animation-name: diverswim;
+    animation-name: diving;
     animation-duration: 15s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -30,7 +30,7 @@
     /*top: 150px;
     left: 800px;*/
     animation-name: stonefish-right;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
 }
@@ -38,7 +38,6 @@
     width: 100px;
     left: 200px;
     top: 150px;
-    transform: rotateY(180deg);
     animation-name: moray-clockwise;
     animation-duration: 8s;
     animation-timing-function: ease-in-out;
@@ -46,30 +45,41 @@
 }
 
 @keyframes moray-clockwise{
-    0% { top: 150px;}
+    0% {
+        top: 350px;}
     25% {left: 800px;}
-    50% {top: 350px; transform: rotateY(360deg);}
+    50% {top: 550px; 
+         transform: rotateY(180deg);}
     75% { left: 200px}
-    100% { top: 150px;}
+    100% { top: 350px;}
 }
 @keyframes moray-anticlockwise{
-    0% { top: 150px;}
-    25% {top: 350px;}
-    45% {transform: rotateY(180deg);}
-    50% {left: 800px; transform: rotateY(360deg);}
-    75% { top: 180px}
-    80% { transform: rotateY(360deg);}
-    100% { left: 200px; transform: rotateY(180deg);}
+    0% { 
+        top: 350px;}
+    25% {left: 800px;}
+    50% {top: 50px; 
+         transform: rotateY(180deg);
+    }
+    75% { left: 50px}
+    100% { top: 350px;}
 }
 @keyframes stonefish-right{
     0% { transform: scale(0);
+         height:65%;
+         width:10%;
+    }
+    50%{
+         transform: scale(0.5);
          
     }
-    50%{ transform: scale(1);
+    100% { transform: scale(0);
+           height:15%;
+         width:55%;
     }
-    100% { transform: scale(0);}
 }
-@keyframes diverswim{
+
+
+@keyframes diving{
     0% {left:50px;/*horizontal start positon*/
         top:0px;}/*vertical start position*/
 
@@ -85,39 +95,24 @@
 
     100%{ left: 50px;  top:0px;}
 }
-/*  0% { left:200px}
-
-    50%{ 
-    left: 800px; 
-    transform: rotateY(0deg);}
-
-    60% {transform:rotateY(180deg);}
-
-    90%{transform:rotateY(180deg);}
-
-    100%{ left: 200px;}*/
-
-
-   /*20% {margin-top: 10%;}
-    50% {margin-top: 5%;
-        margin-left: 70%;
-        transform: scaleX(-1);}
-    55% {margin-left: 70%;
-        transform: scaleX(1);}
-    70% {margin-top: 0%;}
-    95% {margin-top: 5%;
-        margin-left: 3%;
-        transform: scaleX(1);}
-    100% {transform: scaleX(-1);}*/
-
 
 @keyframes sharkswim{
     0% {}
-    10% {transform:rotateY(360deg) rotateZ(35deg); }
-    50%{ left: 200px; top: 300px; transform: rotateY(360deg)  rotateZ(25deg);}
-    60% {transform: rotateY(540deg);}
-    90%{transform: rotateY(540deg);}
-    100%{ left: 600px; }
+    10% {
+        transform:rotateY(360deg);
+        transform:rotateZ(10deg); }
+    50%{ 
+        left: 200px; 
+        top: 300px; 
+        transform: rotateY(360deg);
+        transform:rotateZ(25deg);}
+    60% {
+        transform: rotateY(540deg);
+    }
+    90%{
+        transform: rotateY(540deg);}
+    100%{ 
+        left: 600px; }
 
 }
 #sharkbox:checked ~ .aquariumcontainer #sharkid{
@@ -132,6 +127,7 @@
 
 }
 #stonefishbox:checked ~.aquariumcontainer #stonefishid{
-    left: 200px;
+    left: 500px;
+    top:250px;
 }
 
