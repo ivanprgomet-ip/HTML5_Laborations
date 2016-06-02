@@ -70,12 +70,47 @@
     100% { transform: scale(0);}
 }
 @keyframes diverswim{
-    0% { left:200px}
-    50%{ left: 800px; transform: rotateY(0deg);}
-    60% {transform: rotateY(180deg);}
+    0% {left:50px;/*horizontal start positon*/
+        top:0px;}/*vertical start position*/
+
+    25%{left: 800px; /*dives 800px to the right*/
+        transform: rotateY(0deg);}/*makes sure diver doesnt turn WHILE diving*/
+
+    30% {transform: rotateY(180deg);}/*rotates fast*/
+
+    50%{top:50px;
+        transform: rotateY(180deg);}
+
     90%{transform: rotateY(180deg);}
-    100%{ left: 200px;}
+
+    100%{ left: 50px;  top:0px;}
 }
+/*  0% { left:200px}
+
+    50%{ 
+    left: 800px; 
+    transform: rotateY(0deg);}
+
+    60% {transform:rotateY(180deg);}
+
+    90%{transform:rotateY(180deg);}
+
+    100%{ left: 200px;}*/
+
+
+   /*20% {margin-top: 10%;}
+    50% {margin-top: 5%;
+        margin-left: 70%;
+        transform: scaleX(-1);}
+    55% {margin-left: 70%;
+        transform: scaleX(1);}
+    70% {margin-top: 0%;}
+    95% {margin-top: 5%;
+        margin-left: 3%;
+        transform: scaleX(1);}
+    100% {transform: scaleX(-1);}*/
+
+
 @keyframes sharkswim{
     0% {}
     10% {transform:rotateY(360deg) rotateZ(35deg); }
