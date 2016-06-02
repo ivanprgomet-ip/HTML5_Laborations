@@ -1,6 +1,6 @@
 ﻿body {
     font-family: sans-serif,'Trebuchet MS';
-    letter-spacing: 0.1em;
+    letter-spacing: 0.2em;
     color: white;
     overflow-x: hidden; /*removes the annoying white space and vertical scrollbar*/
 }
@@ -24,33 +24,20 @@
         padding:10px;/*space between menu links*/
     }
 
-
 /*ARTICLES*/
     /*ROW 1*/
     article .row-one h2{
         margin-top:30%;
         color:#c36798;
     }
-    .textbox1{
+    article .infobox{
         color:rgba(0, 0, 0, 0.0);
         text-align:center;
         padding:25px;
     }
     article .row-one div{
-    background-color:rgba(0, 0, 0, 0.4);
+        background-color:rgba(0, 0, 0, 0.4);
     }
-
-    article .row-one div:hover{
-    background-color:rgba(0, 0, 0, 0.7);
-    color:white;
-    
-}
-
-
-
-
-
-
     article .row-one{
         background:url(../images/MLEDT_oceanview_bedroom.jpg);
         background-size:cover;
@@ -58,34 +45,27 @@
         height:100vh;
         
     }
-    article .row-one dl dt{
-        color:#c36798;
-    }
-    article .row-one .textbox1, .textbox2{
+    article .row-one .infobox{
         height: 100%;
-        /*padding: 20px;/*so that i can see header..*/
         transition: all 0.4s ease-in-out;
         }
-    /*ROW 2*/
-    article .row-two{
-        height:auto;
-        background-color:rgba(0, 0, 0, 1);
-    }
+        article .row-one div:hover{
+        background-color:rgba(0, 0, 0, 0.7);
+        color:white;
+        }
     
+
     /*ROW 3*/
     article .row-three{
-        background-color:rgba(0, 0, 0, 0.65);
-    }
-    article .row-three .col-sm-6{
-       padding:0px;
+        background-color:rgba(0, 0, 0, 1);
+        /*background-color:rgba(0, 0, 0, 0.65);*/
     }
     article .row-three img{
         padding:5px;
-background-color:rgba(0, 0, 0, 0.65);
+        /*background-color:rgba(0, 0, 0, 0.65);*/
         width:100%;/*img falls in place*/
-        
-        
     }
+
 
     /*ROW finalizer*/
     article .row-finalizer{
@@ -109,16 +89,19 @@ background-color:rgba(0, 0, 0, 0.65);
         margin-left:25px;
     }
 
-.embededteaservideo{
+.row-two .embededteaservideo{
     background: url(../images/tvframe/sonybraviaTV.png);
     background-size:cover;
     background-position:top;
     position:relative;
-    padding-bottom:80px;
+    padding-bottom:25px;/*cutting of tv leg*/
     padding-top:15px;
     padding-left:15px;
     padding-right:15px;
-    
+}
+.row-two{
+    background-color:rgba(0, 0, 0, 0.4);
+    padding: 5%;
 }
 
 /*BOTTOM SECTION*/
@@ -134,37 +117,30 @@ div.part-bottom{
 
 a:hover{
 color: #c36798;
-text-decoration: none;/*remove underlines from navbarlinks when hover*/
+text-decoration: none;
 }
 /*IMAGES*/  
 img{
 border-radius:2px;
 border:2px solid white;
 }
-.fixed-bg-img{
-background:url(../images/Ocean_Villa_Deck_2.jpg);
+.teaser-bg-img{
+background:url(../images/MLEDT_oceanview_bedroom.jpg);
 background-size:cover;
-background-position:center;
+background-position:bottom;
 background-attachment:fixed;
 
 }
 
-/*ARTICLES H2*/
-article h2{
-/*color:#c36798;*/
-}
-
 /*SEPARATORS*/
 div .separator{
-/*background-color:rgba(0, 0, 0, 0.9);*/
 background-color:rgba(0, 0, 0, 1);
-padding:20px;
+
 }
 div .separator h2{
-/*align the h2s in the separators vertically*/
-margin-top: 10px;
-margin-bottom: 10px;
-font-size:16px;
+margin-top: 25px;
+margin-bottom: 25px;
+font-size:22px;
 }
 
 /*row finalizer animations*/
