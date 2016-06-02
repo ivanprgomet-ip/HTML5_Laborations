@@ -13,8 +13,9 @@ border-radius:2px;
 border:2px solid white;
 }
 .fixed-bg-img{
-background:url(../images/large/dtmd_home_hero_treetop-spa.jpg);
+background:url(../images/Ocean_Villa_Deck_2.jpg);
 background-size:cover;
+background-position:center;
 background-attachment:fixed;
 }
 

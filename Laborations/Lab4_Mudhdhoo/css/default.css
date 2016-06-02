@@ -45,7 +45,7 @@
         }
     /*ROW 2*/
     article .row-two{
-        height:50vh;
+        height:70vh;
     }
     article .row-two .row2-box1,.row2-box3{
             height:100%;
@@ -101,14 +101,9 @@
     background-size:cover;
     background-position:top;
     position:relative;
-    padding-bottom:50px;
+    padding-bottom:80px;
     padding-top:15px;
     padding-left:15px;
     padding-right:15px;
     
-}
-.televisions{
-    padding:15px;
-    background-color:cornflowerblue;
-    border:2px solid black;
 }
