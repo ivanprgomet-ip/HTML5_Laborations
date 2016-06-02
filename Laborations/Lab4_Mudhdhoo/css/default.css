@@ -112,7 +112,15 @@ div.part-bottom{
     background-attachment:fixed;
 }
 
+div.acomodation-text{
+    /*border:1px solid white;*/
 
+}
+div.acomodation-text dt{
+    color:#c36798;
+    border:1px solid #c36798;
+    background-color:rgba(0, 0, 0, 0.4);
+}
 /*PSEUDO HOVER*/
 
 a:hover{
