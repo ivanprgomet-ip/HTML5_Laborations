@@ -169,8 +169,10 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="webpages\about.html" />
+    <Content Include="webpages\booking.html" />
     <Content Include="webpages\contact.html" />
     <Content Include="webpages\photos.html" />
+    <Content Include="webpages\review.html" />
     <Content Include="webpages\themaldivegame.html" />
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="scripts\bootstrap.js" />
