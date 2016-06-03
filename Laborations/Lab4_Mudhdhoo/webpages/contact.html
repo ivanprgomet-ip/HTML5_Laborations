@@ -10,6 +10,10 @@
     <link href="../Content/bootstrap.css" rel="stylesheet" />
     <link href="../css/contact.css" rel="stylesheet" />
 
+    <!--these make sure the dropdown works!-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </head>
 <body>
     <!--header-->
@@ -35,36 +39,44 @@
         <p>We would love to hear from you!</p>
         <div class="row">
             <div class="col-sm-6 col-xs-12">
-                <form>
+                <form id="contact_form">
                     <label>
                         firstname: <br />
-                        <input type="text" required />
+                        <input type="text" required placeholder="firstname..."/>
                     </label>
                     <label>
                         lastname: <br />
-                        <input type="text" required/>
+                        <input type="text" required placeholder="lastname..."/>
                     </label>
                     <label>
                         Your Email:<br />
-                        <input type="email" />
+                        <input type="email" placeholder="email..."/>
                     </label>
                     <label>
                         Phone:<br />
-                        <input type="text" required/>
+                        <input type="text" required placeholder="input..."/>
                     </label>
+                    <br /><br />
+
+                    <label>Rate your stay:</label>
+                    <select name="rating">
+                        <option value="good">😌</option>
+                        <option value="medium">😔</option>
+                        <option value="bad">😞</option>
+                    </select>
+                    <br /><br />
                     <label>
                         Subject:<br />
-                        <input type="text"/>
+                        <input type="text" placeholder="e.g. 'recent visit'..."/>
                     </label>
                     <label>
                         Comments:
-                        <textarea rows="5" cols="21" id="comments_id" name="comments_nm"></textarea><br />
+                        <textarea rows="5" cols="21" id="comments_id" name="comments_nm" placeholder="e.g. comments about 'recent visit'..."></textarea><br />
                     </label>
                     <label>
                         <input type="submit" id="submit_id" name="submit_nm" value="send" />
                     </label>
                 </form>
-
             </div>
         </div>
     </div>
