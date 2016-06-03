@@ -101,6 +101,7 @@
     <Content Include="css\cardflipper.css" />
     <Content Include="css\commons.css" />
     <Content Include="css\contact.css" />
+    <Content Include="css\review.css" />
     <Content Include="css\themaldivegame.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\010359-31-Ocean_Villa_Plunge_Pool %281%29.jpg" />
@@ -151,6 +152,10 @@
     <Content Include="images\Ocean_Villa_Deck.jpg" />
     <Content Include="images\Ocean_Villa_Deck_2.jpg" />
     <Content Include="images\Ocean_Villa_Deck_3.jpg" />
+    <Content Include="images\reviewers\actor.GIF" />
+    <Content Include="images\reviewers\actor2.GIF" />
+    <Content Include="images\reviewers\beniciodeltoro.GIF" />
+    <Content Include="images\reviewers\dicaprio.GIF" />
     <Content Include="images\textures\4794101_28_z.jpg" />
     <Content Include="images\textures\palm_tree_bark_texture.JPG" />
     <Content Include="images\the-hotel--v5256556-960.jpg" />
