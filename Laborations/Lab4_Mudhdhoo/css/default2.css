@@ -1,0 +1,17 @@
+﻿@import url(default.css);
+
+article.content{
+    background-color:rgba(0, 0, 0, 0.4);
+}
+article .content-wrapper{
+    background-color:rgba(0, 0, 0, 0.4);
+    color:white;
+}
+article h2{
+    margin-top:75px;
+}
+article .content-header h2{
+    background-color:whitesmoke;
+    color:black;
+    border-radius:65% 40%;
+}
