@@ -1,5 +1,6 @@
 ﻿body {
     font-family: sans-serif,'Trebuchet MS';
+    font-size:12px;
     letter-spacing: 0.1em;
     color: white;
     /*overflow-x: hidden;*/ /*removes vertical scrollbar*/
@@ -32,7 +33,6 @@
     }
     article .infobox{
         color:rgba(0, 0, 0, 0.0);
-        text-align:center;
         padding:25px;
         height: 100%;
         transition: all 0.4s ease-in-out;
@@ -65,7 +65,6 @@
     }
     article .row-two #activities, #devaranaspa{
         color:rgba(0, 0, 0, 0.0);
-        text-align:center;
         padding:25px;
         height: 467px;/*height of tv because 100% didnt work*/
         transition: all 0.4s ease-in-out;
@@ -81,12 +80,25 @@
     /*ROW 3*/
     article .row-three{
         background-color:rgba(0, 0, 0, 1);
-      
     }
     article .row-three img{
-        padding:30px;
         width:100%;
     }
+
+        article .accomodation-text h2{
+            margin-top:15%;
+            color:#c36798;
+        }
+        div.accomodation-text{
+        /*color:rgba(0, 0, 0, 0.0);*/
+        
+        padding:25px;
+        height: 467px;/*height of tv because 100% didnt work*/
+        transition: all 0.4s ease-in-out;
+        }
+        div.accomodation-text dt{
+            color:#c36798;
+        }
     /*ROW finalizer*/
     article .row-finalizer{
         background-color:rgba(0, 0, 0, 0.90);
@@ -115,13 +127,7 @@
     .bottom-complete{
         padding:0px;/*expands bottom part out on sides*/
     }
-        div.acomodation-text{
-            background-color:rgba(0, 0, 0, 0.4);
-            transition:0.2s ease-in-out;
-        }
-        div.acomodation-text dt{
-            color:#c36798;
-        }
+
     .footer-top, .footer-middle {
         background-color: rgba(0, 0, 0, 0.6);
     }
@@ -135,6 +141,13 @@
         margin:0;
     }
 
+    footer .end-banner-block{
+    padding:50px;
+    }
+    footer .end-banner-text{
+        padding:50px;
+        background-color:rgba(0, 0, 0, 0.4);
+    }
 
 
 
@@ -158,14 +171,6 @@
         /*font-size:22px;*/
     }
 
-
-
-
-
-.small-font{
-    font-size:12px;
-}
-
 a{
     color:white;
 }
@@ -173,3 +178,4 @@ a:hover{
 color: #c36798;
 text-decoration: none;
 }
+
