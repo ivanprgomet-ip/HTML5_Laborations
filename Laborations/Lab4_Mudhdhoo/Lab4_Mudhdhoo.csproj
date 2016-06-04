@@ -101,7 +101,6 @@
     <Content Include="css\default2.css" />
     <Content Include="css\cardflipper.css" />
     <Content Include="css\commons.css" />
-    <Content Include="css\contact.css" />
     <Content Include="css\review.css" />
     <Content Include="css\themaldivegame.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />

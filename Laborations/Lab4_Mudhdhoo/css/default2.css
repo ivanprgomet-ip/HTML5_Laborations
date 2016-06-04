@@ -16,7 +16,14 @@ article .content-header h2{
     border-radius:65% 40%;
 }
 
-input{
+input, select{
     /*for forms*/
     color:black;
+}
+
+legend{
+    color:white;
+}
+form{
+    margin-bottom:25px;
 }

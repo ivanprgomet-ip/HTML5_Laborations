@@ -130,10 +130,6 @@ body {
         }
 
 
-        article ..residency-text p,li,dt,dd{
-            margin-left:80px;
-            margin-right:80px;
-        }
     /*ROW finalizer*/
     article .row-finalizer{
         background-color:rgba(0, 0, 0, 1);

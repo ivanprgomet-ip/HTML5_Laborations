@@ -1,42 +1,11 @@
-﻿@import url(default.css);
-body {
-    background:url(../images/Ocean_Villa_Deck_2.jpg);
-    background-size:cover;
-    background-position:bottom;
-    background-attachment:fixed;
-}
+﻿@import url(default2.css);
 
-.wrapper{
-     background-color:rgba(0, 0, 0, 0.6);
-}
-.reviewer h2{
-   color:#c36798;
-
-}
-.reviews{
-    /*margin-top:65px;*/
-    border-top:1px solid white;
-    border-bottom:1px solid white;
-    background-color:black;
-    border-radius:5px;
-    
-}
 figure{
    width:75%;
    margin-top:15px;
    margin-bottom:15px;
-
 }
-figure img{
+.portrait img{
     width:250px;
     border-radius:50%;
-}
-figure figcaption{
-    color:white;
-}
-
-.reviewhead{
-        margin-top: 55px;
-    text-align: center;
-    color: white;
 }
