@@ -15,3 +15,8 @@ article .content-header h2{
     color:black;
     border-radius:65% 40%;
 }
+
+input{
+    /*for forms*/
+    color:black;
+}
