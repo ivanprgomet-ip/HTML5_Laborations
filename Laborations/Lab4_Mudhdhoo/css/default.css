@@ -40,6 +40,12 @@ body {
         padding:25px;
         height: 100%;
         transition: all 0.4s ease-in-out;
+        overflow:auto;/*only scroll if overflow occurs*/
+
+    }
+    article .infobox p{
+        margin-left:15%;
+        margin-right:15%;
     }
     article .row-one div{
         background-color:rgba(0, 0, 0, 0.4);
@@ -72,6 +78,7 @@ body {
         padding:25px;
         height: 467px;/*height of tv because 100% didnt work*/
         transition: all 0.4s ease-in-out;
+        overflow:auto;/*only scroll if overflow occurs*/
     }
     article .row-two #activities,#devaranaspa {
         background-color:rgba(0, 0, 0, 0.4);
@@ -90,6 +97,7 @@ body {
         article .residency-text h2{
             margin-top:15%;
             color:#c36798;
+
         }
 
         article div.residency-text{
@@ -97,7 +105,7 @@ body {
             padding:25px;/*very important!*/
             color:rgba(0, 0, 0, 0.0);
             transition: all 0.4s ease-in-out;
-           
+            overflow:auto;/*only scroll if overflow occurs*/
         }
         article div.residency-text ul{
             list-style:none
@@ -121,6 +129,11 @@ body {
             color:rgba(195, 103, 152, 1);
         }
 
+
+        article ..residency-text p,li,dt,dd{
+            margin-left:80px;
+            margin-right:80px;
+        }
     /*ROW finalizer*/
     article .row-finalizer{
         background-color:rgba(0, 0, 0, 0.90);
@@ -164,11 +177,16 @@ body {
     }
 
     footer .end-banner-block{
-    padding:50px;
+        padding:50px;
+       
+    }
+    footer .end-banner-text:hover{
+       color:#c36798;
     }
     footer .end-banner-text{
         padding:50px;
         background-color:rgba(0, 0, 0, 0.4);
+         transition:0.4s ease-in-out; 
     }
 
 
