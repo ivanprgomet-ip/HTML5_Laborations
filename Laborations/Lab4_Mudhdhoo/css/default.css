@@ -69,7 +69,7 @@
         height: 467px;/*height of tv because 100% didnt work*/
         transition: all 0.4s ease-in-out;
     }
-    article .row-two div{
+    article .row-two #activities,#devaranaspa {
         background-color:rgba(0, 0, 0, 0.4);
     }
     article .row-two div#activities:hover, div#devaranaspa:hover{
@@ -89,16 +89,30 @@
             margin-top:15%;
             color:#c36798;
         }
-        div.accomodation-text{
-        /*color:rgba(0, 0, 0, 0.0);*/
-        
-        padding:25px;
-        height: 467px;/*height of tv because 100% didnt work*/
-        transition: all 0.4s ease-in-out;
+        article div.accomodation-text{
+            /*for the white text*/
+            color:rgba(0, 0, 0, 0.0);
+            transition: all 0.4s ease-in-out;
         }
-        div.accomodation-text dt{
-            color:#c36798;
+        article .row-three div.accomodation-text dt{
+            /*for the purple text*/
+            color:rgba(195, 103, 152, 0.00);
+            transition: all 0.6s ease-in-out;
         }
+        article .row-three div{
+            background-color:rgba(0, 0, 0, 0.4);
+            height:594px;/*height of side-image because 100% didnt work*/
+        }
+        article .row-three div.accomodation-text:hover{
+            /*for the white text*/
+            background-color:rgba(0, 0, 0, 0.7);
+            color:white;
+        }
+        article .row-three div.accomodation-text:hover dt{
+            /*for the purple text*/
+            color:rgba(195, 103, 152, 1);
+        }
+
     /*ROW finalizer*/
     article .row-finalizer{
         background-color:rgba(0, 0, 0, 0.90);
