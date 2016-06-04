@@ -3,7 +3,7 @@
     font-size:12px;
     letter-spacing: 0.1em;
     color: white;
-    /*overflow-x: hidden;*/ /*removes vertical scrollbar*/
+    overflow-x: hidden; /*removes vertical scrollbar*/
 }
 
 /*HEADER*/
@@ -78,23 +78,27 @@
         }
 
     /*ROW 3*/
-    article .row-three{
-        background-color:rgba(0, 0, 0, 1);
-    }
+
     article .row-three img{
         width:100%;
+        height:auto;
     }
-
-        article .accomodation-text h2{
+        article .residency-text h2{
             margin-top:15%;
             color:#c36798;
         }
-        article div.accomodation-text{
+
+        article div.residency-text{
             /*for the white text*/
+            padding:25px;/*very important!*/
             color:rgba(0, 0, 0, 0.0);
             transition: all 0.4s ease-in-out;
+           
         }
-        article .row-three div.accomodation-text dt{
+        article div.residency-text ul{
+            list-style:none
+        }
+        article .row-three div.residency-text dt{
             /*for the purple text*/
             color:rgba(195, 103, 152, 0.00);
             transition: all 0.6s ease-in-out;
@@ -103,12 +107,12 @@
             background-color:rgba(0, 0, 0, 0.4);
             height:594px;/*height of side-image because 100% didnt work*/
         }
-        article .row-three div.accomodation-text:hover{
+        article .row-three div.residency-text:hover{
             /*for the white text*/
             background-color:rgba(0, 0, 0, 0.7);
             color:white;
         }
-        article .row-three div.accomodation-text:hover dt{
+        article .row-three div.residency-text:hover dt{
             /*for the purple text*/
             color:rgba(195, 103, 152, 1);
         }
@@ -193,3 +197,6 @@ color: #c36798;
 text-decoration: none;
 }
 
+.here-text{
+    color:#d29b4b;
+}
