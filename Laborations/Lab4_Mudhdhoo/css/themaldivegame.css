@@ -1,9 +1,11 @@
-﻿
+﻿@import url(default.css);
 
 
 
 
-
+.gamehead{
+    color:black;
+}
 
 .reefer{
     position: absolute;

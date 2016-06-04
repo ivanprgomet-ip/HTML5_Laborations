@@ -1,8 +1,8 @@
 ﻿@import url("default.css");
-@import url("commons.css");
-@import url("cardflipper.css");
+/*@import url("commons.css");
+@import url("cardflipper.css");*/
 
-.container-fluid{
+/*.container-fluid{
     background-color:rgba(0, 0, 0, 0.70);
     color:black;
-}
+}*/

@@ -146,6 +146,7 @@
     <Content Include="images\large\dtmd_home_hero_infinity-pool-evening.jpg" />
     <Content Include="images\large\dtmd_home_hero_resorts-house-reef.jpg" />
     <Content Include="images\large\dtmd_home_hero_treetop-spa.jpg" />
+    <Content Include="images\mapsphoto1.JPG" />
     <Content Include="images\map\dusit_thani.jpg" />
     <Content Include="images\MLEDT_oceanview_bedroom.jpg" />
     <Content Include="images\MLEDT_pool.jpg" />
@@ -174,7 +175,6 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="webpages\about.html" />
-    <Content Include="webpages\booking.html" />
     <Content Include="webpages\contact.html" />
     <Content Include="webpages\photos.html" />
     <Content Include="webpages\review.html" />

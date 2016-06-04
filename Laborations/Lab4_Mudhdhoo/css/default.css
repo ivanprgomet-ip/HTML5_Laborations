@@ -1,7 +1,7 @@
 ﻿
 body {
     font-family: sans-serif,'Trebuchet MS';
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     color: white;
     overflow-x: hidden; /*removes the annoying white space and vertical scrollbar*/
 }
@@ -106,28 +106,40 @@ body {
 }
 
 /*BOTTOM SECTION*/
-div.part-bottom{
+.bottom-complete{
     background:url(../images/Ocean_Villa_Deck_2.jpg);
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
 }
-
-div.acomodation-text{
-    background-color:rgba(0, 0, 0, 0.4);
-    transition:0.2s ease-in-out;
+.bottom-complete > div {
+    background-color:rgba(0, 0, 0, 0.6);/*color the complete bottom bart*/
 }
-div.acomodation-text dt{
-    color:#c36798;
+.bottom-complete{
+    padding:0px;/*expands bottom part out on sides*/
+}
+    div.acomodation-text{
+        background-color:rgba(0, 0, 0, 0.4);
+        transition:0.2s ease-in-out;
+    }
+    div.acomodation-text dt{
+        color:#c36798;
+    }
+.footer-top, .footer-middle {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-bottom{
+    background-color:black;
+}
+.page-header{
+    /*splits footer head from footer middle/bottom*/
+    padding:0;
+    margin:0;
 }
 
 
-/*PSEUDO HOVER*/
 
-a:hover{
-color: #c36798;
-text-decoration: none;
-}
 /*IMAGES*/  
 img{
 border-radius:2px;
@@ -160,14 +172,32 @@ border:2px solid #c36798;
 opacity:0.4;
 }
 
-.part-bottom > div {
-    background-color:rgba(0, 0, 0, 0.6);/*color the complete bottom bart*/
-}
-.part-bottom{
-    padding:0px;/*expands bottom part out on sides*/
-}
+
 
 
 .small-font{
     font-size:12px;
+}
+
+
+#atoll-resorts, #upcoming-events, ul li{
+    list-style-type: none;
+}
+#atoll-resorts{
+    padding:0px;
+
+}
+#atoll-resorts a{
+    margin-left: 15px;
+
+}
+#adress-info p{
+    margin:10px;
+}
+a{
+    color:white;
+}
+a:hover{
+color: #c36798;
+text-decoration: none;
 }
