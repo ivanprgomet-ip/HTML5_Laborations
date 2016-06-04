@@ -1,9 +1,8 @@
-﻿
-body {
+﻿body {
     font-family: sans-serif,'Trebuchet MS';
     letter-spacing: 0.1em;
     color: white;
-    overflow-x: hidden; /*removes the annoying white space and vertical scrollbar*/
+    /*overflow-x: hidden;*/ /*removes vertical scrollbar*/
 }
 
 /*HEADER*/
@@ -54,123 +53,102 @@ body {
         background-color:rgba(0, 0, 0, 0.7);
         color:white;
         }
-    
-
-    /*ROW 3*/
-    article .row-three{
-        background-color:rgba(0, 0, 0, 1);
-        /*background-color:rgba(0, 0, 0, 0.65);*/
-    }
-    article .row-three img{
-        padding:5px;
-        /*background-color:rgba(0, 0, 0, 0.65);*/
-        width:100%;/*img falls in place*/
-    }
-
-
-    /*ROW finalizer*/
-    article .row-finalizer{
-        background-color:rgba(0, 0, 0, 0.90);
-    }
-    article .row-finalizer div{
-       padding:5px;
-    }
-    article .row-finalizer img {
-         /*img falls in place*/
-         width:100%;
-    }
-
-    article .row-finalizer figure{
-        position:relative;
-        margin-bottom:25px;/*push footer away alittle*/
-    }
-    article .row-finalizer figcaption{
-        position:absolute;
-        top:0;
-        margin-left:25px;
-    }
-
-.row-two .embededteaservideo{
+    /*ROW 2*/
+    .row-two{
+    background-color:rgba(0, 0, 0, 0.4);
+}
+    .row-two .embededteaservideo{
     background: url(../images/tvframe/sonybraviaTV.png);
     background-size:cover;
     background-position:top;
     position:relative;
-    padding-bottom:2%;/*cutting of tv leg*/
-    padding-top:15px;
-    padding-left:15px;
-    padding-right:15px;
+    padding:25px;
 }
-.row-two{
-    background-color:rgba(0, 0, 0, 0.4);
-    padding: 5%;
-}
-
-/*BOTTOM SECTION*/
-.bottom-complete{
-    background:url(../images/Ocean_Villa_Deck_2.jpg);
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
-}
-.bottom-complete > div {
-    background-color:rgba(0, 0, 0, 0.6);/*color the complete bottom bart*/
-}
-.bottom-complete{
-    padding:0px;/*expands bottom part out on sides*/
-}
-    div.acomodation-text{
-        background-color:rgba(0, 0, 0, 0.4);
-        transition:0.2s ease-in-out;
+    /*ROW 3*/
+    article .row-three{
+        background-color:rgba(0, 0, 0, 1);
+      
     }
-    div.acomodation-text dt{
-        color:#c36798;
+    article .row-three img{
+        padding:30px;
+        width:100%;
     }
-.footer-top, .footer-middle {
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-.footer-bottom{
-    background-color:black;
-}
-.page-header{
-    /*splits footer head from footer middle/bottom*/
-    padding:0;
-    margin:0;
-}
-
+    /*ROW finalizer*/
+    article .row-finalizer{
+        background-color:rgba(0, 0, 0, 0.90);
+        padding:30px;
+    }
+    article .row-finalizer div{
+       padding:30px;
+    }
+    article .row-finalizer img {
+         width:100%;
+    }
 
 
-/*IMAGES*/  
-img{
-border-radius:2px;
-border:2px solid white;
-}
+
+
+/*FOOTER*/
+    .bottom-complete{
+        background:url(../images/Ocean_Villa_Deck_2.jpg);
+        background-size:cover;
+        background-position:center;
+        background-attachment:fixed;
+    }
+    .bottom-complete > div {
+        background-color:rgba(0, 0, 0, 0.6);/*color the complete bottom bart*/
+    }
+    .bottom-complete{
+        padding:0px;/*expands bottom part out on sides*/
+    }
+        div.acomodation-text{
+            background-color:rgba(0, 0, 0, 0.4);
+            transition:0.2s ease-in-out;
+        }
+        div.acomodation-text dt{
+            color:#c36798;
+        }
+    .footer-top, .footer-middle {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .footer-bottom{
+        background-color:black;
+    }
+    .page-header{
+        /*splits footer head from footer middle/bottom*/
+        padding:0;
+        margin:0;
+    }
+
+
+
+
 .teaser-bg-img{
-background:url(../images/MLEDT_oceanview_bedroom.jpg);
+/*background:url(../images/MLEDT_oceanview_bedroom.jpg);
 background-size:cover;
 background-position:bottom;
-background-attachment:fixed;
+background-attachment:fixed;*/
+background-color:black;
 }
 
-/*SEPARATORS*/
-div .separator{
-background-color:rgba(0, 0, 0, 1);
+    /*SEPARATORS*/
+    div .separator{
+        background-color:rgba(0, 0, 0, 1);
+        border-top:1px solid black;
+        border-bottom:1px solid black;
+        font-family:'Trebuchet MS';
+        color:white;
+        /*background:url(../images/mapsphoto1.JPG);
+        background-position:bottom;
+        background-size:cover;*/
+    }
+    div .separator h2{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        /*font-size:22px;*/
+    }
 
-}
-div .separator h2{
-margin-top: 25px;
-margin-bottom: 25px;
-font-size:16px;
-}
-
-/*row finalizer animations*/
-figure.scaled-efx img{
-transition:all 0.4s ease;
-}
-figure.scaled-efx img:hover{
-border:2px solid #c36798;
-opacity:0.4;
-}
 
 
 
@@ -179,21 +157,6 @@ opacity:0.4;
     font-size:12px;
 }
 
-
-#atoll-resorts, #upcoming-events, ul li{
-    list-style-type: none;
-}
-#atoll-resorts{
-    padding:0px;
-
-}
-#atoll-resorts a{
-    margin-left: 15px;
-
-}
-#adress-info p{
-    margin:10px;
-}
 a{
     color:white;
 }
