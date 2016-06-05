@@ -1,0 +1,63 @@
+﻿body {
+    margin:0px;
+}
+
+/*header content*/
+.navigation{
+    position:fixed;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.4);
+
+}
+header nav ul li{
+    list-style-type:none;
+    float:right;
+}
+
+
+
+
+
+/*main content*/
+
+.main-content{
+    background:url(../images/One-and-Only-Reethi-Rah-Spa-room.jpg);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+}
+
+.left-op-text{
+    /*background-color:rgba(0, 0, 0, 0.4);*/
+    width:50%;
+    height:100%;
+    line-height:100vh;
+    float:left;
+    font-size:26px;
+    text-align:center;
+}
+.right-op-text{
+    /*background-color:rgba(0, 0, 0, 0.4);*/
+    width:50%;
+    float:right;
+    height:100%;
+    line-height:100vh;
+    font-size:26px;
+    text-align:center;
+}
+
+
+
+
+
+
+
+/*Tablet*/
+@media (max-width: 768px) {
+
+}
+
+/*Cellphone*/
+@media (max-width: 480px) {
+
+}
