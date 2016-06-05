@@ -26,12 +26,16 @@
     transform-style:preserve-3d;
     transition:0.8s ease-in-out;
 }
+.front{
+    box-shadow: 5px 5px 25px #121212;
+}
 .back{
     padding:5px;/*for readability*/
     color:white;
     transform:rotateY(180deg);
     background-color:rgba(0, 0, 0, 0.7);
     border:2px dashed white;
+    box-shadow: 5px 5px 25px #121212;
 }
     
 .flipper-figure{

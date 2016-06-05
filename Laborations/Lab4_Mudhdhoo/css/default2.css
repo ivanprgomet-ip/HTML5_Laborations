@@ -6,6 +6,7 @@ article.content{
 article .content-wrapper{
     background-color:rgba(0, 0, 0, 0.4);
     color:white;
+
 }
 article h2{
     margin-top:75px;
@@ -16,14 +17,25 @@ article .content-header h2{
     border-radius:65% 40%;
 }
 
-input, select{
+/*contact page*/
+input, select, textarea{
     /*for forms*/
     color:black;
 }
-
 legend{
     color:white;
 }
 form{
     margin-bottom:25px;
+}
+
+/*reviews page*/
+.portrait{
+   width:75%;
+   margin-top:15px;
+   margin-bottom:15px;
+}
+.portrait img{
+    width:250px;
+    border-radius:50%;
 }
