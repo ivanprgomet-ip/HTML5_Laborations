@@ -5,16 +5,17 @@
 
 /*FLIP*/
 .card-container{
-    width:20em;/*adapts when scaling window*/
-    float:left;
-    margin-bottom:50px;/*add some space below*/
+    width:30em;/*adapts when scaling window*/
+    /*float:left;*/
+    margin-bottom:50px;
 }
 
 .threedee-space{
-    height:150px;
-    width:200px;
+    width:330px;
+    height:247px;
     position:relative;
     text-align:center;/*puts text on back in center*/
+    padding:50px;
     margin:20px auto;
     perspective:1000px;
 }
@@ -23,7 +24,7 @@
     width:100%;
     position:absolute;/*ontop of parent*/
     transform-style:preserve-3d;
-    transition:0.4s ease-in-out;
+    transition:0.8s ease-in-out;
 }
 .back{
     padding:5px;/*for readability*/
@@ -45,5 +46,5 @@
     height: 100%;
 }
 .card:hover{
-    transform:rotateY(180deg);
+    transform:rotate(6deg) rotateY(180deg) rotateX(360deg) ;
 }
