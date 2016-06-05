@@ -107,6 +107,7 @@
     <Content Include="images\paradise\maldives-1.jpg" />
     <Content Include="images\paradise\maldives-2.jpg" />
     <Content Include="images\paradise\maldives3.jpg" />
+    <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
