@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{CE490735-2F20-46EB-AB31-891415F33FE5}</ProjectGuid>
+    <ProjectGuid>{8AF2C458-F865-4296-BD32-988F099D9C41}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lab3</RootNamespace>
-    <AssemblyName>Lab3</AssemblyName>
+    <RootNamespace>Reethi_Rah</RootNamespace>
+    <AssemblyName>Reethi_Rah</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -94,23 +94,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\default.css" />
-    <Content Include="css\main.css" />
-    <Content Include="css\phone.css" />
-    <Content Include="css\postit.css" />
-    <Content Include="css\Responsive.css" />
-    <Content Include="images\One-and-Only-Reethi-Rah-Spa-room.jpg" />
-    <Content Include="images\paradise\Carriacou-Grenada.jpg" />
-    <Content Include="images\paradise\maldives-1.jpg" />
-    <Content Include="images\paradise\maldives-2.jpg" />
-    <Content Include="images\paradise\maldives3.jpg" />
-    <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="fonts\AmaticSC-Bold.ttf" />
-    <Content Include="fonts\AmaticSC-Regular.ttf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -119,12 +106,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="pages\facts.html" />
-    <Content Include="pages\phone.html" />
-    <Content Include="pages\postit.html" />
-    <Content Include="pages\responsivedemo.html" />
-    <Content Include="pages\responsive04.html" />
-    <Content Include="pages\resumeresponse.html" />
+    <Content Include="css\default.css" />
+    <Content Include="images\One-and-Only-Reethi-Rah-Spa-room.jpg" />
+    <Content Include="index.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Web.config" />
@@ -132,7 +116,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="pages\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -146,9 +132,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>13302</DevelopmentServerPort>
+          <DevelopmentServerPort>1874</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:13302/</IISUrl>
+          <IISUrl>http://localhost:1874/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
