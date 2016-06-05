@@ -19,7 +19,6 @@ article .content-header h2{
 
 /*contact page*/
 input, select, textarea{
-    /*for forms*/
     color:black;
 }
 legend{
@@ -31,11 +30,12 @@ form{
 
 /*reviews page*/
 .portrait{
-   width:75%;
-   margin-top:15px;
-   margin-bottom:15px;
+   margin-top:75px;
 }
 .portrait img{
-    width:250px;
-    border-radius:50%;
+    width:75%;
+    border-radius:10px;
+}
+.portrait h2{
+    margin-top:15px;/*overrides article h2 above*/
 }

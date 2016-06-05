@@ -142,12 +142,11 @@ body {
          width:100%;
     }
     .text-finalizer{
-    
-     letter-spacing:5px;
+    letter-spacing:5px;
     font-size:16px;
     transition:0.2s ease-in-out;
     color:#ffffff;
-}
+    }
 
 .text-finalizer:hover{
     letter-spacing:20px;
