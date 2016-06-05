@@ -198,6 +198,7 @@ body {
     .teaser-bg-img{
     background:url(../images/MLEDT_oceanview_bedroom.jpg);
     background-size:cover;
+    background-attachment:fixed;
     background-position:left;
     }
 

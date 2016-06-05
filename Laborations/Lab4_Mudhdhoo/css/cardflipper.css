@@ -1,32 +1,10 @@
-﻿
-body{
-    width:100vw;
-    height:100vh;/*height same size as any viewport*/
-    margin:auto;/*center content*/
-    /*border:2px solid red;*/
-        
-    background-image:url(../images/MLEDT_oceanview_bedroom.jpg);
-    background-attachment:fixed;
-    background-size:cover;
-    background-position:bottom;
-}
-.container{
-    overflow:auto;/*brings background color back due to float*/
-    background-color:rgba(0, 0, 0, 0.6);
-}
-.row{
-    margin-top:100px;
-}
+﻿@import url(default2.css);
 
-h2{
-    background-color:black;
-    color:white;
-    padding:20px;
-    margin-top:0; /*fill out top space on page*/
-}
+
+
 
 /*FLIP*/
-.col-sm-6{
+.card-container{
     width:20em;/*adapts when scaling window*/
     float:left;
     margin-bottom:50px;/*add some space below*/
@@ -55,14 +33,14 @@ h2{
     border:2px dashed white;
 }
     
-figure{
+.flipper-figure{
     height:100%;
     width:100%;
     position:absolute;
     backface-visibility:hidden;
     margin:0;
 }
-figure img{
+.flipper-figure img{
     width: 100%;
     height: 100%;
 }
