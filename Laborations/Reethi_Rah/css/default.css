@@ -70,7 +70,7 @@ header nav ul li a{
     }
 /*FOOTER*/
 footer{
-     background-color:rgba(0, 0, 0, 1);
+    background-color:rgba(0, 0, 0, 1);
     color:whitesmoke;
     width:100%;
     font-size:12px;
@@ -82,11 +82,20 @@ footer::after{
     content:'Desktop';
     color:#90884f;
     }
+.bottom-content{
+    height:75vh;
+    background:url(../images/oo_reethi_rah_9.jpg);
+    background-size:cover;
+    background-position:top;
+    background-attachment:fixed;
+}
+
+
 /*SEPARATOR*/
 .separator{
     background-color:rgba(0, 0, 0, 1);
     color:whitesmoke;
-    float:left;
+    /*float:left;*/
     width:100%;
     padding-top:15px;
     padding-bottom:15px;
@@ -104,7 +113,7 @@ footer::after{
 @media (max-width: 768px) {
     .intro-caption{
     color:white;/*becaue we dont have a mouse for tablets and cellphones!*/
-    background-color:rgba(0, 0, 0, 0.4);
+    background-color:rgba(0, 0, 0, 0.2);
 
     width:50%;
     float:left;
