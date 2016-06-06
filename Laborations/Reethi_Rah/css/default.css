@@ -1,13 +1,17 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+
 
 body {
     margin:0px;
-    font-family:sans-serif;
-    letter-spacing:0.12em;
+    font-family:'Source Sans Pro','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing:0.15em;
     font-size:14px;
 }
 
-    /*NAVIGATION*/
+
+/*NAVIGATION*/
     header .navigation{
         position:fixed;
         width:100%;
@@ -31,7 +35,7 @@ body {
         color:white;
         padding-right:25px;
     }
-    /*MAIN CONTENT*/
+/*MAIN CONTENT*/
     .intro-content{
         background:url(../images/One-and-Only-Reethi-Rah-Spa-room.jpg);
         background-size:cover;
@@ -45,15 +49,14 @@ body {
         float:left;
         transition:0.8s ease;
         color:rgba(245, 245, 245, 0.00);
-        font-family:'merriweather sans';
-        font-size:22px;
         text-align:center;
+        font-size:22px;
         }
     .intro-caption:hover{
         background-color:rgba(0, 0, 0, 0.6);
         color:rgba(245, 245, 245, 1);
     }
-    /*MIDDLE CONTENT*/
+/*MIDDLE CONTENT*/
     .photo-collection-one{
         margin:0;
         background-color:black;
@@ -68,7 +71,7 @@ body {
        .clear{
             overflow:hidden;
         }
-    /*FOOTER*/
+/*FOOTER*/
     footer{
         color:whitesmoke;
         width:100%;
@@ -89,37 +92,29 @@ body {
     }
     footer .footer-caption{
         text-align:center;
-        background-color:rgba(0, 0, 0, 0.4);
+        background-color:rgba(0, 0, 0, 0.6);
         color:whitesmoke;
         margin: 0px;
         padding: 15px;
-        font-size:16px;
+        font-size:22px;
     }
+    
     footer .page-author{
         position:absolute;
         bottom:0;
         right:0;
-        background-color:rgba(0, 0, 0, 0.4);
     }
     footer .page-author::after{
         content:'Desktop';
         color:#90884f;
-        background-color:blue;
         }
-
-
+    
 /*SEPARATOR*/
 .separator{
     background-color:rgba(0, 0, 0, 1);
-    color:whitesmoke;
     width:100%;
-    padding-top:15px;
-    padding-bottom:15px;
-}
-.separator h2{
-    font-style:italic;
-    text-align:center;
-    font-size:14px;
+    padding-top:25px;
+    padding-bottom:25px;
 }
 
 
@@ -142,7 +137,6 @@ body {
         }
        footer .page-author::after{
             content:'Tablet';
-            color:#90884f;
         }
         .photo-collection-one img{
             width:49%;
@@ -164,6 +158,5 @@ body {
         }
         footer .page-author::after{
             content:'Cellphone';
-            color:#90884f;
         }
     }
