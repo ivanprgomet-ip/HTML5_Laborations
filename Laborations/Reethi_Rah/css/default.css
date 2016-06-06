@@ -1,57 +1,62 @@
-﻿body {
+﻿@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700);
+
+body {
     margin:0px;
+    font-family:sans-serif;
+    letter-spacing:0.12em;
+    font-size:14px;
 }
 
-/*header content*/
+
 .navigation{
     position:fixed;
     width:100%;
     background-color:rgba(0, 0, 0, 0.4);
+    color:whitesmoke;
+    
 
 }
 header nav ul li{
     list-style-type:none;
     float:right;
+    transform: translateY(50%);
+
+
+}
+header .nav-header{
+    margin-left:25px;
+
+}
+header nav ul li a{
+    text-decoration:none;
+    color:white;
+    padding-right:25px;
 }
 
 
-
-
-
 /*main content*/
-
-.main-content{
+.intro-content{
     background:url(../images/One-and-Only-Reethi-Rah-Spa-room.jpg);
     background-size:cover;
     background-position:center;
     height:100vh;
 }
 
-.left-op-text{
-    width:50%;
+.intro-caption{
+    width:25%;
     height:100%;
     line-height:100vh;
     float:left;
-    font-size:26px;
+    transition:0.8s ease;
+    color:rgba(245, 245, 245, 0.00);
+    font-family:'merriweather sans';
+    font-size:22px;
     text-align:center;
-    color:whitesmoke;
 }
-.left-op-text:hover{
-    background-color:rgba(0, 0, 0, 0.4);
 
-}
-.right-op-text:hover {
-    background-color:rgba(0, 0, 0, 0.4);
-
-}
-.right-op-text{
-    width:50%;
-    float:right;
-    height:100%;
-    line-height:100vh;
-    font-size:26px;
-    text-align:center;
-    color:whitesmoke;
+.intro-caption:hover{
+    background-color:rgba(0, 0, 0, 0.6);
+    color:rgba(245, 245, 245, 1);
 }
 
 
