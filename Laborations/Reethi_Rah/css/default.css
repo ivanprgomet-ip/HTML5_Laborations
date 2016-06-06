@@ -51,7 +51,10 @@ header nav ul li a{
     font-family:'merriweather sans';
     font-size:22px;
     text-align:center;
-}
+    }
+    .clear{
+        overflow:auto;
+    }
 .intro-caption:hover{
     background-color:rgba(0, 0, 0, 0.6);
     color:rgba(245, 245, 245, 1);
@@ -71,18 +74,16 @@ footer{
 /*Tablet*/
 @media (max-width: 768px) {
     .intro-caption{
-    float:left;
     width:50%;
+    float:left;
     line-height:50vh;
-    }
-    .clear{
-        overflow:auto;
     }
     .intro-content{
         background-attachment:fixed;
         height:100%;/*so that all captions fit inside!*/
-    }
 
+        /*height:100vh;*/
+    }
     footer::after{
         content:'Tablet';
         color:#90884f;
@@ -92,23 +93,16 @@ footer{
 /*Cellphone*/
 @media (max-width: 480px) {
     .intro-caption{
-        display:inline-table;
         width:100%;
-        float:none;
-
         height:25%;
         line-height:25vh;
     }
-
     .intro-content{
         background-attachment:fixed;
         height:100%;/*so that all captions fit inside!*/
     }
-
-
     footer::after{
         content:'Cellphone';
         color:#90884f;
     }
-    
 }
