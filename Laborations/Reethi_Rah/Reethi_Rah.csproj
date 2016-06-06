@@ -94,6 +94,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\47231731.jpg" />
+    <Content Include="images\One&amp;OnlyReethiRah_Web2012_576x1440pxl_Image5.jpg" />
+    <Content Include="images\One-and-Only-Reethi-Rah-lap-pool-during-the-evening.jpg" />
+    <Content Include="images\one-only-reethi-rah-1.jpg" />
+    <Content Include="images\One-Only-Reethi-Rah-Pool-Beach-1200x965.jpg" />
+    <Content Include="images\OneandOnly.jpg" />
+    <Content Include="images\OneOnly-Reethi-Rah-Maldives-01.jpg" />
+    <Content Include="images\Reethi-Rah-Lap-Pool-04.jpg" />
+    <Content Include="images\reethi-rah-villa-suite-exterior-details-over-water-infinity-pool1.jpg" />
+    <Content Include="images\reethi_rah_maldives_accommodation_pool_beach_resort_1280x400.jpg" />
+    <Content Include="images\resize.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

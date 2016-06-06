@@ -41,7 +41,6 @@ header nav ul li a{
     background-position:center;
     height:100vh;
 }
-
 .intro-caption{
     width:25%;
     height:100%;
@@ -53,24 +52,63 @@ header nav ul li a{
     font-size:22px;
     text-align:center;
 }
-
 .intro-caption:hover{
     background-color:rgba(0, 0, 0, 0.6);
     color:rgba(245, 245, 245, 1);
 }
+footer{
+    background-color:black;
+    color:whitesmoke;
 
+    width:100%;
+    margin:0px;
 
-
-
-
+    padding-top:5px;
+    padding-bottom:5px;
+}
 
 
 /*Tablet*/
 @media (max-width: 768px) {
+    .intro-caption{
+    float:left;
+    width:50%;
+    line-height:50vh;
+    }
+    .clear{
+        overflow:auto;
+    }
+    .intro-content{
+        background-attachment:fixed;
+        height:100%;/*so that all captions fit inside!*/
+    }
 
+    footer::after{
+        content:'Tablet';
+        color:#90884f;
+    }
 }
 
 /*Cellphone*/
 @media (max-width: 480px) {
+    .intro-caption{
+        display:inline-table;
+        width:100%;
+        float:none;
 
+        height:25%;
+        line-height:25vh;
+    }
+
+    .intro-content{
+        background-attachment:fixed;
+        height:100%;/*so that all captions fit inside!*/
+    }
+
+
+    footer::after{
+        content:'Cellphone';
+        color:#90884f;
+    }
+    
 }
