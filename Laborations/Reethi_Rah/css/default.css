@@ -108,7 +108,7 @@ body {
         content:'Desktop';
         color:#90884f;
         }
-    
+   
 /*SEPARATOR*/
 .separator{
     background-color:rgba(0, 0, 0, 1);
@@ -116,6 +116,26 @@ body {
     padding-top:25px;
     padding-bottom:25px;
 }
+.separator-text{
+    background:url(../images/Reethi-Rah-Pool-01.jpg);
+    background-size:cover;
+    background-position:bottom;
+
+    width:100%;
+    padding-top:25px;
+    padding-bottom:25px;
+    color:black;
+
+    text-align:center;
+    padding-top:5%; 
+}
+.separator-opac{
+    background-color:rgba(0, 0, 0, 1);
+    width:100%;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
 
 
 
@@ -135,7 +155,7 @@ body {
             background-attachment:fixed;
             height:100%;/*so that all captions fit inside!*/
         }
-       footer .page-author::after{
+        footer .page-author::after{
             content:'Tablet';
         }
         .photo-collection-one img{
