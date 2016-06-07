@@ -42,6 +42,7 @@ body {
         border:1px solid white;
     }
 
+
 /*MAIN CONTENT*/
     .intro-content{
         background:url(../images/One-and-Only-Reethi-Rah-Spa-room.jpg);
@@ -131,7 +132,7 @@ body {
     width:100%;
     padding-top:50px;
     padding-bottom:25px;
-    color:black;
+    color:white;
 
     text-align:center;
     /*padding-top:5%;*/ 
@@ -146,23 +147,22 @@ body {
     
     /*PAGE-ABOUT*/
     .about-menu{
-        text-align:center;
-    }
-    .about-menu{
+    text-align:center;
      background-color:rgba(0, 0, 0, 0.6);
      padding:1px 5px 1px 5px;
+
 }
     .about-menu a{
         text-decoration:none;
         color:white;
         padding: 2px 15px 2px 15px;
         border:1px solid transparent;
-        transition:0.2s ease;
+        transition:0.2s ease;/*makes it look good when hovering over*/
 }
     .about-menu li{
        list-style-type:none;
        margin: 5px 5px;
-
+       
 }
     .about-menu a:hover{
         background-color:rgba(181, 178, 89, 0.60);
@@ -182,11 +182,18 @@ body {
     background-size:cover;
     background-position:top;
     }
-
-    .container{
-        background-color:rgba(181, 178, 89, 0.60);
+    .about-menu-container{
+          background-color:rgba(0, 0, 0, 0.4);
+    }
+    .about-content-container{
+        /*background-color:rgba(181, 178, 89, 0.40);*/
+        background-color:whitesmoke;
     }
 
+
+    .opac-04{
+        background-color:rgba(0, 0, 0, 0.4);
+    }
 
 /*MEDIA QUERIES*/
     /*Tablet*/
