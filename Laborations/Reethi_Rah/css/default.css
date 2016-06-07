@@ -156,7 +156,6 @@ body {
       color:white;
       display:flex;
       justify-content:space-between;
-      border:solid;
       height:25vh;
   }
   .evenly div{
