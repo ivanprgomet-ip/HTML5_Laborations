@@ -166,14 +166,15 @@ body {
 }
     .about-menu a:hover{
         background-color:rgba(181, 178, 89, 0.60);
-        color:white;
-         border:1px solid white;
+        color:black;
+         border:1px solid black;
          padding:1px 5px 1px 5px;
 
 }
     .about-menu a:active{
-    color:coral;
-     border:1px solid coral;
+        background-color:rgba(255, 127, 80, 0.6);
+        color:black;
+        border:1px solid black;
 }
 
     .bg-img{
@@ -182,7 +183,9 @@ body {
     background-position:top;
     }
 
-
+    .container{
+        background-color:rgba(181, 178, 89, 0.60);
+    }
 
 
 /*MEDIA QUERIES*/
