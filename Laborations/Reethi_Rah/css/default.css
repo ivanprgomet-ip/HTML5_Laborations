@@ -126,9 +126,7 @@ body {
     padding-bottom:25px;
 }
 .separator-text{
-    background:url(../images/Reethi-Rah-Pool-01.jpg);
-    background-size:cover;
-    background-position:bottom;
+
 
     width:100%;
     padding-top:50px;
@@ -148,7 +146,10 @@ body {
     
     /*PAGE-ABOUT*/
     .about-menu{
-     background-color:rgba(0, 0, 0, 0.4);
+        text-align:center;
+    }
+    .about-menu{
+     background-color:rgba(0, 0, 0, 0.6);
      padding:1px 5px 1px 5px;
 }
     .about-menu a{
@@ -161,6 +162,7 @@ body {
     .about-menu li{
        list-style-type:none;
        margin: 5px 5px;
+
 }
     .about-menu a:hover{
         background-color:rgba(181, 178, 89, 0.60);
@@ -174,6 +176,11 @@ body {
      border:1px solid coral;
 }
 
+    .bg-img{
+    background:url(../images/Reethi-Rah-Pool-01.jpg);
+    background-size:cover;
+    background-position:top;
+    }
 
 
 

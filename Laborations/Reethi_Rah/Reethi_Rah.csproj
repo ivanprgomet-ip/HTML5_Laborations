@@ -175,6 +175,8 @@
     <Content Include="css\default.css" />
     <Content Include="images\One-and-Only-Reethi-Rah-Spa-room.jpg" />
     <Content Include="index.html" />
+    <Content Include="pages\about.html" />
+    <Content Include="pages\contact.html" />
     <Content Include="pages\photos.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
