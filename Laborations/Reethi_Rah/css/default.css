@@ -126,6 +126,12 @@ body {
     padding-top:25px;
     padding-bottom:25px;
 }
+.separator-thin{
+    background-color:rgba(0, 0, 0, 1);
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+}
 .separator-text{
 
 
@@ -186,9 +192,10 @@ body {
           background-color:rgba(0, 0, 0, 0.4);
     }
     .about-content-container{
-        /*background-color:rgba(181, 178, 89, 0.40);*/
+        /*background-color:rgba(181, 178, 89, 0.60);*/
         background-color:whitesmoke;
     }
+
 
     .about-content-container section{
         width:50%;
