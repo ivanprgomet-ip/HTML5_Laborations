@@ -152,42 +152,31 @@ body {
 }
     
     /*PAGE-ABOUT*/
-    .about-menu{
-    text-align:center;
-     background-color:rgba(0, 0, 0, 0.6);
-     padding:1px 5px 1px 5px;
+  .evenly{
+      color:white;
+      display:flex;
+      justify-content:space-between;
+      border:solid;
+      height:25vh;
+  }
+  .evenly div{
+      white-space:nowrap;
+      line-height:25vh;
+      width:100%;
+      text-align:center;
+  }
+  .evenly div:hover{
+      background-color:rgba(0, 0, 0, 0.4);
+  }
 
-}
-    .about-menu a{
-        text-decoration:none;
-        color:white;
-        padding: 2px 15px 2px 15px;
-        border:1px solid transparent;
-        transition:0.2s ease;/*makes it look good when hovering over*/
-}
-    .about-menu li{
-       list-style-type:none;
-       margin: 5px 5px;
-       
-}
-    .about-menu a:hover{
-        background-color:rgba(181, 178, 89, 0.60);
-        color:black;
-         border:1px solid black;
-         padding:1px 5px 1px 5px;
 
-}
-    .about-menu a:active{
-        background-color:rgba(255, 127, 80, 0.6);
-        color:black;
-        border:1px solid black;
-}
 
     .bg-img{
     background:url(../images/Reethi-Rah-Pool-01.jpg);
     background-size:cover;
     background-position:top;
     }
+
     .about-menu-container{
           background-color:rgba(0, 0, 0, 0.4);
     }
@@ -195,8 +184,6 @@ body {
         /*background-color:rgba(181, 178, 89, 0.60);*/
         background-color:whitesmoke;
     }
-
-
     .about-content-container section{
         width:50%;
         height:auto;
