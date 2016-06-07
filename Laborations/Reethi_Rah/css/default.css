@@ -1,8 +1,6 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
-
-
 body {
     margin:0px;
     font-family:'Source Sans Pro','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -21,11 +19,13 @@ body {
     
 
     }
+    header ul{
+        padding-right: 15px;
+    }
     header nav ul li{
         list-style-type:none;
         float:right;
         /*transform: translateY(50%);*/
-
 
     }
     header .nav-header{
@@ -34,7 +34,14 @@ body {
     header nav ul li a{
         text-decoration:none;
         color:white;
-        padding-right:25px;
+        padding: 2px 15px 2px 15px;
+    }
+    header nav ul li:hover a{
+        color:white;
+        background-color:#ca74a6;
+
+        border:1px solid #ca74a6;/*ONLY TEMPORARY*/
+        
     }
 /*MAIN CONTENT*/
     .intro-content{
@@ -123,14 +130,15 @@ body {
     background-position:bottom;
 
     width:100%;
-    padding-top:25px;
+    padding-top:50px;
     padding-bottom:25px;
     color:black;
 
     text-align:center;
-    padding-top:5%; 
+    /*padding-top:5%;*/ 
 }
 
+/*CONTACT */
 .contact-form{
     width:50vw;
     margin-left:auto;
@@ -138,6 +146,36 @@ body {
 }
 .contact-form input{
 }
+
+/*ABOUT*/
+
+.about-menu{
+     background-color:rgba(0, 0, 0, 0.4);
+     padding:1px 5px 1px 5px;
+}
+.about-menu a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+.about-menu li{
+   list-style-type:none;
+   margin: 5px 5px;
+}
+.about-menu a:hover{
+    /*background-color:rgba(0, 0, 0, 0.6);*/
+    color:#b5b259;
+     border:1px solid #b5b259;
+     padding:1px 5px 1px 5px;
+
+}
+.about-menu a:active{
+    color:coral;
+     border:1px solid coral;
+}
+
+
+
 
 
 /*MEDIA QUERIES*/
@@ -165,19 +203,30 @@ body {
             padding:0;
             /*wy do i have a small right margin here??*/
         }
+
+        /*.separator-text p{
+              background-color:rgba(254, 192, 0, 0.80);
+        font-size:18px;*/
     }
 
     /*Cellphone*/
-    @media (max-width: 480px) {
-        .intro-caption{
-            width:100%;
-            height:25%;
-            line-height:25vh;
-        }
-        .photo-collection-one img{
-            width: 100%;
-        }
-        footer .page-author::after{
-            content:'Cellphone';
-        }
+@media (max-width: 480px) {
+    .intro-caption {
+        width: 100%;
+        height: 25%;
+        line-height: 25vh;
     }
+
+    .photo-collection-one img {
+        width: 100%;
+    }
+
+    footer .page-author::after {
+        content: 'Cellphone';
+    }
+
+    /*.separator-text p{
+        background-color:rgba(254, 192, 0, 0.50);
+        font-size:20px;
+    }*/
+}
