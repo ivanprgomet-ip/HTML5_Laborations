@@ -152,22 +152,28 @@ body {
 }
     
     /*PAGE-ABOUT*/
-  .evenly{
+  .about-nav{
       color:white;
       display:flex;
       justify-content:space-between;
       height:25vh;
   }
-  .evenly div{
+  .about-nav a{
       white-space:nowrap;
       line-height:25vh;
       width:100%;
       text-align:center;
+      text-decoration:none;
+      color:white;
+      
   }
-  .evenly div:hover{
+  .about-nav div{
+       transition:0.4s ease;
+  }
+  .about-nav div:hover{
       background-color:rgba(0, 0, 0, 0.4);
+      /*color:coral;*/
   }
-
 
 
     .bg-img{
