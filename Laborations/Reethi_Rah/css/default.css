@@ -41,6 +41,7 @@ body {
         background-color:rgba(202, 116, 166, 0.8);
         border:1px solid white;
     }
+
 /*MAIN CONTENT*/
     .intro-content{
         background:url(../images/One-and-Only-Reethi-Rah-Spa-room.jpg);
@@ -62,6 +63,7 @@ body {
         background-color:rgba(0, 0, 0, 0.6);
         color:rgba(245, 245, 245, 1);
     }
+
 /*MIDDLE CONTENT*/
     .photo-collection-one{
         margin:0;
@@ -77,6 +79,7 @@ body {
        .clear{
             overflow:hidden;
         }
+
 /*FOOTER*/
     footer{
         color:whitesmoke;
@@ -141,8 +144,6 @@ body {
     width:50vw;
     margin-left:auto;
     margin-right:auto;
-}
-    .contact-form input{
 }
     
     /*PAGE-ABOUT*/
