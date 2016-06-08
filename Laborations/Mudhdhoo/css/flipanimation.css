@@ -1,0 +1,54 @@
+﻿@import url(default2.css);
+
+
+
+
+/*FLIP*/
+.card-container{
+    width:30em;/*adapts when scaling window*/
+    /*float:left;*/
+    margin-bottom:50px;
+}
+
+.threedee-space{
+    width:330px;
+    height:247px;
+    position:relative;
+    text-align:center;/*puts text on back in center*/
+    padding:50px;
+    margin:20px auto;
+    perspective:1000px;
+}
+.card{
+    height:100%;
+    width:100%;
+    position:absolute;/*ontop of parent*/
+    transform-style:preserve-3d;
+    transition:0.8s ease-in-out;
+}
+.front{
+    box-shadow: 5px 5px 25px #121212;
+}
+.back{
+    padding:5px;/*for readability*/
+    color:white;
+    transform:rotateY(180deg);
+    background-color:rgba(0, 0, 0, 0.7);
+    border:2px dashed white;
+    box-shadow: 5px 5px 25px #121212;
+}
+    
+.flipper-figure{
+    height:100%;
+    width:100%;
+    position:absolute;
+    backface-visibility:hidden;
+    margin:0;
+}
+.flipper-figure img{
+    width: 100%;
+    height: 100%;
+}
+.card:hover{
+    transform:rotate(6deg) rotateY(180deg) rotateX(360deg) ;
+}

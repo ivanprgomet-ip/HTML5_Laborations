@@ -1,0 +1,41 @@
+﻿@import url(default.css);
+
+article.content{
+    background-color:rgba(0, 0, 0, 0.4);
+}
+article .content-wrapper{
+    background-color:rgba(0, 0, 0, 0.4);
+    color:white;
+
+}
+article h2{
+    margin-top:75px;
+}
+article .content-header h2{
+    background-color:whitesmoke;
+    color:black;
+    border-radius:65% 40%;
+}
+
+/*contact page*/
+input, select, textarea{
+    color:black;
+}
+legend{
+    color:white;
+}
+form{
+    margin-bottom:25px;
+}
+
+/*reviews page*/
+.portrait{
+   margin-top:75px;
+}
+.portrait img{
+    width:75%;
+    border-radius:10px;
+}
+.portrait h2{
+    margin-top:15px;/*overrides article h2 above*/
+}

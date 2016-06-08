@@ -1,0 +1,228 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Sansita+One);
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700);
+
+body {
+    font-family:'Merriweather Sans', sans-serif,'Trebuchet MS';
+    font-size:12px;
+    letter-spacing: 0.1em;
+    color: white;
+    overflow-x: hidden; /*removes vertical scrollbar*/
+}
+
+/*HEADER*/
+    header .navbar-header{
+        font-family:'sansita one';
+        font-size:18px;
+    }
+    header nav {
+        background-color:rgba(0, 0, 0, 0.65);
+        padding:10px;
+        /*border:1px solid black;*/
+    }
+    header nav ul li {
+        list-style: none;
+        float: right;
+        padding: 5px; 
+    }
+    header nav ul li a{
+        color:white;
+        padding:10px;/*space between menu links*/
+    }
+
+/*ARTICLES*/
+    /*ROW 1*/
+    article .row-one h2{
+        margin-top:30%;
+        color:#c36798;
+    }
+    article .infobox{
+        color:rgba(0, 0, 0, 0.0);
+        padding:25px;
+        height: 100%;
+        transition: all 0.4s ease-in-out;
+        overflow:auto;/*only scroll if overflow occurs*/
+
+    }
+    article .infobox p{
+        margin-left:15%;
+        margin-right:15%;
+    }
+    article .row-one div{
+        background-color:rgba(0, 0, 0, 0.4);
+    }
+    article .row-one{
+        background:url(../images/MLEDT_oceanview_bedroom.jpg);
+        background-size:cover;
+        background-position:bottom;
+        height:100vh;
+        }
+        article .row-one div:hover{
+        background-color:rgba(0, 0, 0, 0.7);
+        color:white;
+        }
+
+        
+    /*ROW 2*/
+    article .row-two .embededteaservideo{
+    background: url(../images/tvframe/sonybraviaTV.png);
+    background-size:cover;
+    background-position:top;
+    position:relative;
+    padding:25px;   
+    }
+    article .row-two h2{
+        margin-top:15%;
+        color:#c36798;
+    }
+    article .row-two #activities, #devaranaspa{
+        color:rgba(0, 0, 0, 0.0);
+        padding:25px;
+        height: 467px;/*height of tv because 100% didnt work*/
+        transition: all 0.4s ease-in-out;
+        overflow:auto;/*only scroll if overflow occurs*/
+    }
+    article .row-two #activities,#devaranaspa {
+        background-color:rgba(0, 0, 0, 0.4);
+    }
+    article .row-two div#activities:hover, div#devaranaspa:hover{
+        background-color:rgba(0, 0, 0, 0.7);
+        color:white;
+        }
+
+    /*ROW 3*/
+
+    article .row-three img{
+        width:100%;
+        height:auto;
+    }
+        article .residency-text h2{
+            margin-top:15%;
+            color:#c36798;
+
+        }
+        article div.residency-text{
+            /*for the white text*/
+            padding:25px;/*very important!*/
+            color:rgba(0, 0, 0, 0.0);
+            transition: all 0.4s ease-in-out;
+            overflow:auto;/*only scroll if overflow occurs*/
+        }
+        article div.residency-text ul{
+            list-style:none
+        }
+        article .row-three div.residency-text dt{
+            /*for the purple text*/
+            color:rgba(195, 103, 152, 0.00);
+            transition: all 0.6s ease-in-out;
+        }
+        article .row-three div{
+            background-color:rgba(0, 0, 0, 0.4);
+            height:710px;/*height of side-image because 100% didnt work*/
+        }
+        article .row-three div.residency-text:hover{
+            /*for the white text*/
+            background-color:rgba(0, 0, 0, 0.7);
+            color:white;
+        }
+        article .row-three div.residency-text:hover dt{
+            /*for the purple text*/
+            color:rgba(195, 103, 152, 1);
+        }
+
+
+    /*ROW finalizer*/
+    article .row-finalizer{
+        background-color:rgba(0, 0, 0, 1);
+        padding:30px;
+    }
+    article .row-finalizer div{
+       padding:30px;
+    }
+    article .row-finalizer img {
+         width:100%;
+    }
+    .text-finalizer{
+    letter-spacing:5px;
+    font-size:16px;
+    transition:0.2s ease-in-out;
+    color:#ffffff;
+    }
+
+.text-finalizer:hover{
+    letter-spacing:20px;
+    color:rgba(255, 255, 255, 0.00);
+}
+
+
+
+/*FOOTER*/
+    .bottom-complete{
+        background:url(../images/Ocean_Villa_Deck_2.jpg);
+        background-size:cover;
+        background-position:center;
+        background-attachment:fixed;
+    }
+    .bottom-complete > div {
+        background-color:rgba(0, 0, 0, 0.6);/*color the complete bottom bart*/
+    }
+    .bottom-complete{
+        padding:0px;/*expands bottom part out on sides*/
+    }
+    .footer-top, .footer-middle {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .footer-bottom{
+        background-color:black;
+    }
+    .page-header{
+        /*splits footer head from footer middle/bottom*/
+        padding:0;
+        margin:0;
+    }
+    footer .end-banner-block{
+        padding:50px;
+       
+    }
+    footer .end-banner-text:hover{
+       color:#c36798;
+    }
+    footer .end-banner-text{
+        padding:50px;
+        background-color:rgba(0, 0, 0, 0.4);
+         transition:0.4s ease-in-out; 
+    }
+
+
+
+    .teaser-bg-img{
+    background:url(../images/MLEDT_oceanview_bedroom.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:left;
+    }
+
+    /*SEPARATORS*/
+    div .separator{
+        background-color:rgba(0, 0, 0, 1);
+        border-top:1px solid black;
+        border-bottom:1px solid black;
+        font-family:'sansita one';
+        color:white;
+    }
+    div .separator h2{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        /*font-size:22px;*/
+    }
+
+a{
+    color:white;
+}
+a:hover{
+color: #c36798;
+text-decoration: none;
+}
+
+.here-text{
+    color:#d29b4b;
+}
